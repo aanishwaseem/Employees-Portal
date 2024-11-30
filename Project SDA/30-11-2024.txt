@@ -1,0 +1,8 @@
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 16
