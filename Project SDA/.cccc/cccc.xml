@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Report on software metrics-->
 <CCCC_Project>
-<timestamp>Sat Nov 30 05:14:37 2024
+<timestamp>Sat Nov 30 23:41:01 2024
 </timestamp>
 <project_summary>
-<number_of_modules value="18" level="0" />
-<lines_of_code value="238" level="0" />
-<lines_of_code_per_module value="13.222" level="0" />
-<McCabes_cyclomatic_complexity value="19" level="0" />
-<McCabes_cyclomatic_complexity_per_module value="1.056" level="0" />
-<lines_of_comment value="30" level="0" />
-<lines_of_comment_per_module value="1.667" level="0" />
-<lines_of_code_per_line_of_comment value="7.933" level="1" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="0.633" level="0" />
+<number_of_modules value="22" level="0" />
+<lines_of_code value="273" level="0" />
+<lines_of_code_per_module value="12.409" level="0" />
+<McCabes_cyclomatic_complexity value="22" level="0" />
+<McCabes_cyclomatic_complexity_per_module value="1.000" level="0" />
+<lines_of_comment value="31" level="0" />
+<lines_of_comment_per_module value="1.409" level="0" />
+<lines_of_code_per_line_of_comment value="8.806" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.710" level="0" />
 <IF4 value="1" level="0" />
-<IF4_per_module value="0.056" level="0" />
+<IF4_per_module value="0.045" level="0" />
 <IF4_visible value="1" level="0" />
-<IF4_visible_per_module value="0.056" level="0" />
+<IF4_visible_per_module value="0.045" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4_concrete value="0.000" level="0" />
-<rejected_lines_of_code value="2" level="0" />
+<rejected_lines_of_code value="5" level="0" />
 </project_summary>
 <procedural_summary>
 <module>
@@ -56,7 +56,7 @@
 </module>
 <module>
 <name>IApplication</name>
-<lines_of_code value="13" level="0" />
+<lines_of_code value="14" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -71,11 +71,27 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
+<name>INotificationEntity</name>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>INotificationManager</name>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
 <name>ISummary</name>
-<lines_of_code value="20" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="2" level="0" />
-<lines_of_code_per_line_of_comment value="10.000" level="0" />
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
@@ -96,7 +112,7 @@
 </module>
 <module>
 <name>Main</name>
-<lines_of_code value="0" level="0" />
+<lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -108,6 +124,22 @@
 <McCabes_cyclomatic_complexity value="2" level="0" />
 <lines_of_comment value="5" level="0" />
 <lines_of_code_per_line_of_comment value="4.200" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>NotificationEntity</name>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>NotificationManager</name>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
@@ -144,10 +176,10 @@
 </module>
 <module>
 <name>anonymous</name>
-<lines_of_code value="50" level="0" />
+<lines_of_code value="53" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="4" level="0" />
-<lines_of_code_per_line_of_comment value="12.500" level="1" />
+<lines_of_code_per_line_of_comment value="13.250" level="1" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
@@ -202,8 +234,8 @@
 </module>
 <module>
 <name>IApplication</name>
-<weighted_methods_per_class_unity value="10" level="0" />
-<weighted_methods_per_class_visibility value="10" level="0" />
+<weighted_methods_per_class_unity value="11" level="0" />
+<weighted_methods_per_class_visibility value="11" level="1" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="1" level="0" />
@@ -212,6 +244,22 @@
 <name>IAttendenceEntity</name>
 <weighted_methods_per_class_unity value="4" level="0" />
 <weighted_methods_per_class_visibility value="4" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>INotificationEntity</name>
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>INotificationManager</name>
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
 <coupling_between_objects value="1" level="0" />
@@ -257,6 +305,22 @@
 <coupling_between_objects value="2" level="0" />
 </module>
 <module>
+<name>NotificationEntity</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>NotificationManager</name>
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+</module>
+<module>
 <name>Record</name>
 <weighted_methods_per_class_unity value="5" level="0" />
 <weighted_methods_per_class_visibility value="5" level="0" />
@@ -290,8 +354,8 @@
 </module>
 <module>
 <name>anonymous</name>
-<weighted_methods_per_class_unity value="1" level="0" />
-<weighted_methods_per_class_visibility value="0" level="0" />
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="0" level="0" />
@@ -302,7 +366,7 @@
 <weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="1" level="0" />
+<coupling_between_objects value="2" level="0" />
 </module>
 <module>
 <name>vector</name>
@@ -387,6 +451,30 @@
 <IF4 value="0" level="0" />
 </module>
 <module>
+<name>INotificationEntity</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="0" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="0" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>INotificationManager</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="0" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="0" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
 <name>ISummary</name>
 <fan_out_visible value="0" level="0" />
 <fan_out_concrete value="0" level="0" />
@@ -442,6 +530,30 @@
 <fan_in_visible value="2" level="0" />
 <fan_in_concrete value="2" level="0" />
 <fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>NotificationEntity</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>NotificationManager</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="1" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
@@ -508,9 +620,9 @@
 </module>
 <module>
 <name>string</name>
-<fan_out_visible value="1" level="0" />
+<fan_out_visible value="2" level="0" />
 <fan_out_concrete value="1" level="0" />
-<fan_out value="1" level="0" />
+<fan_out value="2" level="0" />
 <fan_in_visible value="0" level="0" />
 <fan_in_concrete value="0" level="0" />
 <fan_in value="0" level="0" />
@@ -545,6 +657,27 @@
 <lines_of_code value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="INotificationEntity.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="INotificationManager.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>override { return </name>
+<source_reference file="NotificationEntity.h" line="17" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
 </rejected_extent>
 </other_extents>
 </CCCC_Project>

@@ -6,7 +6,7 @@ Report on software metrics
 <TABLE BORDER WIDTH=100%>
 <TR><TH COLSPAN=2>
 CCCC Software Metrics Report
-<BR> generated Sat Nov 30 05:14:36 2024
+<BR> generated Sat Nov 30 23:41:00 2024
 
 </TR>
 <TR>
@@ -64,25 +64,25 @@ Two variants on the information flow measure IF4 are also presented, one (IF4v) 
 <TR>
 <TH BGCOLOR="AQUA" WIDTH=70%>Metric</TH><TH BGCOLOR="AQUA" WIDTH=10%>Tag</TH><TH BGCOLOR="AQUA" WIDTH=10%>Overall</TH><TH BGCOLOR="AQUA" WIDTH=10%>Per Module</TH></TR>
 <TR>
-<TD>Number of modules</TD><TD>NOM</TD><TD ALIGN=RIGHT>    18</TD><TD>&nbsp;</TD></TR>
+<TD>Number of modules</TD><TD>NOM</TD><TD ALIGN=RIGHT>    22</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD WIDTH=700%>Lines of Code</TD><TD WIDTH=120%>LOC</TD><TD ALIGN=RIGHT>   238</TD><TD ALIGN=RIGHT>13.222</TD></TR>
+<TD WIDTH=700%>Lines of Code</TD><TD WIDTH=120%>LOC</TD><TD ALIGN=RIGHT>   273</TD><TD ALIGN=RIGHT>12.409</TD></TR>
 <TR>
-<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>    19</TD><TD ALIGN=RIGHT> 1.056</TD></TR>
+<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>    22</TD><TD ALIGN=RIGHT> 1.000</TD></TR>
 <TR>
-<TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>    30</TD><TD ALIGN=RIGHT> 1.667</TD></TR>
+<TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>    31</TD><TD ALIGN=RIGHT> 1.409</TD></TR>
 <TR>
-<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 7.933</EM></TD><TD>&nbsp;</TD></TR>
+<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 8.806</EM></TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 0.633</TD><TD>&nbsp;</TD></TR>
+<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 0.710</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>   0.056</TD></TR>
+<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>   0.045</TD></TR>
 <TR>
-<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>   0.056</TD></TR>
+<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>   0.045</TD></TR>
 <TR>
 <TD>Information Flow measure ( &nbsp;concrete&nbsp;)</TD><TD>IF4c</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>   0.000</TD></TR>
 <TR>
-<TD>Lines of Code rejected by parser</TD><TD>REJ</TD><TD ALIGN=RIGHT>     2</TD><TD>&nbsp;</TD></TR>
+<TD>Lines of Code rejected by parser</TD><TD>REJ</TD><TD ALIGN=RIGHT>     5</TD><TD>&nbsp;</TD></TR>
 </TABLE>
 <H1><A NAME="procsum">Procedural Metrics Summary</A></H1>
 For descriptions of each of these metrics see the information preceding the project summary table.
@@ -110,15 +110,23 @@ Employee</A>
 <TR>
 <TD><A HREF="IApplication.html#procdet">
 IApplication</A>
-</TD><TD ALIGN=RIGHT>    13</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+</TD><TD ALIGN=RIGHT>    14</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD><A HREF="IAttendenceEntity.html#procdet">
 IAttendenceEntity</A>
 </TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
+<TD><A HREF="INotificationEntity.html#procdet">
+INotificationEntity</A>
+</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="INotificationManager.html#procdet">
+INotificationManager</A>
+</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
 <TD><A HREF="ISummary.html#procdet">
 ISummary</A>
-</TD><TD ALIGN=RIGHT>    20</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>10.000</TD><TD ALIGN=RIGHT>------</TD></TR>
+</TD><TD ALIGN=RIGHT>    18</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD><A HREF="ITimeObservable.html#procdet">
 ITimeObservable</A>
@@ -130,11 +138,19 @@ ITimeObserver</A>
 <TR>
 <TD><A HREF="Main.html#procdet">
 Main</A>
-</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD><A HREF="MyTime.html#procdet">
 MyTime</A>
 </TD><TD ALIGN=RIGHT>    21</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT> 4.200</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="NotificationEntity.html#procdet">
+NotificationEntity</A>
+</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="NotificationManager.html#procdet">
+NotificationManager</A>
+</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD><A HREF="Record.html#procdet">
 Record</A>
@@ -154,7 +170,7 @@ T</A>
 <TR>
 <TD><A HREF="anonymous.html#procdet">
 anonymous</A>
-</TD><TD ALIGN=RIGHT>    50</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>12.500</EM></TD><TD ALIGN=RIGHT>------</TD></TR>
+</TD><TD ALIGN=RIGHT>    53</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>13.250</EM></TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD><A HREF="string.html#procdet">
 string</A>
@@ -199,11 +215,19 @@ Employee</A>
 <TR>
 <TD><A HREF="IApplication.html#summary">
 IApplication</A>
-</TD><TD ALIGN=RIGHT>    10</TD><TD ALIGN=RIGHT>    10</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+</TD><TD ALIGN=RIGHT>    11</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    11</EM></TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
 <TR>
 <TD><A HREF="IAttendenceEntity.html#summary">
 IAttendenceEntity</A>
 </TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="INotificationEntity.html#summary">
+INotificationEntity</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="INotificationManager.html#summary">
+INotificationManager</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD></TR>
 <TR>
 <TD><A HREF="ISummary.html#summary">
 ISummary</A>
@@ -225,6 +249,14 @@ Main</A>
 MyTime</A>
 </TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD></TR>
 <TR>
+<TD><A HREF="NotificationEntity.html#summary">
+NotificationEntity</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD></TR>
+<TR>
+<TD><A HREF="NotificationManager.html#summary">
+NotificationManager</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
 <TD><A HREF="Record.html#summary">
 Record</A>
 </TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
@@ -243,11 +275,11 @@ T</A>
 <TR>
 <TD><A HREF="anonymous.html#summary">
 anonymous</A>
-</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
 <TR>
 <TD><A HREF="string.html#summary">
 string</A>
-</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD></TR>
 <TR>
 <TD><A HREF="vector.html#summary">
 vector</A>
@@ -299,6 +331,14 @@ IApplication</A>
 IAttendenceEntity</A>
 </TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
 <TR>
+<TD><A HREF="INotificationEntity.html#structdet">
+INotificationEntity</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="INotificationManager.html#structdet">
+INotificationManager</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
 <TD><A HREF="ISummary.html#structdet">
 ISummary</A>
 </TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
@@ -318,6 +358,14 @@ Main</A>
 <TD><A HREF="MyTime.html#structdet">
 MyTime</A>
 </TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="NotificationEntity.html#structdet">
+NotificationEntity</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="NotificationManager.html#structdet">
+NotificationManager</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
 <TR>
 <TD><A HREF="Record.html#structdet">
 Record</A>
@@ -341,7 +389,7 @@ anonymous</A>
 <TR>
 <TD><A HREF="string.html#structdet">
 string</A>
-</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
 <TR>
 <TD><A HREF="vector.html#structdet">
 vector</A>
@@ -357,6 +405,15 @@ vector</A>
 <TR><TD><CODE><A HREF="cccc_src.html#DirectorPortal.h:         1">DirectorPortal.h:1</A></CODE><BR>
 </TD>
 <TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#INotificationEntity.h:         1">INotificationEntity.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#INotificationManager.h:         1">INotificationManager.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#NotificationEntity.h:        17">NotificationEntity.h:17</A></CODE><BR>
+</TD>
+<TD>override { return </TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
 </TABLE>
 <H1><A NAME="infocccc">About CCCC</A></H1>
 <P>This report was generated by the program CCCC, which is FREELY REDISTRIBUTABLE but carries NO WARRANTY.

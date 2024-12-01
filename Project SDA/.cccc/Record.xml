@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Report.h" line="67" />
+<source_reference file="Report.h" line="71" />
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,7 +36,7 @@
 <name>addRecord(T *)</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="69" />
+<source_reference file="Report.h" line="73" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -45,10 +45,10 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>generateSummary()</name>
+<name>generateSummary(int)</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="71" />
+<source_reference file="Report.h" line="75" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -60,7 +60,7 @@
 <name>getAllRecords()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="73" />
+<source_reference file="Report.h" line="77" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -72,7 +72,7 @@
 <name>refresh()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="72" />
+<source_reference file="Report.h" line="76" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -84,7 +84,7 @@
 <name>viewRecords()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="70" />
+<source_reference file="Report.h" line="74" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -104,7 +104,7 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Report.h" line="69" />
+<source_reference file="Report.h" line="73" />
 </extent>
 </supplier_module>
 </module>

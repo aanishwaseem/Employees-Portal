@@ -46,11 +46,11 @@
 <concrete>false</concrete>
 <extent>
 <description>has by reference</description>
-<source_reference file="main.cpp" line="9" />
+<source_reference file="main.cpp" line="10" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="main.cpp" line="12" />
+<source_reference file="main.cpp" line="13" />
 </extent>
 </client_module>
 <supplier_module>

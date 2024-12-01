@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Report.h" line="39" />
+<source_reference file="Report.h" line="43" />
 <lines_of_code value="8" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,7 +36,7 @@
 <name>AttendanceRecord(int,int,int,int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="Report.h" line="48" />
+<source_reference file="Report.h" line="52" />
 </extent>
 <lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +48,7 @@
 <name>display()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Report.h" line="53" />
+<source_reference file="Report.h" line="57" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -60,7 +60,7 @@
 <name>getEmpId()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Report.h" line="63" />
+<source_reference file="Report.h" line="67" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -72,7 +72,7 @@
 <name>getFileObjectFormat()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Report.h" line="56" />
+<source_reference file="Report.h" line="60" />
 </extent>
 <lines_of_code value="4" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -84,7 +84,7 @@
 <name>getHours()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Report.h" line="64" />
+<source_reference file="Report.h" line="68" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -104,7 +104,7 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Report.h" line="39" />
+<source_reference file="Report.h" line="43" />
 </extent>
 </supplier_module>
 </module>

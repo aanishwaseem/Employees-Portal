@@ -2,7 +2,7 @@
 <!--Detailed report on module IApplication-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="13" level="0" />
+<lines_of_code value="14" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
@@ -10,8 +10,8 @@
 <lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-<weighted_methods_per_class_unity value="10" level="0" />
-<weighted_methods_per_class_visibility value="10" level="0" />
+<weighted_methods_per_class_unity value="11" level="0" />
+<weighted_methods_per_class_visibility value="11" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="1" level="0" />
@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Report.h" line="18" />
+<source_reference file="Report.h" line="21" />
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,7 +36,7 @@
 <name>addRecordInFile()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="23" />
+<source_reference file="Report.h" line="27" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +48,7 @@
 <name>display()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="20" />
+<source_reference file="Report.h" line="23" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -60,7 +60,7 @@
 <name>getApplicationType()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="24" />
+<source_reference file="Report.h" line="28" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -72,7 +72,7 @@
 <name>getDate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="25" />
+<source_reference file="Report.h" line="29" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -84,7 +84,7 @@
 <name>getDuration()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="27" />
+<source_reference file="Report.h" line="31" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -96,7 +96,7 @@
 <name>getEmpId()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="21" />
+<source_reference file="Report.h" line="24" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -108,7 +108,19 @@
 <name>getFileObjectFormat()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="29" />
+<source_reference file="Report.h" line="33" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getRecordId()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="Report.h" line="25" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -120,7 +132,7 @@
 <name>getStatus()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="28" />
+<source_reference file="Report.h" line="32" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -132,7 +144,7 @@
 <name>getToDate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="26" />
+<source_reference file="Report.h" line="30" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -144,7 +156,7 @@
 <name>setStatus(string)</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="22" />
+<source_reference file="Report.h" line="26" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -164,7 +176,7 @@
 <concrete>true</concrete>
 <extent>
 <description>pass by value</description>
-<source_reference file="Report.h" line="22" />
+<source_reference file="Report.h" line="26" />
 </extent>
 </supplier_module>
 </module>

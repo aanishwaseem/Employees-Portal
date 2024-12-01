@@ -13,10 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Casual">
+      <UniqueIdentifier>{ff2cbf43-d880-4095-8189-ea803fd1fb62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationTypes.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IApplyLeave.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationManager.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeavesSingletonInstantiate.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +46,108 @@
     </ClInclude>
     <ClInclude Include="DirectorPortal.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INotificationEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INotificationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeavesRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAttendenceEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AttendenceEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AttendenceRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IApplicationObserve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILeaves_Team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasualTeam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasualLeaveValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPostAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AwardHoursAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EarnedLeaveValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficialTeam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EarnedTeam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMonthlyReports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InactivityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Supervisor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnpaidPostAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnpaidTeam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SupervisorPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnpaidLeaveApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficialLeaveApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IApplyLeave.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -6,3 +6,187 @@
 	Percentage: 5
 	Weekly Hours Worked: 0
 	Monthly Hours Worked: 16
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 16
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 24
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 21
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 5
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 69
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 88
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 69
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 3
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 69
+-- Employee ID: 2
+	Percentage: 5
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 120

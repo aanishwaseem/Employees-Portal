@@ -2,7 +2,16 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <ctime>
+#include <string>
+#include <sstream>
+using namespace std;
 // Interface for Observers (Attendance)
+
+struct inactive {
+    int id;
+    int days;
+};
 class ITimeObserver {
 public:
     virtual void onWeekUpdate() = 0;
@@ -95,13 +104,10 @@ public:
     }
 };
 
-// Initialize static members
-int MyTime::Week = 4;
-int MyTime::Month = 11;
-int MyTime::Day = 30;
-int MyTime::Year = 2024;
-MyTime* MyTime::instance = nullptr;
-// post actions of all teams
-//leave balance for employes (we can do a loop in file of records and get all leaves count of application types
 // we have leave records in file , what to do with those? do in check in we have to do something? on checkin we add inactives
-//give only 80 % report
+//at the start of program , give hours 
+//also show pending apps from file to admins
+//we also need to store no of approvals in file(extra)
+// in earned leave we also have to deduct timer in file
+int getYear(string date);
+int getWeekNumberInMonth(const std::string& dateStr);

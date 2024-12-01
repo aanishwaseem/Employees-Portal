@@ -78,7 +78,7 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Report.h" line="77" />
+<source_reference file="Report.h" line="81" />
 </extent>
 <name>ITimeObservable</name>
 <visible>true</visible>
