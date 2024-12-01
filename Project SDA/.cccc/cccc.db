@@ -1,46 +1,126 @@
-CCCC_Module@Admin@@
-CCCC_Module@AttendanceRecord@class@
-CCCC_ModExt@AttendanceRecord@class@Report.h@43@definition@F??T0@LOC:8 COM:0 MVG:0@0@d@
+CCCC_Module@Admin@class@
+CCCC_ModExt@Admin@class@Admin.h@60@definition@F???0@LOC:6 COM:0 MVG:0@0@d@
+CCCC_Module@AdminNotifier@class@
+CCCC_ModExt@AdminNotifier@class@Admin.h@28@definition@F???2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@AdminObserverManager@class@
+CCCC_ModExt@AdminObserverManager@class@Admin.h@17@definition@T???2@LOC:4 COM:0 MVG:0@2@d@
+CCCC_Module@Approved@class@
+CCCC_ModExt@Approved@class@ApplicationTypes.h@83@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Module@Attendence@@
+CCCC_Module@AttendenceEntity@class@
+CCCC_ModExt@AttendenceEntity@class@AttendenceEntity.h@4@definition@F???0@LOC:9 COM:0 MVG:0@0@d@
+CCCC_Module@AwardHoursAction@class@
+CCCC_ModExt@AwardHoursAction@class@AwardHoursAction.h@5@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Module@Casual@class@
+CCCC_ModExt@Casual@class@CasualTeam.h@5@definition@FT??0@LOC:12 COM:0 MVG:1@0@d@
+CCCC_Module@CasualLeaveValidator@class@
+CCCC_ModExt@CasualLeaveValidator@class@CasualLeaveValidator.h@6@definition@F???0@LOC:10 COM:1 MVG:4@0@d@
+CCCC_Module@DefaultLeaveApplication@class@
+CCCC_ModExt@DefaultLeaveApplication@class@ApplicationTypes.h@96@definition@FT??0@LOC:13 COM:1 MVG:0@0@d@
+CCCC_Module@Director@class@
+CCCC_ModExt@Director@class@Director.h@4@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
 CCCC_Module@DirectorPortal@class@
 CCCC_ModExt@DirectorPortal@class@DirectorPortal.h@5@definition@F???2@LOC:5 COM:2 MVG:0@2@d@
+CCCC_Module@DisplayStrategy@class@
+CCCC_ModExt@DisplayStrategy@class@Admin.h@43@definition@F???2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@Earned@class@
+CCCC_ModExt@Earned@class@EarnedTeam.h@5@definition@FT??0@LOC:12 COM:0 MVG:1@0@d@
+CCCC_Module@EarnedLeaveValidator@class@
+CCCC_ModExt@EarnedLeaveValidator@class@EarnedLeaveValidator.h@5@definition@F???0@LOC:10 COM:0 MVG:4@0@d@
 CCCC_Module@Employee@class@
+CCCC_ModExt@Employee@class@Employee.h@4@definition@F???0@LOC:7 COM:0 MVG:0@0@d@
 CCCC_ModExt@Employee@class@Report.h@17@declaration@????2@LOC:1 COM:1 MVG:0@2@D@
+CCCC_Module@EmployeePortal@class@
+CCCC_ModExt@EmployeePortal@class@EmployeePortal.h@4@definition@F???2@LOC:6 COM:0 MVG:0@2@d@
+CCCC_Module@Guard@class@
+CCCC_ModExt@Guard@class@Guard.h@5@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Module@GuardPortal@class@
+CCCC_ModExt@GuardPortal@class@GuardPortal.h@5@definition@F???2@LOC:5 COM:1 MVG:0@2@d@
 CCCC_Module@IApplication@class@
-CCCC_ModExt@IApplication@class@Report.h@21@definition@F??T2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_ModExt@IApplication@class@IApplication.h@4@definition@F??T2@LOC:2 COM:0 MVG:0@2@d@
+CCCC_Module@IApplicationObservable@class@
+CCCC_ModExt@IApplicationObservable@class@IApplicationObserve.h@9@definition@F??T2@LOC:2 COM:0 MVG:0@2@d@
+CCCC_Module@IApplicationObserver@class@
+CCCC_ModExt@IApplicationObserver@class@IApplicationObserve.h@5@definition@F??T2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@IApplyLeave@class@
+CCCC_ModExt@IApplyLeave@class@IApplyLeave.h@8@definition@FT??2@LOC:6 COM:0 MVG:0@2@d@
 CCCC_Module@IAttendenceEntity@class@
-CCCC_ModExt@IAttendenceEntity@class@Report.h@35@definition@F??T2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_ModExt@IAttendenceEntity@class@IAttendenceEntity.h@4@definition@F??T2@LOC:2 COM:0 MVG:0@2@d@
+CCCC_Module@IMonthlyReports@class@
+CCCC_ModExt@IMonthlyReports@class@IMonthlyReports.h@8@definition@F???0@LOC:8 COM:0 MVG:0@0@d@
 CCCC_Module@INotificationEntity@class@
 CCCC_ModExt@INotificationEntity@class@INotificationEntity.h@9@definition@F???2@LOC:8 COM:0 MVG:0@2@d@
 CCCC_Module@INotificationManager@class@
 CCCC_ModExt@INotificationManager@class@INotificationManager.h@9@definition@F???2@LOC:7 COM:0 MVG:0@2@d@
+CCCC_Module@IPostAction@class@
+CCCC_ModExt@IPostAction@class@IPostAction.h@3@definition@F??T2@LOC:5 COM:0 MVG:0@2@d@
 CCCC_Module@ISummary@class@
-CCCC_ModExt@ISummary@class@Report.h@81@definition@F??T0@LOC:12 COM:1 MVG:0@0@d@
+CCCC_ModExt@ISummary@class@AttendenceRecord.h@9@definition@F???0@LOC:12 COM:0 MVG:0@0@d@
 CCCC_Module@ITimeObservable@class@
-CCCC_ModExt@ITimeObservable@class@Time.h@14@definition@F??T2@LOC:4 COM:0 MVG:0@2@d@
+CCCC_ModExt@ITimeObservable@class@Time.h@23@definition@F??T2@LOC:4 COM:0 MVG:0@2@d@
 CCCC_Module@ITimeObserver@class@
-CCCC_ModExt@ITimeObserver@class@Time.h@6@definition@F??T2@LOC:4 COM:1 MVG:0@2@d@
+CCCC_ModExt@ITimeObserver@class@Time.h@15@definition@F??T2@LOC:4 COM:0 MVG:0@2@d@
+CCCC_Module@IValidator@class@
+CCCC_ModExt@IValidator@class@IValidator.h@3@definition@F??T2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@InactivityManager@class@
+CCCC_ModExt@InactivityManager@class@InactivityManager.h@5@definition@FT??0@LOC:8 COM:0 MVG:0@0@d@
+CCCC_Module@Leave@class@
+CCCC_ModExt@Leave@class@LeavesRecord.h@10@definition@F???0@LOC:6 COM:2 MVG:0@0@d@
+CCCC_Module@Leaves_Team@class@
+CCCC_ModExt@Leaves_Team@class@ILeaves_Team.h@5@definition@F???0@LOC:16 COM:4 MVG:2@0@d@
+CCCC_Module@Login@class@
+CCCC_ModExt@Login@class@MainPortal.h@12@definition@F???2@LOC:5 COM:0 MVG:0@2@d@
 CCCC_Module@Main@class@
+CCCC_ModExt@Main@class@Main.h@9@definition@FT??2@LOC:10 COM:0 MVG:0@2@d@
 CCCC_ModExt@Main@class@Report.h@18@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_Module@MainPortal@class@
+CCCC_ModExt@MainPortal@class@MainPortal.h@238@definition@FT??2@LOC:6 COM:0 MVG:0@2@d@
 CCCC_Module@MyTime@class@
-CCCC_ModExt@MyTime@class@Time.h@26@definition@FT?T0@LOC:14 COM:5 MVG:0@0@d@
+CCCC_ModExt@MyTime@class@Time.h@35@definition@FT?T0@LOC:14 COM:5 MVG:0@0@d@
 CCCC_Module@NotificationEntity@class@
 CCCC_ModExt@NotificationEntity@class@NotificationEntity.h@11@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
 CCCC_Module@NotificationManager@class@
 CCCC_ModExt@NotificationManager@class@NotificationManager.h@10@definition@F???0@LOC:9 COM:2 MVG:2@0@d@
+CCCC_Module@Official@class@
+CCCC_ModExt@Official@class@OfficialTeam.h@5@definition@FT??0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Module@OfficialLeaveApp@class@
+CCCC_ModExt@OfficialLeaveApp@class@OfficialLeaveApp.h@5@definition@F???0@LOC:11 COM:4 MVG:0@0@d@
+CCCC_Module@Pending@class@
+CCCC_ModExt@Pending@class@ApplicationTypes.h@87@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Module@PendingWork@struct@
+CCCC_ModExt@PendingWork@struct@Admin.h@5@definition@F???0@LOC:6 COM:0 MVG:0@0@d@
+CCCC_Module@Person@class@
+CCCC_ModExt@Person@class@IPerson.h@4@definition@F??T2@LOC:6 COM:0 MVG:0@2@d@
 CCCC_Module@Record@class@
-CCCC_ModExt@Record@class@Report.h@71@definition@F??T2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_ModExt@Record@class@IRecord.h@5@definition@F??T2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@Rejected@class@
+CCCC_ModExt@Rejected@class@ApplicationTypes.h@91@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Module@Signup@class@
+CCCC_ModExt@Signup@class@Signup.h@7@definition@F???2@LOC:3 COM:0 MVG:0@2@d@
 CCCC_Module@Status@class@
+CCCC_ModExt@Status@class@ApplicationTypes.h@9@definition@F???2@LOC:6 COM:0 MVG:0@2@d@
 CCCC_ModExt@Status@class@Report.h@15@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_Module@Supervisor@class@
+CCCC_ModExt@Supervisor@class@Supervisor.h@4@definition@F???0@LOC:2 COM:0 MVG:0@0@d@
 CCCC_Module@SupervisorPortal@class@
-CCCC_ModExt@SupervisorPortal@class@main.cpp@7@definition@F???2@LOC:6 COM:2 MVG:0@2@d@
+CCCC_ModExt@SupervisorPortal@class@SupervisorPortal.h@4@definition@F???2@LOC:6 COM:2 MVG:0@2@d@
 CCCC_Module@T@@
+CCCC_Module@Unpaid@class@
+CCCC_ModExt@Unpaid@class@UnpaidTeam.h@4@definition@FT??0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Module@UnpaidLeaveApp@class@
+CCCC_ModExt@UnpaidLeaveApp@class@UnpaidLeaveApp.h@5@definition@F???0@LOC:8 COM:2 MVG:0@0@d@
+CCCC_Module@UnpaidLeavePA@class@
+CCCC_ModExt@UnpaidLeavePA@class@UnpaidPostAction.h@4@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
 CCCC_Module@anonymous@@
+CCCC_Module@bool@@
 CCCC_Module@char@builtin@
 CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
 CCCC_Module@double@builtin@
 CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
 CCCC_Module@float@builtin@
 CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@inactive@struct@
+CCCC_ModExt@inactive@struct@Time.h@11@definition@????0@LOC:4 COM:1 MVG:0@0@d@
 CCCC_Module@int@builtin@
 CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
 CCCC_Module@long@builtin@
@@ -49,128 +129,746 @@ CCCC_Module@string@@
 CCCC_Module@vector@@
 CCCC_Module@void@builtin@
 CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
-CCCC_Member@AttendanceRecord@AttendanceRecord@@(int,int,int,int)@
-CCCC_MemExt@AttendanceRecord@AttendanceRecord@@(int,int,int,int)@Report.h@52@definition@F??T0@LOC:2 COM:1 MVG:0@0@d@
-CCCC_Member@AttendanceRecord@display@@()@
-CCCC_MemExt@AttendanceRecord@display@@()@Report.h@57@definition@F??T0@LOC:3 COM:1 MVG:0@0@d@
-CCCC_Member@AttendanceRecord@getEmpId@@()@
-CCCC_MemExt@AttendanceRecord@getEmpId@@()@Report.h@67@definition@F??T0@LOC:1 COM:1 MVG:1@0@d@
-CCCC_Member@AttendanceRecord@getFileObjectFormat@@()@
-CCCC_MemExt@AttendanceRecord@getFileObjectFormat@@()@Report.h@60@definition@F??T0@LOC:4 COM:0 MVG:1@0@d@
-CCCC_Member@AttendanceRecord@getHours@@()@
-CCCC_MemExt@AttendanceRecord@getHours@@()@Report.h@68@definition@F??T0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@Admin@AddObserver@@(Record *,IApplication *,IApplicationObserver *,int)@
+CCCC_MemExt@Admin@AddObserver@@(Record *,IApplication *,IApplicationObserver *,int)@Admin.h@66@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Admin@displayPendingWork@@()@
+CCCC_MemExt@Admin@displayPendingWork@@()@Admin.h@69@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Admin@notifyApplicationChange@@(int,string)@
+CCCC_MemExt@Admin@notifyApplicationChange@@(int,string)@Admin.h@72@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@AdminNotifier@notifyApplicationChange@@(vector,int,string)@
+CCCC_MemExt@AdminNotifier@notifyApplicationChange@@(vector,int,string)@Admin.h@30@definition@F???0@LOC:10 COM:1 MVG:3@0@d@
+CCCC_Member@AdminObserverManager@AddObserver@@(Record *,IApplication *,IApplicationObserver *,int)@
+CCCC_MemExt@AdminObserverManager@AddObserver@@(Record *,IApplication *,IApplicationObserver *,int)@Admin.h@20@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@AdminObserverManager@getMyPendingWork@@()@
+CCCC_MemExt@AdminObserverManager@getMyPendingWork@@()@Admin.h@23@definition@T???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Approved@Approved@@()@
+CCCC_MemExt@Approved@Approved@@()@ApplicationTypes.h@85@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@AttendenceEntity@AttendenceEntity@@(int,int,int,int)@
+CCCC_MemExt@AttendenceEntity@AttendenceEntity@@(int,int,int,int)@AttendenceEntity.h@13@definition@F???0@LOC:2 COM:1 MVG:0@0@d@
+CCCC_Member@AttendenceEntity@display@@()@
+CCCC_MemExt@AttendenceEntity@display@@()@AttendenceEntity.h@18@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@AttendenceEntity@getEmpId@@()@
+CCCC_MemExt@AttendenceEntity@getEmpId@@()@AttendenceEntity.h@28@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@AttendenceEntity@getFileObjectFormat@@()@
+CCCC_MemExt@AttendenceEntity@getFileObjectFormat@@()@AttendenceEntity.h@21@definition@F???0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@AttendenceEntity@getHours@@()@
+CCCC_MemExt@AttendenceEntity@getHours@@()@AttendenceEntity.h@29@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@AwardHoursAction@AwardHoursAction@@(Record *,IApplication *,int)@
+CCCC_MemExt@AwardHoursAction@AwardHoursAction@@(Record *,IApplication *,int)@AwardHoursAction.h@9@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@AwardHoursAction@postaction@@()@
+CCCC_MemExt@AwardHoursAction@postaction@@()@AwardHoursAction.h@12@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Casual@Casual@@(vector)@
+CCCC_MemExt@Casual@Casual@@(vector)@CasualTeam.h@9@definition@FT??2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Member@Casual@getInstance@@()@
+CCCC_MemExt@Casual@getInstance@@()@CasualTeam.h@20@definition@FT??0@LOC:6 COM:0 MVG:3@0@d@
+CCCC_Member@Casual@getInstance@@(vector)@
+CCCC_MemExt@Casual@getInstance@@(vector)@CasualTeam.h@14@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@CasualLeaveValidator@CasualLeaveValidator@@(vector *,IApplication *)@
+CCCC_MemExt@CasualLeaveValidator@CasualLeaveValidator@@(vector *,IApplication *)@CasualLeaveValidator.h@10@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@DefaultLeaveApplication@DefaultLeaveApplication@@(int,int,string,string,string,string,string,string,string)@
+CCCC_MemExt@DefaultLeaveApplication@DefaultLeaveApplication@@(int,int,string,string,string,string,string,string,string)@ApplicationTypes.h@110@definition@F???0@LOC:2 COM:2 MVG:0@0@d@
+CCCC_Member@DefaultLeaveApplication@addRecordInFile@@()@
+CCCC_MemExt@DefaultLeaveApplication@addRecordInFile@@()@ApplicationTypes.h@159@definition@FT??0@LOC:12 COM:5 MVG:2@0@d@
+CCCC_Member@DefaultLeaveApplication@display@@()@
+CCCC_MemExt@DefaultLeaveApplication@display@@()@ApplicationTypes.h@114@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@DefaultLeaveApplication@getApplicationType@@()@
+CCCC_MemExt@DefaultLeaveApplication@getApplicationType@@()@ApplicationTypes.h@122@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@getDate@@()@
+CCCC_MemExt@DefaultLeaveApplication@getDate@@()@ApplicationTypes.h@123@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@getDuration@@()@
+CCCC_MemExt@DefaultLeaveApplication@getDuration@@()@ApplicationTypes.h@127@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@getEmpId@@()@
+CCCC_MemExt@DefaultLeaveApplication@getEmpId@@()@ApplicationTypes.h@125@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@getFileObjectFormat@@()@
+CCCC_MemExt@DefaultLeaveApplication@getFileObjectFormat@@()@ApplicationTypes.h@117@definition@F???0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@getObjectFromLine@@(const string &)@
+CCCC_MemExt@DefaultLeaveApplication@getObjectFromLine@@(const string &)@ApplicationTypes.h@131@definition@FT??0@LOC:20 COM:0 MVG:5@0@d@
+CCCC_Member@DefaultLeaveApplication@getRecordId@@()@
+CCCC_MemExt@DefaultLeaveApplication@getRecordId@@()@ApplicationTypes.h@126@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@getStatus@@()@
+CCCC_MemExt@DefaultLeaveApplication@getStatus@@()@ApplicationTypes.h@155@definition@FT??0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@getToDate@@()@
+CCCC_MemExt@DefaultLeaveApplication@getToDate@@()@ApplicationTypes.h@124@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@DefaultLeaveApplication@setStatus@@(string)@
+CCCC_MemExt@DefaultLeaveApplication@setStatus@@(string)@ApplicationTypes.h@128@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Director@Director@@()@
+CCCC_MemExt@Director@Director@@()@Director.h@8@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Director@Director@@(int)@
+CCCC_MemExt@Director@Director@@(int)@Director.h@21@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Director@Director@@(int,string)@
+CCCC_MemExt@Director@Director@@(int,string)@Director.h@9@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@Director@getID@@()@
+CCCC_MemExt@Director@getID@@()@Director.h@22@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@Director@getPass@@()@
+CCCC_MemExt@Director@getPass@@()@Director.h@18@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Director@getType@@()@
+CCCC_MemExt@Director@getType@@()@Director.h@15@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
 CCCC_Member@DirectorPortal@DirectorPortal@@(Admin *)@
 CCCC_MemExt@DirectorPortal@DirectorPortal@@(Admin *)@DirectorPortal.h@11@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
 CCCC_Member@DirectorPortal@DirectorPortalDisplay@@()@
 CCCC_MemExt@DirectorPortal@DirectorPortalDisplay@@()@DirectorPortal.h@16@definition@F???0@LOC:32 COM:5 MVG:6@0@d@
+CCCC_Member@DisplayStrategy@display@@(vector)@
+CCCC_MemExt@DisplayStrategy@display@@(vector)@Admin.h@45@definition@F???0@LOC:11 COM:0 MVG:4@0@d@
+CCCC_Member@Earned@Earned@@(vector)@
+CCCC_MemExt@Earned@Earned@@(vector)@EarnedTeam.h@9@definition@FT??2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Member@Earned@getInstance@@()@
+CCCC_MemExt@Earned@getInstance@@()@EarnedTeam.h@21@definition@FT??0@LOC:6 COM:0 MVG:3@0@d@
+CCCC_Member@Earned@getInstance@@(vector)@
+CCCC_MemExt@Earned@getInstance@@(vector)@EarnedTeam.h@14@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@EarnedLeaveValidator@EarnedLeaveValidator@@(vector *,IApplication *)@
+CCCC_MemExt@EarnedLeaveValidator@EarnedLeaveValidator@@(vector *,IApplication *)@EarnedLeaveValidator.h@9@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@Employee@Employee@@()@
+CCCC_MemExt@Employee@Employee@@()@Employee.h@11@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Employee@Employee@@(int,string)@
+CCCC_MemExt@Employee@Employee@@(int,string)@Employee.h@12@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@Employee@generateAttendenceReport@@()@
+CCCC_MemExt@Employee@generateAttendenceReport@@()@Employee.h@31@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Employee@generateLeaveReport@@()@
+CCCC_MemExt@Employee@generateLeaveReport@@()@Employee.h@34@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Employee@generateLeaveSummary@@()@
+CCCC_MemExt@Employee@generateLeaveSummary@@()@Employee.h@38@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Employee@getID@@()@
+CCCC_MemExt@Employee@getID@@()@Employee.h@41@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Employee@getNextLeaveID@@()@
+CCCC_MemExt@Employee@getNextLeaveID@@()@Employee.h@44@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Employee@getPass@@()@
+CCCC_MemExt@Employee@getPass@@()@Employee.h@28@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Employee@getType@@()@
+CCCC_MemExt@Employee@getType@@()@Employee.h@18@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Employee@initializeEmployee@@(int,Record *,Record *)@
+CCCC_MemExt@Employee@initializeEmployee@@(int,Record *,Record *)@Employee.h@21@definition@F???0@LOC:7 COM:0 MVG:0@0@d@
+CCCC_Member@Employee@operator ==@@(const Employee &)@
+CCCC_MemExt@Employee@operator ==@@(const Employee &)@Employee.h@47@definition@T???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Employee@~Employee@@()@
+CCCC_MemExt@Employee@~Employee@@()@Employee.h@50@definition@F???0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_Member@EmployeePortal@EmployeeMenu@@()@
+CCCC_MemExt@EmployeePortal@EmployeeMenu@@()@EmployeePortal.h@12@definition@F???0@LOC:156 COM:9 MVG:12@0@d@
+CCCC_Member@EmployeePortal@EmployeePortal@@(Employee *)@
+CCCC_MemExt@EmployeePortal@EmployeePortal@@(Employee *)@EmployeePortal.h@9@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@EmployeePortal@getType@@(int &)@
+CCCC_MemExt@EmployeePortal@getType@@(int &)@EmployeePortal.h@179@definition@F???0@LOC:8 COM:0 MVG:4@0@d@
+CCCC_Member@Guard@Guard@@(int,string)@
+CCCC_MemExt@Guard@Guard@@(int,string)@Guard.h@8@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@Guard@getID@@()@
+CCCC_MemExt@Guard@getID@@()@Guard.h@19@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Guard@getPass@@()@
+CCCC_MemExt@Guard@getPass@@()@Guard.h@13@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Guard@getType@@()@
+CCCC_MemExt@Guard@getType@@()@Guard.h@16@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Guard@markAttendance@@(vector,int,bool)@
+CCCC_MemExt@Guard@markAttendance@@(vector,int,bool)@Guard.h@22@definition@F???0@LOC:6 COM:0 MVG:1@0@d@
+CCCC_Member@GuardPortal@GuardPortal@@(Guard *)@
+CCCC_MemExt@GuardPortal@GuardPortal@@(Guard *)@GuardPortal.h@9@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@GuardPortal@markattendenceportal@@()@
+CCCC_MemExt@GuardPortal@markattendenceportal@@()@GuardPortal.h@13@definition@F???0@LOC:6 COM:0 MVG:0@0@d@
 CCCC_Member@IApplication@addRecordInFile@@()@
-CCCC_MemExt@IApplication@addRecordInFile@@()@Report.h@27@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@addRecordInFile@@()@IApplication.h@10@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@display@@()@
-CCCC_MemExt@IApplication@display@@()@Report.h@23@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@display@@()@IApplication.h@6@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getApplicationType@@()@
-CCCC_MemExt@IApplication@getApplicationType@@()@Report.h@28@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getApplicationType@@()@IApplication.h@11@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getDate@@()@
-CCCC_MemExt@IApplication@getDate@@()@Report.h@29@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getDate@@()@IApplication.h@12@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getDuration@@()@
-CCCC_MemExt@IApplication@getDuration@@()@Report.h@31@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getDuration@@()@IApplication.h@14@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getEmpId@@()@
-CCCC_MemExt@IApplication@getEmpId@@()@Report.h@24@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getEmpId@@()@IApplication.h@7@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getFileObjectFormat@@()@
-CCCC_MemExt@IApplication@getFileObjectFormat@@()@Report.h@33@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getFileObjectFormat@@()@IApplication.h@16@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getRecordId@@()@
-CCCC_MemExt@IApplication@getRecordId@@()@Report.h@25@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getRecordId@@()@IApplication.h@8@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getStatus@@()@
-CCCC_MemExt@IApplication@getStatus@@()@Report.h@32@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getStatus@@()@IApplication.h@15@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@getToDate@@()@
-CCCC_MemExt@IApplication@getToDate@@()@Report.h@30@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@getToDate@@()@IApplication.h@13@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IApplication@setStatus@@(string)@
-CCCC_MemExt@IApplication@setStatus@@(string)@Report.h@26@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IApplication@setStatus@@(string)@IApplication.h@9@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@IApplicationObservable@AddObserver@@(Record *,IApplication *,IApplicationObserver *,int)@
+CCCC_MemExt@IApplicationObservable@AddObserver@@(Record *,IApplication *,IApplicationObserver *,int)@IApplicationObserve.h@11@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@IApplicationObservable@notifyApplicationChange@@(int,string)@
+CCCC_MemExt@IApplicationObservable@notifyApplicationChange@@(int,string)@IApplicationObserve.h@12@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@IApplicationObserver@ForwardApplicationFurther@@(Record *,IApplication *,int,string)@
+CCCC_MemExt@IApplicationObserver@ForwardApplicationFurther@@(Record *,IApplication *,int,string)@IApplicationObserve.h@7@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@IApplyLeave@IApplyLeave@@(vector *,vector *)@
+CCCC_MemExt@IApplyLeave@IApplyLeave@@(vector *,vector *)@IApplyLeave.h@11@definition@FT??2@LOC:4 COM:0 MVG:0@2@d@
+CCCC_Member@IApplyLeave@Instantiate@@(vector *,vector *)@
+CCCC_MemExt@IApplyLeave@Instantiate@@(vector *,vector *)@IApplyLeave.h@26@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@IApplyLeave@applyLeave@@(int,IApplication *,Leaves_Team *)@
+CCCC_MemExt@IApplyLeave@applyLeave@@(int,IApplication *,Leaves_Team *)@IApplyLeave.h@17@definition@FT??0@LOC:6 COM:1 MVG:1@0@d@
+CCCC_Member@IApplyLeave@getInstance@@()@
+CCCC_MemExt@IApplyLeave@getInstance@@()@IApplyLeave.h@33@definition@FT??0@LOC:6 COM:0 MVG:3@0@d@
 CCCC_Member@IAttendenceEntity@display@@()@
-CCCC_MemExt@IAttendenceEntity@display@@()@Report.h@37@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IAttendenceEntity@display@@()@IAttendenceEntity.h@6@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IAttendenceEntity@getEmpId@@()@
-CCCC_MemExt@IAttendenceEntity@getEmpId@@()@Report.h@38@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IAttendenceEntity@getEmpId@@()@IAttendenceEntity.h@7@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IAttendenceEntity@getFileObjectFormat@@()@
-CCCC_MemExt@IAttendenceEntity@getFileObjectFormat@@()@Report.h@40@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IAttendenceEntity@getFileObjectFormat@@()@IAttendenceEntity.h@9@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@IAttendenceEntity@getHours@@()@
-CCCC_MemExt@IAttendenceEntity@getHours@@()@Report.h@39@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@IAttendenceEntity@getHours@@()@IAttendenceEntity.h@8@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@IMonthlyReports@GenerateMonthlyReports@@()@
+CCCC_MemExt@IMonthlyReports@GenerateMonthlyReports@@()@IMonthlyReports.h@22@definition@F???0@LOC:5 COM:0 MVG:1@0@d@
+CCCC_Member@IMonthlyReports@GenerateSalaries@@()@
+CCCC_MemExt@IMonthlyReports@GenerateSalaries@@()@IMonthlyReports.h@27@definition@F???0@LOC:11 COM:0 MVG:2@0@d@
+CCCC_Member@IMonthlyReports@IMonthlyReports@@(vector *,vector *)@
+CCCC_MemExt@IMonthlyReports@IMonthlyReports@@(vector *,vector *)@IMonthlyReports.h@12@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@IMonthlyReports@isEmpInactive@@(int)@
+CCCC_MemExt@IMonthlyReports@isEmpInactive@@(int)@IMonthlyReports.h@38@definition@F???0@LOC:8 COM:1 MVG:4@0@d@
+CCCC_Member@IMonthlyReports@onMonthUpdate@@()@
+CCCC_MemExt@IMonthlyReports@onMonthUpdate@@()@IMonthlyReports.h@17@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@IMonthlyReports@onWeekUpdate@@()@
+CCCC_MemExt@IMonthlyReports@onWeekUpdate@@()@IMonthlyReports.h@16@definition@F???0@LOC:0 COM:0 MVG:0@0@d@
+CCCC_Member@IMonthlyReports@onYearUpdate@@()@
+CCCC_MemExt@IMonthlyReports@onYearUpdate@@()@IMonthlyReports.h@21@definition@F???0@LOC:0 COM:0 MVG:0@0@d@
+CCCC_Member@IPostAction@IPostAction@@(IApplication *)@
+CCCC_MemExt@IPostAction@IPostAction@@(IApplication *)@IPostAction.h@7@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@IPostAction@postaction@@()@
+CCCC_MemExt@IPostAction@postaction@@()@IPostAction.h@10@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ISummary@ISummary@@(int *,int *,int *,vector *)@
-CCCC_MemExt@ISummary@ISummary@@(int *,int *,int *,vector *)@Report.h@88@definition@F??T0@LOC:6 COM:0 MVG:0@0@d@
+CCCC_MemExt@ISummary@ISummary@@(int *,int *,int *,vector *)@AttendenceRecord.h@16@definition@F???0@LOC:6 COM:0 MVG:0@0@d@
 CCCC_Member@ITimeObservable@addObserver@@(ITimeObserver *)@
-CCCC_MemExt@ITimeObservable@addObserver@@(ITimeObserver *)@Time.h@16@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObservable@addObserver@@(ITimeObserver *)@Time.h@25@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ITimeObservable@notifyMonthUpdate@@()@
-CCCC_MemExt@ITimeObservable@notifyMonthUpdate@@()@Time.h@19@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObservable@notifyMonthUpdate@@()@Time.h@28@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ITimeObservable@notifyWeekUpdate@@()@
-CCCC_MemExt@ITimeObservable@notifyWeekUpdate@@()@Time.h@18@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObservable@notifyWeekUpdate@@()@Time.h@27@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ITimeObservable@notifyYearUpdate@@()@
-CCCC_MemExt@ITimeObservable@notifyYearUpdate@@()@Time.h@20@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObservable@notifyYearUpdate@@()@Time.h@29@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ITimeObservable@removeObserver@@(ITimeObserver *)@
-CCCC_MemExt@ITimeObservable@removeObserver@@(ITimeObserver *)@Time.h@17@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObservable@removeObserver@@(ITimeObserver *)@Time.h@26@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ITimeObserver@onMonthUpdate@@()@
-CCCC_MemExt@ITimeObserver@onMonthUpdate@@()@Time.h@9@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObserver@onMonthUpdate@@()@Time.h@18@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ITimeObserver@onWeekUpdate@@()@
-CCCC_MemExt@ITimeObserver@onWeekUpdate@@()@Time.h@8@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObserver@onWeekUpdate@@()@Time.h@17@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@ITimeObserver@onYearUpdate@@()@
-CCCC_MemExt@ITimeObserver@onYearUpdate@@()@Time.h@10@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@ITimeObserver@onYearUpdate@@()@Time.h@19@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@IValidator@validate@@()@
+CCCC_MemExt@IValidator@validate@@()@IValidator.h@5@definition@F??T0@LOC:2 COM:1 MVG:1@0@d@
+CCCC_Member@InactivityManager@InactivityManager@@()@
+CCCC_MemExt@InactivityManager@InactivityManager@@()@InactivityManager.h@8@definition@FT??0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_Member@InactivityManager@addInactive@@(int,int)@
+CCCC_MemExt@InactivityManager@addInactive@@(int,int)@InactivityManager.h@20@definition@FT??0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@InactivityManager@displayInactives@@()@
+CCCC_MemExt@InactivityManager@displayInactives@@()@InactivityManager.h@36@definition@FT??0@LOC:14 COM:0 MVG:3@0@d@
+CCCC_Member@InactivityManager@getIDs@@()@
+CCCC_MemExt@InactivityManager@getIDs@@()@InactivityManager.h@25@definition@FT??0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@InactivityManager@getInstance@@()@
+CCCC_MemExt@InactivityManager@getInstance@@()@InactivityManager.h@13@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@InactivityManager@isInactive@@(int)@
+CCCC_MemExt@InactivityManager@isInactive@@(int)@InactivityManager.h@28@definition@FT??0@LOC:8 COM:3 MVG:5@0@d@
+CCCC_Member@InactivityManager@onMonthUpdate@@()@
+CCCC_MemExt@InactivityManager@onMonthUpdate@@()@InactivityManager.h@55@definition@FT??0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_Member@InactivityManager@onWeekUpdate@@()@
+CCCC_MemExt@InactivityManager@onWeekUpdate@@()@InactivityManager.h@52@definition@FT??0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_Member@InactivityManager@onYearUpdate@@()@
+CCCC_MemExt@InactivityManager@onYearUpdate@@()@InactivityManager.h@58@definition@FT??0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_Member@InactivityManager@reduceInactiveDays@@(int)@
+CCCC_MemExt@InactivityManager@reduceInactiveDays@@(int)@InactivityManager.h@61@definition@FT??0@LOC:11 COM:5 MVG:2@0@d@
+CCCC_Member@Leave@AppsGeneratingFactory@@(const string &)@
+CCCC_MemExt@Leave@AppsGeneratingFactory@@(const string &)@LeavesRecord.h@47@definition@F????@LOC:18 COM:2 MVG:7@?@d@
+CCCC_Member@Leave@Leave@@()@
+CCCC_MemExt@Leave@Leave@@()@LeavesRecord.h@17@definition@F???0@LOC:1 COM:1 MVG:0@0@d@
+CCCC_Member@Leave@Leave@@(int)@
+CCCC_MemExt@Leave@Leave@@(int)@LeavesRecord.h@18@definition@F???0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_Member@Leave@addRecord@@(IApplication *)@
+CCCC_MemExt@Leave@addRecord@@(IApplication *)@LeavesRecord.h@23@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@Leave@generateSummary@@(int)@
+CCCC_MemExt@Leave@generateSummary@@(int)@LeavesRecord.h@76@definition@F????@LOC:17 COM:9 MVG:3@?@d@
+CCCC_Member@Leave@getAllRecords@@()@
+CCCC_MemExt@Leave@getAllRecords@@()@LeavesRecord.h@20@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Leave@refresh@@()@
+CCCC_MemExt@Leave@refresh@@()@LeavesRecord.h@27@definition@F???0@LOC:16 COM:2 MVG:4@0@d@
+CCCC_Member@Leave@viewRecords@@()@
+CCCC_MemExt@Leave@viewRecords@@()@LeavesRecord.h@70@definition@F????@LOC:6 COM:1 MVG:1@?@d@
+CCCC_Member@Login@Login@@(vector)@
+CCCC_MemExt@Login@Login@@(vector)@MainPortal.h@16@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Login@adminLogin@@()@
+CCCC_MemExt@Login@adminLogin@@()@MainPortal.h@164@definition@F???0@LOC:41 COM:2 MVG:6@0@d@
+CCCC_Member@Login@employeeLogin@@()@
+CCCC_MemExt@Login@employeeLogin@@()@MainPortal.h@144@definition@F???0@LOC:18 COM:0 MVG:2@0@d@
+CCCC_Member@Login@getCredentials@@(int &,string &)@
+CCCC_MemExt@Login@getCredentials@@(int &,string &)@MainPortal.h@209@definition@F???0@LOC:7 COM:0 MVG:0@0@d@
+CCCC_Member@Login@getType@@(int &)@
+CCCC_MemExt@Login@getType@@(int &)@MainPortal.h@218@definition@F???0@LOC:8 COM:0 MVG:4@0@d@
+CCCC_Member@Login@guardLogin@@()@
+CCCC_MemExt@Login@guardLogin@@()@MainPortal.h@62@definition@F???0@LOC:17 COM:0 MVG:2@0@d@
+CCCC_Member@Login@open@@()@
+CCCC_MemExt@Login@open@@()@MainPortal.h@18@definition@F???0@LOC:43 COM:4 MVG:7@0@d@
+CCCC_Member@Login@systemPortal@@()@
+CCCC_MemExt@Login@systemPortal@@()@MainPortal.h@79@definition@F???0@LOC:59 COM:1 MVG:10@0@d@
+CCCC_Member@Login@verifyLogin@@(const string &,int &,string &)@
+CCCC_MemExt@Login@verifyLogin@@(const string &,int &,string &)@MainPortal.h@228@definition@F???0@LOC:8 COM:2 MVG:6@0@d@
+CCCC_Member@Main@Main@@()@
+CCCC_MemExt@Main@Main@@()@Main.h@17@definition@FT??2@LOC:8 COM:0 MVG:0@2@d@
+CCCC_Member@Main@createLeaveRecord@@(int)@
+CCCC_MemExt@Main@createLeaveRecord@@(int)@Main.h@52@definition@FT??0@LOC:12 COM:2 MVG:2@0@d@
+CCCC_Member@Main@generateEmployeeRecord@@(int)@
+CCCC_MemExt@Main@generateEmployeeRecord@@(int)@Main.h@37@definition@FT??0@LOC:13 COM:2 MVG:2@0@d@
+CCCC_Member@Main@generateInstantSalaries@@()@
+CCCC_MemExt@Main@generateInstantSalaries@@()@Main.h@34@definition@FT??0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_Member@Main@getMain@@()@
+CCCC_MemExt@Main@getMain@@()@Main.h@27@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@MainPortal@MainPortal@@()@
+CCCC_MemExt@MainPortal@MainPortal@@()@MainPortal.h@292@definition@FT??2@LOC:6 COM:0 MVG:0@2@d@
+CCCC_Member@MainPortal@getMain@@()@
+CCCC_MemExt@MainPortal@getMain@@()@MainPortal.h@299@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@MainPortal@loadUsers@@(const string &,const string &)@
+CCCC_MemExt@MainPortal@loadUsers@@(const string &,const string &)@MainPortal.h@243@definition@FT??2@LOC:43 COM:0 MVG:7@2@d@
+CCCC_Member@MainPortal@logIn@@()@
+CCCC_MemExt@MainPortal@logIn@@()@MainPortal.h@336@definition@FT??0@LOC:6 COM:0 MVG:0@0@d@
+CCCC_Member@MainPortal@signUp@@()@
+CCCC_MemExt@MainPortal@signUp@@()@MainPortal.h@342@definition@FT??0@LOC:10 COM:0 MVG:0@0@d@
+CCCC_Member@MainPortal@start@@()@
+CCCC_MemExt@MainPortal@start@@()@MainPortal.h@306@definition@FT??0@LOC:30 COM:0 MVG:7@0@d@
 CCCC_Member@MyTime@MyTime@@()@
-CCCC_MemExt@MyTime@MyTime@@()@Time.h@30@definition@FT?T?@LOC:1 COM:0 MVG:0@?@d@
+CCCC_MemExt@MyTime@MyTime@@()@Time.h@39@definition@FT?T?@LOC:1 COM:0 MVG:0@?@d@
 CCCC_Member@MyTime@getInstance@@()@
-CCCC_MemExt@MyTime@getInstance@@()@Time.h@36@definition@FT?T0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_MemExt@MyTime@getInstance@@()@Time.h@45@definition@FT?T0@LOC:6 COM:0 MVG:2@0@d@
 CCCC_Member@NotificationEntity@NotificationEntity@@(int,const string &)@
 CCCC_MemExt@NotificationEntity@NotificationEntity@@(int,const string &)@NotificationEntity.h@13@definition@F????@LOC:2 COM:0 MVG:0@?@d@
+CCCC_Member@Official@ForwardApplicationFurther@@(Record *,IApplication *,int,string)@
+CCCC_MemExt@Official@ForwardApplicationFurther@@(Record *,IApplication *,int,string)@OfficialTeam.h@31@definition@FT??0@LOC:13 COM:4 MVG:3@0@d@
+CCCC_Member@Official@Official@@(vector)@
+CCCC_MemExt@Official@Official@@(vector)@OfficialTeam.h@9@definition@FT??2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Member@Official@getInstance@@()@
+CCCC_MemExt@Official@getInstance@@()@OfficialTeam.h@20@definition@FT??0@LOC:6 COM:0 MVG:3@0@d@
+CCCC_Member@Official@getInstance@@(vector)@
+CCCC_MemExt@Official@getInstance@@(vector)@OfficialTeam.h@14@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@Official@getType@@()@
+CCCC_MemExt@Official@getType@@()@OfficialTeam.h@45@definition@FT??0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Official@postactions@@(Record *,IApplication *)@
+CCCC_MemExt@Official@postactions@@(Record *,IApplication *)@OfficialTeam.h@26@definition@FT??0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@OfficialLeaveApp@OfficialLeaveApp@@(int,int,string,string,string,string,string,string,string,string,string,string)@
+CCCC_MemExt@OfficialLeaveApp@OfficialLeaveApp@@(int,int,string,string,string,string,string,string,string,string,string,string)@OfficialLeaveApp.h@13@definition@F???0@LOC:4 COM:1 MVG:0@0@d@
+CCCC_Member@Pending@Pending@@()@
+CCCC_MemExt@Pending@Pending@@()@ApplicationTypes.h@89@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@PendingWork@PendingWork@@(int,IApplicationObserver *,IApplication *,Record *)@
+CCCC_MemExt@PendingWork@PendingWork@@(int,IApplicationObserver *,IApplication *,Record *)@Admin.h@10@definition@F???0@LOC:6 COM:0 MVG:0@0@d@
+CCCC_Member@Person@getID@@()@
+CCCC_MemExt@Person@getID@@()@IPerson.h@10@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Person@getPass@@()@
+CCCC_MemExt@Person@getPass@@()@IPerson.h@11@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Person@getType@@()@
+CCCC_MemExt@Person@getType@@()@IPerson.h@12@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@Record@addRecord@@(T *)@
-CCCC_MemExt@Record@addRecord@@(T *)@Report.h@73@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Record@addRecord@@(T *)@IRecord.h@7@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@Record@generateSummary@@(int)@
-CCCC_MemExt@Record@generateSummary@@(int)@Report.h@75@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Record@generateSummary@@(int)@IRecord.h@9@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@Record@getAllRecords@@()@
-CCCC_MemExt@Record@getAllRecords@@()@Report.h@77@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Record@getAllRecords@@()@IRecord.h@11@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@Record@refresh@@()@
-CCCC_MemExt@Record@refresh@@()@Report.h@76@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Record@refresh@@()@IRecord.h@10@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
 CCCC_Member@Record@viewRecords@@()@
-CCCC_MemExt@Record@viewRecords@@()@Report.h@74@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Record@viewRecords@@()@IRecord.h@8@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Rejected@Rejected@@()@
+CCCC_MemExt@Rejected@Rejected@@()@ApplicationTypes.h@93@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Signup@Signup@@()@
+CCCC_MemExt@Signup@Signup@@()@Signup.h@9@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Signup@employeeSignup@@()@
+CCCC_MemExt@Signup@employeeSignup@@()@Signup.h@20@definition@F???0@LOC:9 COM:0 MVG:1@0@d@
+CCCC_Member@Signup@getCredentials@@(int &,string &)@
+CCCC_MemExt@Signup@getCredentials@@(int &,string &)@Signup.h@31@definition@F???0@LOC:10 COM:0 MVG:0@0@d@
+CCCC_Member@Signup@getType@@(int &)@
+CCCC_MemExt@Signup@getType@@(int &)@Signup.h@43@definition@F???0@LOC:8 COM:0 MVG:4@0@d@
+CCCC_Member@Signup@open@@()@
+CCCC_MemExt@Signup@open@@()@Signup.h@11@definition@F???0@LOC:8 COM:0 MVG:1@0@d@
+CCCC_Member@Status@Status@@()@
+CCCC_MemExt@Status@Status@@()@ApplicationTypes.h@13@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Status@Status@@(string,int)@
+CCCC_MemExt@Status@Status@@(string,int)@ApplicationTypes.h@14@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Status@getState@@()@
+CCCC_MemExt@Status@getState@@()@ApplicationTypes.h@21@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Status@setState@@(string,IApplication *)@
+CCCC_MemExt@Status@setState@@(string,IApplication *)@ApplicationTypes.h@17@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Status@updateLeaveStatus@@(IApplication *)@
+CCCC_MemExt@Status@updateLeaveStatus@@(IApplication *)@ApplicationTypes.h@24@definition@F???0@LOC:38 COM:8 MVG:8@0@d@
+CCCC_Member@Supervisor@Supervisor@@()@
+CCCC_MemExt@Supervisor@Supervisor@@()@Supervisor.h@7@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Supervisor@Supervisor@@(int)@
+CCCC_MemExt@Supervisor@Supervisor@@(int)@Supervisor.h@20@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Supervisor@Supervisor@@(int,string)@
+CCCC_MemExt@Supervisor@Supervisor@@(int,string)@Supervisor.h@8@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@Supervisor@getID@@()@
+CCCC_MemExt@Supervisor@getID@@()@Supervisor.h@21@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@Supervisor@getPass@@()@
+CCCC_MemExt@Supervisor@getPass@@()@Supervisor.h@17@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Supervisor@getType@@()@
+CCCC_MemExt@Supervisor@getType@@()@Supervisor.h@14@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
 CCCC_Member@SupervisorPortal@SupervisorPortal@@(Admin *)@
-CCCC_MemExt@SupervisorPortal@SupervisorPortal@@(Admin *)@main.cpp@13@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_MemExt@SupervisorPortal@SupervisorPortal@@(Admin *)@SupervisorPortal.h@10@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
 CCCC_Member@SupervisorPortal@SupervisorPortalDisplay@@()@
-CCCC_MemExt@SupervisorPortal@SupervisorPortalDisplay@@()@main.cpp@18@definition@F???0@LOC:31 COM:5 MVG:6@0@d@
+CCCC_MemExt@SupervisorPortal@SupervisorPortalDisplay@@()@SupervisorPortal.h@15@definition@F???0@LOC:31 COM:5 MVG:6@0@d@
+CCCC_Member@Unpaid@ForwardApplicationFurther@@(Record *,IApplication *,int,string)@
+CCCC_MemExt@Unpaid@ForwardApplicationFurther@@(Record *,IApplication *,int,string)@UnpaidTeam.h@31@definition@FT??0@LOC:13 COM:4 MVG:3@0@d@
+CCCC_Member@Unpaid@Unpaid@@(vector)@
+CCCC_MemExt@Unpaid@Unpaid@@(vector)@UnpaidTeam.h@8@definition@FT??2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Member@Unpaid@getInstance@@()@
+CCCC_MemExt@Unpaid@getInstance@@()@UnpaidTeam.h@19@definition@FT??0@LOC:6 COM:0 MVG:3@0@d@
+CCCC_Member@Unpaid@getInstance@@(vector)@
+CCCC_MemExt@Unpaid@getInstance@@(vector)@UnpaidTeam.h@13@definition@FT??0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@Unpaid@getType@@()@
+CCCC_MemExt@Unpaid@getType@@()@UnpaidTeam.h@45@definition@FT??0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Unpaid@postactions@@(IApplication *)@
+CCCC_MemExt@Unpaid@postactions@@(IApplication *)@UnpaidTeam.h@25@definition@FT??0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@UnpaidLeaveApp@UnpaidLeaveApp@@(int,int,string,string,string,string,string,string,string,string)@
+CCCC_MemExt@UnpaidLeaveApp@UnpaidLeaveApp@@(int,int,string,string,string,string,string,string,string,string)@UnpaidLeaveApp.h@11@definition@F???0@LOC:4 COM:1 MVG:0@0@d@
+CCCC_Member@UnpaidLeavePA@UnpaidLeavePA@@(IApplication *)@
+CCCC_MemExt@UnpaidLeavePA@UnpaidLeavePA@@(IApplication *)@UnpaidPostAction.h@6@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@UnpaidLeavePA@postaction@@()@
+CCCC_MemExt@UnpaidLeavePA@postaction@@()@UnpaidPostAction.h@9@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@anonymous@getFileObjectFormat@@()@
+CCCC_MemExt@anonymous@getFileObjectFormat@@()@OfficialLeaveApp.h@26@definition@F???0@LOC:3 COM:1 MVG:1@0@d@
+CCCC_MemExt@anonymous@getFileObjectFormat@@()@UnpaidLeaveApp.h@23@definition@F???0@LOC:3 COM:1 MVG:1@0@d@
 CCCC_Member@anonymous@getMessage@@()@
 CCCC_MemExt@anonymous@getMessage@@()@NotificationEntity.h@17@declaration@T???0@LOC:0 COM:0 MVG:0@0@D@
+CCCC_Member@anonymous@getObjectFromLine@@(const string &,string)@
+CCCC_MemExt@anonymous@getObjectFromLine@@(const string &,string)@OfficialLeaveApp.h@31@definition@FT??0@LOC:18 COM:1 MVG:4@0@d@
+CCCC_MemExt@anonymous@getObjectFromLine@@(const string &,string)@UnpaidLeaveApp.h@28@definition@FT??0@LOC:17 COM:1 MVG:4@0@d@
+CCCC_Member@anonymous@getWeekNumberInMonth@@(const string &)@
+CCCC_MemExt@anonymous@getWeekNumberInMonth@@(const string &)@Time.cpp@14@definition@F????@LOC:18 COM:9 MVG:5@?@d@
+CCCC_Member@anonymous@getYear@@(string)@
+CCCC_MemExt@anonymous@getYear@@(string)@Time.cpp@10@definition@F????@LOC:3 COM:1 MVG:1@?@d@
 CCCC_Member@anonymous@main@@()@
-CCCC_MemExt@anonymous@main@@()@main.cpp@59@definition@F???2@LOC:53 COM:4 MVG:1@2@d@
-CCCC_UseRel@IAttendenceEntity@AttendanceRecord@
-CCCC_UseExt@IAttendenceEntity@AttendanceRecord@Report.h@43@inheritance@F??T0@*@0@I@
+CCCC_MemExt@anonymous@main@@()@main.cpp@6@definition@F????@LOC:6 COM:0 MVG:1@?@d@
+CCCC_UseRel@AdminNotifier@Admin@
+CCCC_UseExt@AdminNotifier@Admin@Admin.h@63@has by value@F???1@LOC:0 COM:0 MVG:0@1@H@
+CCCC_UseRel@AdminObserverManager@Admin@
+CCCC_UseExt@AdminObserverManager@Admin@Admin.h@62@has by value@F???1@LOC:0 COM:0 MVG:0@1@H@
+CCCC_UseRel@DisplayStrategy@Admin@
+CCCC_UseExt@DisplayStrategy@Admin@Admin.h@64@has by value@F???1@LOC:0 COM:0 MVG:0@1@H@
+CCCC_UseRel@IApplication@Admin@
+CCCC_UseExt@IApplication@Admin@Admin.h@66@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IApplicationObservable@Admin@
+CCCC_UseExt@IApplicationObservable@Admin@Admin.h@60@inheritance@F???0@*@0@I@
+CCCC_UseRel@IApplicationObserver@Admin@
+CCCC_UseExt@IApplicationObserver@Admin@Admin.h@66@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Record@Admin@
+CCCC_UseExt@Record@Admin@Admin.h@66@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@Admin@
+CCCC_UseExt@string@Admin@Admin.h@72@pass by value@F???0@*@0@P@
+CCCC_UseRel@string@AdminNotifier@
+CCCC_UseExt@string@AdminNotifier@Admin.h@30@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@AdminNotifier@
+CCCC_UseExt@vector@AdminNotifier@Admin.h@30@pass by value@F???0@*@0@P@
+CCCC_UseRel@IApplication@AdminObserverManager@
+CCCC_UseExt@IApplication@AdminObserverManager@Admin.h@20@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IApplicationObserver@AdminObserverManager@
+CCCC_UseExt@IApplicationObserver@AdminObserverManager@Admin.h@20@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Record@AdminObserverManager@
+CCCC_UseExt@Record@AdminObserverManager@Admin.h@20@pass by reference@F???0@*@0@p@
+CCCC_UseRel@vector@AdminObserverManager@
+CCCC_UseExt@vector@AdminObserverManager@Admin.h@18@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@Status@Approved@
+CCCC_UseExt@Status@Approved@ApplicationTypes.h@83@inheritance@F???0@*@0@I@
+CCCC_UseRel@IAttendenceEntity@AttendenceEntity@
+CCCC_UseExt@IAttendenceEntity@AttendenceEntity@AttendenceEntity.h@4@inheritance@????0@*@0@I@
+CCCC_UseRel@Attendence@AwardHoursAction@
+CCCC_UseExt@Attendence@AwardHoursAction@AwardHoursAction.h@6@has by reference@????0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseRel@IApplication@AwardHoursAction@
+CCCC_UseExt@IApplication@AwardHoursAction@AwardHoursAction.h@9@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IPostAction@AwardHoursAction@
+CCCC_UseExt@IPostAction@AwardHoursAction@AwardHoursAction.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@Record@AwardHoursAction@
+CCCC_UseExt@Record@AwardHoursAction@AwardHoursAction.h@9@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Leaves_Team@Casual@
+CCCC_UseExt@Leaves_Team@Casual@CasualTeam.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@vector@Casual@
+CCCC_UseExt@vector@Casual@CasualTeam.h@9@pass by value@FT??2@*@2@P@
+CCCC_UseExt@vector@Casual@CasualTeam.h@14@pass by value@FT??0@*@0@P@
+CCCC_UseRel@IApplication@CasualLeaveValidator@
+CCCC_UseExt@IApplication@CasualLeaveValidator@CasualLeaveValidator.h@8@has by reference@????0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseExt@IApplication@CasualLeaveValidator@CasualLeaveValidator.h@10@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IValidator@CasualLeaveValidator@
+CCCC_UseExt@IValidator@CasualLeaveValidator@CasualLeaveValidator.h@6@inheritance@????0@*@0@I@
+CCCC_UseRel@vector@CasualLeaveValidator@
+CCCC_UseExt@vector@CasualLeaveValidator@CasualLeaveValidator.h@7@has by reference@????0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseExt@vector@CasualLeaveValidator@CasualLeaveValidator.h@10@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IApplication@DefaultLeaveApplication@
+CCCC_UseExt@IApplication@DefaultLeaveApplication@ApplicationTypes.h@96@inheritance@F???0@*@0@I@
+CCCC_UseRel@Status@DefaultLeaveApplication@
+CCCC_UseExt@Status@DefaultLeaveApplication@ApplicationTypes.h@102@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@string@DefaultLeaveApplication@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@100@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@101@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@103@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@104@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@105@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@106@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@110@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@110@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@110@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@110@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@110@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@110@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@110@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@128@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DefaultLeaveApplication@ApplicationTypes.h@131@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@Admin@Director@
+CCCC_UseExt@Admin@Director@Director.h@4@inheritance@????0@*@0@I@
+CCCC_UseRel@Person@Director@
+CCCC_UseExt@Person@Director@Director.h@4@inheritance@????0@*@0@I@
+CCCC_UseRel@string@Director@
+CCCC_UseExt@string@Director@Director.h@9@pass by value@F???0@*@0@P@
 CCCC_UseRel@Admin@DirectorPortal@
 CCCC_UseExt@Admin@DirectorPortal@DirectorPortal.h@8@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
 CCCC_UseExt@Admin@DirectorPortal@DirectorPortal.h@11@pass by reference@F???0@*@0@p@
 CCCC_UseRel@Main@DirectorPortal@
 CCCC_UseExt@Main@DirectorPortal@DirectorPortal.h@7@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@vector@DisplayStrategy@
+CCCC_UseExt@vector@DisplayStrategy@Admin.h@45@pass by value@F???0@*@0@P@
+CCCC_UseRel@Leaves_Team@Earned@
+CCCC_UseExt@Leaves_Team@Earned@EarnedTeam.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@vector@Earned@
+CCCC_UseExt@vector@Earned@EarnedTeam.h@9@pass by value@FT??2@*@2@P@
+CCCC_UseExt@vector@Earned@EarnedTeam.h@14@pass by value@FT??0@*@0@P@
+CCCC_UseRel@IApplication@EarnedLeaveValidator@
+CCCC_UseExt@IApplication@EarnedLeaveValidator@EarnedLeaveValidator.h@7@has by reference@????0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseExt@IApplication@EarnedLeaveValidator@EarnedLeaveValidator.h@9@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IValidator@EarnedLeaveValidator@
+CCCC_UseExt@IValidator@EarnedLeaveValidator@EarnedLeaveValidator.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@vector@EarnedLeaveValidator@
+CCCC_UseExt@vector@EarnedLeaveValidator@EarnedLeaveValidator.h@6@has by reference@????0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseExt@vector@EarnedLeaveValidator@EarnedLeaveValidator.h@9@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Person@Employee@
+CCCC_UseExt@Person@Employee@Employee.h@4@inheritance@????0@*@0@I@
+CCCC_UseRel@Record@Employee@
+CCCC_UseExt@Record@Employee@Employee.h@6@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Record@Employee@Employee.h@7@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Record@Employee@Employee.h@21@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Record@Employee@Employee.h@21@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@Employee@
+CCCC_UseExt@string@Employee@Employee.h@12@pass by value@F???0@*@0@P@
+CCCC_UseRel@Employee@EmployeePortal@
+CCCC_UseExt@Employee@EmployeePortal@EmployeePortal.h@5@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Employee@EmployeePortal@EmployeePortal.h@9@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Person@Guard@
+CCCC_UseExt@Person@Guard@Guard.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@bool@Guard@
+CCCC_UseExt@bool@Guard@Guard.h@22@pass by value@F???0@*@0@P@
+CCCC_UseRel@string@Guard@
+CCCC_UseExt@string@Guard@Guard.h@8@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@Guard@
+CCCC_UseExt@vector@Guard@Guard.h@22@pass by value@F???0@*@0@P@
+CCCC_UseRel@Guard@GuardPortal@
+CCCC_UseExt@Guard@GuardPortal@GuardPortal.h@7@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Guard@GuardPortal@GuardPortal.h@9@pass by reference@F???0@*@0@p@
 CCCC_UseRel@string@IApplication@
-CCCC_UseExt@string@IApplication@Report.h@26@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@IApplication@IApplication.h@9@pass by value@F??T0@*@0@P@
+CCCC_UseRel@IApplication@IApplicationObservable@
+CCCC_UseExt@IApplication@IApplicationObservable@IApplicationObserve.h@11@pass by reference@F??T0@*@0@p@
+CCCC_UseRel@IApplicationObserver@IApplicationObservable@
+CCCC_UseExt@IApplicationObserver@IApplicationObservable@IApplicationObserve.h@11@pass by reference@F??T0@*@0@p@
+CCCC_UseRel@Record@IApplicationObservable@
+CCCC_UseExt@Record@IApplicationObservable@IApplicationObserve.h@11@pass by reference@F??T0@*@0@p@
+CCCC_UseRel@string@IApplicationObservable@
+CCCC_UseExt@string@IApplicationObservable@IApplicationObserve.h@12@pass by value@F??T0@*@0@P@
+CCCC_UseRel@IApplication@IApplicationObserver@
+CCCC_UseExt@IApplication@IApplicationObserver@IApplicationObserve.h@7@pass by reference@F??T0@*@0@p@
+CCCC_UseRel@Record@IApplicationObserver@
+CCCC_UseExt@Record@IApplicationObserver@IApplicationObserve.h@7@pass by reference@F??T0@*@0@p@
+CCCC_UseRel@string@IApplicationObserver@
+CCCC_UseExt@string@IApplicationObserver@IApplicationObserve.h@7@pass by value@F??T0@*@0@P@
+CCCC_UseRel@IApplication@IApplyLeave@
+CCCC_UseExt@IApplication@IApplyLeave@IApplyLeave.h@17@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@Leaves_Team@IApplyLeave@
+CCCC_UseExt@Leaves_Team@IApplyLeave@IApplyLeave.h@17@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@vector@IApplyLeave@
+CCCC_UseExt@vector@IApplyLeave@IApplyLeave.h@10@has by reference@?T??2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@vector@IApplyLeave@IApplyLeave.h@11@pass by reference@FT??2@*@2@p@
+CCCC_UseExt@vector@IApplyLeave@IApplyLeave.h@11@pass by reference@FT??2@*@2@p@
+CCCC_UseExt@vector@IApplyLeave@IApplyLeave.h@16@has by reference@FT??0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseExt@vector@IApplyLeave@IApplyLeave.h@26@pass by reference@FT??0@*@0@p@
+CCCC_UseExt@vector@IApplyLeave@IApplyLeave.h@26@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@ITimeObserver@IMonthlyReports@
+CCCC_UseExt@ITimeObserver@IMonthlyReports@IMonthlyReports.h@8@inheritance@????0@*@0@I@
+CCCC_UseRel@vector@IMonthlyReports@
+CCCC_UseExt@vector@IMonthlyReports@IMonthlyReports.h@9@has by reference@????0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseExt@vector@IMonthlyReports@IMonthlyReports.h@10@has by reference@????0@LOC:0 COM:0 MVG:0@0@h@
+CCCC_UseExt@vector@IMonthlyReports@IMonthlyReports.h@12@pass by reference@F???0@*@0@p@
+CCCC_UseExt@vector@IMonthlyReports@IMonthlyReports.h@12@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IApplication@IPostAction@
+CCCC_UseExt@IApplication@IPostAction@IPostAction.h@5@has by reference@????1@LOC:0 COM:0 MVG:0@1@h@
+CCCC_UseExt@IApplication@IPostAction@IPostAction.h@7@pass by reference@F???0@*@0@p@
 CCCC_UseRel@ITimeObserver@ISummary@
-CCCC_UseExt@ITimeObserver@ISummary@Report.h@81@inheritance@F??T0@*@0@I@
+CCCC_UseExt@ITimeObserver@ISummary@AttendenceRecord.h@9@inheritance@????0@*@0@I@
 CCCC_UseRel@vector@ISummary@
-CCCC_UseExt@vector@ISummary@Report.h@86@has by reference@F??T2@LOC:0 COM:0 MVG:0@2@h@
-CCCC_UseExt@vector@ISummary@Report.h@88@pass by reference@F??T0@*@0@p@
+CCCC_UseExt@vector@ISummary@AttendenceRecord.h@14@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@vector@ISummary@AttendenceRecord.h@16@pass by reference@F???0@*@0@p@
 CCCC_UseRel@ITimeObserver@ITimeObservable@
-CCCC_UseExt@ITimeObserver@ITimeObservable@Time.h@16@pass by reference@F??T0@*@0@p@
-CCCC_UseExt@ITimeObserver@ITimeObservable@Time.h@17@pass by reference@F??T0@*@0@p@
+CCCC_UseExt@ITimeObserver@ITimeObservable@Time.h@25@pass by reference@F??T0@*@0@p@
+CCCC_UseExt@ITimeObserver@ITimeObservable@Time.h@26@pass by reference@F??T0@*@0@p@
+CCCC_UseRel@ITimeObserver@InactivityManager@
+CCCC_UseExt@ITimeObserver@InactivityManager@InactivityManager.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@vector@InactivityManager@
+CCCC_UseExt@vector@InactivityManager@InactivityManager.h@6@has by value@????0@LOC:0 COM:0 MVG:0@0@H@
+CCCC_UseRel@IApplication@Leave@
+CCCC_UseExt@IApplication@Leave@LeavesRecord.h@23@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Record@Leave@
+CCCC_UseExt@Record@Leave@LeavesRecord.h@10@inheritance@????0@*@0@I@
+CCCC_UseRel@string@Leave@
+CCCC_UseExt@string@Leave@LeavesRecord.h@47@pass by reference@F????@*@?@p@
+CCCC_UseRel@vector@Leave@
+CCCC_UseExt@vector@Leave@LeavesRecord.h@13@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@IApplicationObserver@Leaves_Team@
+CCCC_UseExt@IApplicationObserver@Leaves_Team@ILeaves_Team.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@vector@Leaves_Team@
+CCCC_UseExt@vector@Leaves_Team@ILeaves_Team.h@7@has by value@????1@LOC:0 COM:0 MVG:0@1@H@
+CCCC_UseExt@vector@Leaves_Team@ILeaves_Team.h@8@has by value@????1@LOC:0 COM:0 MVG:0@1@H@
+CCCC_UseRel@string@Login@
+CCCC_UseExt@string@Login@MainPortal.h@209@pass by reference@F???0@*@0@p@
+CCCC_UseExt@string@Login@MainPortal.h@228@pass by reference@F???0@*@0@p@
+CCCC_UseExt@string@Login@MainPortal.h@228@pass by reference@F???0@*@0@p@
+CCCC_UseRel@vector@Login@
+CCCC_UseExt@vector@Login@MainPortal.h@14@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Login@MainPortal.h@16@pass by value@F???0@*@0@P@
+CCCC_UseRel@IApplyLeave@Main@
+CCCC_UseExt@IApplyLeave@Main@Main.h@16@has by reference@?T??2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@ITimeObserver@Main@
+CCCC_UseExt@ITimeObserver@Main@Main.h@14@has by reference@?T??2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@ITimeObserver@Main@Main.h@15@has by reference@?T??2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@vector@Main@
+CCCC_UseExt@vector@Main@Main.h@12@has by value@?T??2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Main@Main.h@13@has by value@?T??2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@string@MainPortal@
+CCCC_UseExt@string@MainPortal@MainPortal.h@243@pass by reference@FT??2@*@2@p@
+CCCC_UseExt@string@MainPortal@MainPortal.h@243@pass by reference@FT??2@*@2@p@
+CCCC_UseRel@vector@MainPortal@
+CCCC_UseExt@vector@MainPortal@MainPortal.h@242@has by value@FT??2@LOC:0 COM:0 MVG:0@2@H@
 CCCC_UseRel@ITimeObservable@MyTime@
-CCCC_UseExt@ITimeObservable@MyTime@Time.h@26@inheritance@F??T0@*@0@I@
+CCCC_UseExt@ITimeObservable@MyTime@Time.h@35@inheritance@F??T0@*@0@I@
 CCCC_UseRel@vector@MyTime@
-CCCC_UseExt@vector@MyTime@Time.h@28@has by value@F??T?@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@vector@MyTime@Time.h@37@has by value@F??T?@LOC:0 COM:0 MVG:0@?@H@
 CCCC_UseRel@INotificationEntity@NotificationEntity@
 CCCC_UseExt@INotificationEntity@NotificationEntity@NotificationEntity.h@11@inheritance@????0@*@0@I@
 CCCC_UseRel@string@NotificationEntity@
 CCCC_UseExt@string@NotificationEntity@NotificationEntity.h@13@pass by reference@F????@*@?@p@
 CCCC_UseRel@INotificationManager@NotificationManager@
 CCCC_UseExt@INotificationManager@NotificationManager@NotificationManager.h@10@inheritance@????0@*@0@I@
+CCCC_UseRel@IApplication@Official@
+CCCC_UseExt@IApplication@Official@OfficialTeam.h@26@pass by reference@FT??0@*@0@p@
+CCCC_UseExt@IApplication@Official@OfficialTeam.h@31@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@Leaves_Team@Official@
+CCCC_UseExt@Leaves_Team@Official@OfficialTeam.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@Record@Official@
+CCCC_UseExt@Record@Official@OfficialTeam.h@26@pass by reference@FT??0@*@0@p@
+CCCC_UseExt@Record@Official@OfficialTeam.h@31@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@string@Official@
+CCCC_UseExt@string@Official@OfficialTeam.h@31@pass by value@FT??0@*@0@P@
+CCCC_UseRel@vector@Official@
+CCCC_UseExt@vector@Official@OfficialTeam.h@9@pass by value@FT??2@*@2@P@
+CCCC_UseExt@vector@Official@OfficialTeam.h@14@pass by value@FT??0@*@0@P@
+CCCC_UseRel@DefaultLeaveApplication@OfficialLeaveApp@
+CCCC_UseExt@DefaultLeaveApplication@OfficialLeaveApp@OfficialLeaveApp.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@string@OfficialLeaveApp@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@7@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@8@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@9@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@13@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@13@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@13@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@13@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@13@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@13@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@14@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@14@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@14@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@OfficialLeaveApp@OfficialLeaveApp.h@14@pass by value@F???0@*@0@P@
+CCCC_UseRel@Status@Pending@
+CCCC_UseExt@Status@Pending@ApplicationTypes.h@87@inheritance@F???0@*@0@I@
+CCCC_UseRel@string@Person@
+CCCC_UseExt@string@Person@IPerson.h@7@has by value@????1@LOC:0 COM:0 MVG:0@1@H@
+CCCC_UseExt@string@Person@IPerson.h@8@has by value@????1@LOC:0 COM:0 MVG:0@1@H@
 CCCC_UseRel@T@Record@
-CCCC_UseExt@T@Record@Report.h@73@pass by reference@F??T0@*@0@p@
+CCCC_UseExt@T@Record@IRecord.h@7@pass by reference@F??T0@*@0@p@
+CCCC_UseRel@Status@Rejected@
+CCCC_UseExt@Status@Rejected@ApplicationTypes.h@91@inheritance@F???0@*@0@I@
+CCCC_UseRel@string@Signup@
+CCCC_UseExt@string@Signup@Signup.h@31@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IApplication@Status@
+CCCC_UseExt@IApplication@Status@ApplicationTypes.h@17@pass by reference@F???0@*@0@p@
+CCCC_UseExt@IApplication@Status@ApplicationTypes.h@24@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@Status@
+CCCC_UseExt@string@Status@ApplicationTypes.h@11@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Status@ApplicationTypes.h@14@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Status@ApplicationTypes.h@17@pass by value@F???0@*@0@P@
+CCCC_UseRel@Admin@Supervisor@
+CCCC_UseExt@Admin@Supervisor@Supervisor.h@4@inheritance@????0@*@0@I@
+CCCC_UseRel@Person@Supervisor@
+CCCC_UseExt@Person@Supervisor@Supervisor.h@4@inheritance@????0@*@0@I@
+CCCC_UseRel@string@Supervisor@
+CCCC_UseExt@string@Supervisor@Supervisor.h@8@pass by value@F???0@*@0@P@
 CCCC_UseRel@Admin@SupervisorPortal@
-CCCC_UseExt@Admin@SupervisorPortal@main.cpp@10@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
-CCCC_UseExt@Admin@SupervisorPortal@main.cpp@13@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Admin@SupervisorPortal@SupervisorPortal.h@7@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Admin@SupervisorPortal@SupervisorPortal.h@10@pass by reference@F???0@*@0@p@
 CCCC_UseRel@Main@SupervisorPortal@
-CCCC_UseExt@Main@SupervisorPortal@main.cpp@9@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
-CCCC_RejExt@main.cpp@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_UseExt@Main@SupervisorPortal@SupervisorPortal.h@6@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@IApplication@Unpaid@
+CCCC_UseExt@IApplication@Unpaid@UnpaidTeam.h@25@pass by reference@FT??0@*@0@p@
+CCCC_UseExt@IApplication@Unpaid@UnpaidTeam.h@31@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@Leaves_Team@Unpaid@
+CCCC_UseExt@Leaves_Team@Unpaid@UnpaidTeam.h@4@inheritance@????0@*@0@I@
+CCCC_UseRel@Record@Unpaid@
+CCCC_UseExt@Record@Unpaid@UnpaidTeam.h@31@pass by reference@FT??0@*@0@p@
+CCCC_UseRel@string@Unpaid@
+CCCC_UseExt@string@Unpaid@UnpaidTeam.h@31@pass by value@FT??0@*@0@P@
+CCCC_UseRel@vector@Unpaid@
+CCCC_UseExt@vector@Unpaid@UnpaidTeam.h@8@pass by value@FT??2@*@2@P@
+CCCC_UseExt@vector@Unpaid@UnpaidTeam.h@13@pass by value@FT??0@*@0@P@
+CCCC_UseRel@DefaultLeaveApplication@UnpaidLeaveApp@
+CCCC_UseExt@DefaultLeaveApplication@UnpaidLeaveApp@UnpaidLeaveApp.h@5@inheritance@????0@*@0@I@
+CCCC_UseRel@string@UnpaidLeaveApp@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@7@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@11@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@11@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@11@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@11@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@11@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@11@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@12@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@UnpaidLeaveApp@UnpaidLeaveApp.h@12@pass by value@F???0@*@0@P@
+CCCC_UseRel@IApplication@UnpaidLeavePA@
+CCCC_UseExt@IApplication@UnpaidLeavePA@UnpaidPostAction.h@6@pass by reference@F???0@*@0@p@
+CCCC_UseRel@IPostAction@UnpaidLeavePA@
+CCCC_UseExt@IPostAction@UnpaidLeavePA@UnpaidPostAction.h@4@inheritance@????0@*@0@I@
+CCCC_RejExt@IApplyLeave.cpp@1@<file scope items>@?????@LOC:1 COM:0 MVG:0@?@r@
+CCCC_RejExt@LeavesSingletonInstantiate.cpp@1@<file scope items>@?????@LOC:6 COM:0 MVG:0@?@r@
+CCCC_RejExt@main.cpp@1@<file scope items>@F????@LOC:2 COM:0 MVG:0@?@r@
+CCCC_RejExt@MainInstant.cpp@1@<file scope items>@?????@LOC:2 COM:0 MVG:0@?@r@
+CCCC_RejExt@MainPortal.cpp@1@<file scope items>@?????@LOC:2 COM:0 MVG:0@?@r@
+CCCC_RejExt@NotificationManager.cpp@1@<file scope items>@?????@LOC:2 COM:0 MVG:0@?@r@
+CCCC_RejExt@Time.cpp@1@<file scope items>@F????@LOC:6 COM:0 MVG:0@?@r@
+CCCC_RejExt@Admin.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@ApplicationTypes.h@1@<file scope items>@FT??0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@AttendenceEntity.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@AwardHoursAction.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@CasualTeam.h@34@action -> postaction @FT??0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@Director.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
 CCCC_RejExt@DirectorPortal.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@EarnedTeam.h@35@action -> postaction @FT??0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@Employee.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@EmployeePortal.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@Guard.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@GuardPortal.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@IApplication.h@1@<file scope items>@F??T2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@IApplicationObserve.h@1@<file scope items>@F??T2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@IApplyLeave.h@1@<file scope items>@FT??2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@IAttendenceEntity.h@1@<file scope items>@F??T2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@IMonthlyReports.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@InactivityManager.h@1@<file scope items>@FT??0@LOC:2 COM:0 MVG:0@0@r@
 CCCC_RejExt@INotificationEntity.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
 CCCC_RejExt@INotificationManager.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@IPerson.h@1@<file scope items>@F??T2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@IPostAction.h@1@<file scope items>@F??T2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@IRecord.h@1@<file scope items>@F??T2@LOC:3 COM:0 MVG:0@2@r@
+CCCC_RejExt@IValidator.h@1@<file scope items>@F??T2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@LeavesRecord.h@1@<file scope items>@F???0@LOC:2 COM:0 MVG:0@0@r@
+CCCC_RejExt@Login.h@1@<file scope items>@?????@LOC:1 COM:1 MVG:0@?@r@
+CCCC_RejExt@Main.h@1@<file scope items>@FT??2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@MainPortal.h@1@<file scope items>@FT??2@LOC:2 COM:0 MVG:0@2@r@
 CCCC_RejExt@NotificationEntity.h@17@override { return @T???0@LOC:1 COM:0 MVG:1@0@r@
+CCCC_RejExt@OfficialTeam.h@1@<file scope items>@FT??0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@Report.h@1@<file scope items>@????2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@Signup.h@1@<file scope items>@F???2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@Supervisor.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@SupervisorPortal.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@UnpaidPostAction.h@1@<file scope items>@F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@UnpaidTeam.h@1@<file scope items>@FT??0@LOC:1 COM:0 MVG:0@0@r@

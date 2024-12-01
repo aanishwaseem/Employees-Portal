@@ -2,38 +2,42 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include "Employee.h"
 using namespace std;
 class Signup {
 public:
 	Signup() {}
 
-	void open()
+	Employee* open()
 	{
 		system("cls");
 		cout << "Sign Up:\n";
-		employeeSignup();
+		Employee* newe = employeeSignup();
 		system("pause");
+		return newe;
 	}
 
-	void employeeSignup()
+	Employee* employeeSignup()
 	{
 		string name;
-		int id, password;
+		int id;
+		string password;
 		getCredentials(id, password);
 		cout << "Signed Up as Employee: " << id << endl;
+		return new Employee(id, password);
 	}
 
 
-	void getCredentials(int& id, int& password)
+	void getCredentials(int& id, string& password)
 	{
 		cout << "Enter Id:";
 		cin >> id;
 		cout << "Enter Password:";
 		cin >> password;
 
-		string filename = "file" + to_string(id);
-		ofstream file(filename);
-		file << id << " " << password;
+		string filename = "employees.txt";
+		ofstream file(filename, ios::app);
+		file << id << " " << password << endl;
 	}
 
 	void getType(int& type)

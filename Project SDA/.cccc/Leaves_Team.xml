@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Leaves_Team-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="16" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="4" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="4" level="0" />
+<coupling_between_objects value="7" level="0" />
+<IF4 value="100" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="100" level="1" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="64" level="1" />
+<IF4_concrete_per_member_function value="********" level="2" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="ILeaves_Team.h" line="5" />
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Leaves_Team</name>
+<client_module>
+<name>Casual</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="CasualTeam.h" line="5" />
+</extent>
+<name>Earned</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="EarnedTeam.h" line="5" />
+</extent>
+<name>IApplyLeave</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="IApplyLeave.h" line="17" />
+</extent>
+<name>Official</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="OfficialTeam.h" line="5" />
+</extent>
+<name>Unpaid</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="UnpaidTeam.h" line="4" />
+</extent>
+</client_module>
+<supplier_module>
+<name>IApplicationObserver</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ILeaves_Team.h" line="5" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ILeaves_Team.h" line="7" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ILeaves_Team.h" line="8" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

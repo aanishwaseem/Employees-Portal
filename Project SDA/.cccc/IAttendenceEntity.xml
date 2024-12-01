@@ -2,7 +2,7 @@
 <!--Detailed report on module IAttendenceEntity-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="7" level="0" />
+<lines_of_code value="6" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
@@ -24,8 +24,8 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Report.h" line="35" />
-<lines_of_code value="3" level="0" />
+<source_reference file="IAttendenceEntity.h" line="4" />
+<lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -36,7 +36,7 @@
 <name>display()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="37" />
+<source_reference file="IAttendenceEntity.h" line="6" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +48,7 @@
 <name>getEmpId()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="38" />
+<source_reference file="IAttendenceEntity.h" line="7" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -60,7 +60,7 @@
 <name>getFileObjectFormat()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="40" />
+<source_reference file="IAttendenceEntity.h" line="9" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -72,7 +72,7 @@
 <name>getHours()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Report.h" line="39" />
+<source_reference file="IAttendenceEntity.h" line="8" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -85,12 +85,12 @@
 <module>
 <name>IAttendenceEntity</name>
 <client_module>
-<name>AttendanceRecord</name>
+<name>AttendenceEntity</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Report.h" line="43" />
+<source_reference file="AttendenceEntity.h" line="4" />
 </extent>
 </client_module>
 <supplier_module>

@@ -36,6 +36,8 @@ public:
 			if (status == "Approved") {
 				postactions(application);
 			}
+			applications.erase(std::find(applications.begin(), applications.end(), application));
+
 		}
 		else {
 			approvers[ApproverNumber]->AddObserver(attenRecords, application, Unpaid::getInstance(approvers), ApproverNumber);  // Start the approval process with the first approver

@@ -6,8 +6,8 @@
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
-<lines_of_code value="1" level="0" />
-<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 <weighted_methods_per_class_unity value="1" level="0" />
@@ -24,10 +24,10 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Report.h" line="81" />
+<source_reference file="AttendenceRecord.h" line="9" />
 <lines_of_code value="12" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="1" level="0" />
+<lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module_detail>
@@ -36,7 +36,7 @@
 <name>ISummary(int *,int *,int *,vector *)</name>
 <extent>
 <description>definition</description>
-<source_reference file="Report.h" line="88" />
+<source_reference file="AttendenceRecord.h" line="16" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -56,18 +56,18 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Report.h" line="81" />
+<source_reference file="AttendenceRecord.h" line="9" />
 </extent>
 <name>vector</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>has by reference</description>
-<source_reference file="Report.h" line="86" />
+<source_reference file="AttendenceRecord.h" line="14" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Report.h" line="88" />
+<source_reference file="AttendenceRecord.h" line="16" />
 </extent>
 </supplier_module>
 </module>

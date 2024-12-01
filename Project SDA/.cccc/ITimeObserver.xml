@@ -6,15 +6,15 @@
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
-<lines_of_code value="1" level="0" />
-<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 <weighted_methods_per_class_unity value="3" level="0" />
 <weighted_methods_per_class_visibility value="3" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
-<number_of_children value="1" level="0" />
-<coupling_between_objects value="2" level="0" />
+<number_of_children value="3" level="0" />
+<coupling_between_objects value="5" level="0" />
 <IF4 value="0" level="0" />
 <IF4_per_member_function value="********" level="0" />
 <IF4_visible value="0" level="0" />
@@ -24,10 +24,10 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Time.h" line="6" />
+<source_reference file="Time.h" line="15" />
 <lines_of_code value="4" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="1" level="0" />
+<lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module_detail>
@@ -36,7 +36,7 @@
 <name>onMonthUpdate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="9" />
+<source_reference file="Time.h" line="18" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +48,7 @@
 <name>onWeekUpdate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="8" />
+<source_reference file="Time.h" line="17" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -60,7 +60,7 @@
 <name>onYearUpdate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="10" />
+<source_reference file="Time.h" line="19" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -73,23 +73,48 @@
 <module>
 <name>ITimeObserver</name>
 <client_module>
+<name>IMonthlyReports</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="IMonthlyReports.h" line="8" />
+</extent>
 <name>ISummary</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Report.h" line="81" />
+<source_reference file="AttendenceRecord.h" line="9" />
 </extent>
 <name>ITimeObservable</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Time.h" line="16" />
+<source_reference file="Time.h" line="25" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Time.h" line="17" />
+<source_reference file="Time.h" line="26" />
+</extent>
+<name>InactivityManager</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="InactivityManager.h" line="5" />
+</extent>
+<name>Main</name>
+<visible>false</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="Main.h" line="14" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="Main.h" line="15" />
 </extent>
 </client_module>
 <supplier_module>

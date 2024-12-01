@@ -6,6 +6,7 @@ private:
 	Record<IAttendenceEntity>* myAttendenceRecord;
 	Record<IApplication>* myLeaveRecord;
 public:
+	int inactive = 0;
 
 	Employee() {}
 	Employee(int ID, string PASs) {
@@ -17,11 +18,12 @@ public:
 	string getType() {
 		return type;
 	}
-	void initializeEmployee(Record<IAttendenceEntity>* NewRecord, Record<IApplication>* NewLeaveRecord){
+	void initializeEmployee(int Inactive, Record<IAttendenceEntity>* NewRecord, Record<IApplication>* NewLeaveRecord){
 		myAttendenceRecord = NewRecord;
 		myLeaveRecord = NewLeaveRecord;
 		myAttendenceRecord->refresh();
 		myLeaveRecord->refresh();
+		inactive = Inactive;
 	}
 	string getPass() {
 		return pass;

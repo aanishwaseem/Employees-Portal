@@ -11,6 +11,7 @@ public:
 	virtual string getApplicationType() = 0;
 	virtual string getDate() = 0;
 	virtual string getToDate() = 0;
+	virtual void processPendingApplication() = 0;
 	virtual int getDuration() = 0;
 	virtual string getStatus() = 0;
 	virtual string getFileObjectFormat() = 0;

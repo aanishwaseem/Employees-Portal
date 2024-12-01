@@ -1,29 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Report on software metrics-->
 <CCCC_Project>
-<timestamp>Sat Nov 30 23:41:01 2024
+<timestamp>Sun Dec 01 23:26:10 2024
 </timestamp>
 <project_summary>
-<number_of_modules value="22" level="0" />
-<lines_of_code value="273" level="0" />
-<lines_of_code_per_module value="12.409" level="0" />
-<McCabes_cyclomatic_complexity value="22" level="0" />
-<McCabes_cyclomatic_complexity_per_module value="1.000" level="0" />
-<lines_of_comment value="31" level="0" />
-<lines_of_comment_per_module value="1.409" level="0" />
-<lines_of_code_per_line_of_comment value="8.806" level="1" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="0.710" level="0" />
-<IF4 value="1" level="0" />
-<IF4_per_module value="0.045" level="0" />
-<IF4_visible value="1" level="0" />
-<IF4_visible_per_module value="0.045" level="0" />
-<IF4_concrete value="0" level="0" />
-<IF4_concrete value="0.000" level="0" />
-<rejected_lines_of_code value="5" level="0" />
+<number_of_modules value="59" level="0" />
+<lines_of_code value="1705" level="0" />
+<lines_of_code_per_module value="28.898" level="0" />
+<McCabes_cyclomatic_complexity value="250" level="0" />
+<McCabes_cyclomatic_complexity_per_module value="4.237" level="0" />
+<lines_of_comment value="132" level="0" />
+<lines_of_comment_per_module value="2.237" level="0" />
+<lines_of_code_per_line_of_comment value="12.917" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.894" level="0" />
+<IF4 value="1802" level="0" />
+<IF4_per_module value="30.542" level="0" />
+<IF4_visible value="1702" level="0" />
+<IF4_visible_per_module value="28.847" level="0" />
+<IF4_concrete value="241" level="0" />
+<IF4_concrete value="4.085" level="0" />
+<rejected_lines_of_code value="67" level="0" />
 </project_summary>
 <procedural_summary>
 <module>
 <name>Admin</name>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>AdminNotifier</name>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>AdminObserverManager</name>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Approved</name>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Attendence</name>
 <lines_of_code value="0" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -31,10 +63,50 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
-<name>AttendanceRecord</name>
-<lines_of_code value="19" level="0" />
+<name>AttendenceEntity</name>
+<lines_of_code value="20" level="0" />
 <McCabes_cyclomatic_complexity value="3" level="0" />
 <lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="6.667" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>AwardHoursAction</name>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Casual</name>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</module>
+<module>
+<name>CasualLeaveValidator</name>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>DefaultLeaveApplication</name>
+<lines_of_code value="67" level="0" />
+<McCabes_cyclomatic_complexity value="15" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="6.700" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
+</module>
+<module>
+<name>Director</name>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
@@ -47,8 +119,56 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="0.857" level="0" />
 </module>
 <module>
+<name>DisplayStrategy</name>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Earned</name>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</module>
+<module>
+<name>EarnedLeaveValidator</name>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
 <name>Employee</name>
-<lines_of_code value="1" level="0" />
+<lines_of_code value="47" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="47.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</module>
+<module>
+<name>EmployeePortal</name>
+<lines_of_code value="173" level="0" />
+<McCabes_cyclomatic_complexity value="16" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="19.222" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.778" level="0" />
+</module>
+<module>
+<name>Guard</name>
+<lines_of_code value="24" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>GuardPortal</name>
+<lines_of_code value="14" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -56,19 +176,51 @@
 </module>
 <module>
 <name>IApplication</name>
-<lines_of_code value="14" level="0" />
+<lines_of_code value="13" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
-<name>IAttendenceEntity</name>
-<lines_of_code value="7" level="0" />
+<name>IApplicationObservable</name>
+<lines_of_code value="4" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>IApplicationObserver</name>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>IApplyLeave</name>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="28.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</module>
+<module>
+<name>IAttendenceEntity</name>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>IMonthlyReports</name>
+<lines_of_code value="39" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="39.000" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
 </module>
 <module>
 <name>INotificationEntity</name>
@@ -87,10 +239,18 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
+<name>IPostAction</name>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
 <name>ISummary</name>
 <lines_of_code value="18" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="1" level="0" />
+<lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
@@ -106,17 +266,65 @@
 <name>ITimeObserver</name>
 <lines_of_code value="7" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>IValidator</name>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
-<name>Main</name>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
+<name>InactivityManager</name>
+<lines_of_code value="63" level="0" />
+<McCabes_cyclomatic_complexity value="13" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="7.875" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.625" level="0" />
+</module>
+<module>
+<name>Leave</name>
+<lines_of_code value="73" level="0" />
+<McCabes_cyclomatic_complexity value="16" level="0" />
+<lines_of_comment value="17" level="0" />
+<lines_of_code_per_line_of_comment value="4.294" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.941" level="0" />
+</module>
+<module>
+<name>Leaves_Team</name>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="4" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Login</name>
+<lines_of_code value="207" level="0" />
+<McCabes_cyclomatic_complexity value="37" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="23.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.111" level="0" />
+</module>
+<module>
+<name>Main</name>
+<lines_of_code value="52" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="13.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
+</module>
+<module>
+<name>MainPortal</name>
+<lines_of_code value="107" level="0" />
+<McCabes_cyclomatic_complexity value="16" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
 </module>
 <module>
 <name>MyTime</name>
@@ -143,6 +351,38 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
+<name>Official</name>
+<lines_of_code value="41" level="0" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="10.250" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.250" level="0" />
+</module>
+<module>
+<name>OfficialLeaveApp</name>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Pending</name>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Person</name>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
 <name>Record</name>
 <lines_of_code value="8" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -151,9 +391,33 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
-<name>Status</name>
-<lines_of_code value="1" level="0" />
+<name>Rejected</name>
+<lines_of_code value="4" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>Signup</name>
+<lines_of_code value="39" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</module>
+<module>
+<name>Status</name>
+<lines_of_code value="55" level="0" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="6.875" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.125" level="0" />
+</module>
+<module>
+<name>Supervisor</name>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
@@ -175,11 +439,43 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
-<name>anonymous</name>
-<lines_of_code value="53" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
+<name>Unpaid</name>
+<lines_of_code value="41" level="0" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
 <lines_of_comment value="4" level="0" />
-<lines_of_code_per_line_of_comment value="13.250" level="1" />
+<lines_of_code_per_line_of_comment value="10.250" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.250" level="0" />
+</module>
+<module>
+<name>UnpaidLeaveApp</name>
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>UnpaidLeavePA</name>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module>
+<module>
+<name>anonymous</name>
+<lines_of_code value="68" level="0" />
+<McCabes_cyclomatic_complexity value="17" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="4.857" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.214" level="0" />
+</module>
+<module>
+<name>bool</name>
+<lines_of_code value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module>
 <module>
@@ -202,19 +498,91 @@
 <oo_design>
 <module>
 <name>Admin</name>
+<weighted_methods_per_class_unity value="3" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="2" level="0" />
+<coupling_between_objects value="12" level="0" />
+</module>
+<module>
+<name>AdminNotifier</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="3" level="0" />
+</module>
+<module>
+<name>AdminObserverManager</name>
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>Approved</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>Attendence</name>
 <weighted_methods_per_class_unity value="0" level="0" />
 <weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="2" level="0" />
+<coupling_between_objects value="1" level="0" />
 </module>
 <module>
-<name>AttendanceRecord</name>
+<name>AttendenceEntity</name>
 <weighted_methods_per_class_unity value="5" level="0" />
 <weighted_methods_per_class_visibility value="5" level="0" />
 <depth_of_inheritance_tree value="1" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>AwardHoursAction</name>
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+</module>
+<module>
+<name>Casual</name>
+<weighted_methods_per_class_unity value="3" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>CasualLeaveValidator</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="3" level="0" />
+</module>
+<module>
+<name>DefaultLeaveApplication</name>
+<weighted_methods_per_class_unity value="13" level="0" />
+<weighted_methods_per_class_visibility value="13" level="1" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="2" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>Director</name>
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="6" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="3" level="0" />
 </module>
 <module>
 <name>DirectorPortal</name>
@@ -225,20 +593,92 @@
 <coupling_between_objects value="2" level="0" />
 </module>
 <module>
-<name>Employee</name>
-<weighted_methods_per_class_unity value="0" level="0" />
-<weighted_methods_per_class_visibility value="0" level="0" />
+<name>DisplayStrategy</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>Earned</name>
+<weighted_methods_per_class_unity value="3" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>EarnedLeaveValidator</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="3" level="0" />
+</module>
+<module>
+<name>Employee</name>
+<weighted_methods_per_class_unity value="12" level="0" />
+<weighted_methods_per_class_visibility value="12" level="1" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+</module>
+<module>
+<name>EmployeePortal</name>
+<weighted_methods_per_class_unity value="3" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>Guard</name>
+<weighted_methods_per_class_unity value="5" level="0" />
+<weighted_methods_per_class_visibility value="5" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>GuardPortal</name>
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
 </module>
 <module>
 <name>IApplication</name>
 <weighted_methods_per_class_unity value="11" level="0" />
 <weighted_methods_per_class_visibility value="11" level="1" />
 <depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="16" level="1" />
+</module>
+<module>
+<name>IApplicationObservable</name>
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>IApplicationObserver</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="7" level="0" />
+</module>
+<module>
+<name>IApplyLeave</name>
+<weighted_methods_per_class_unity value="4" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="1" level="0" />
+<coupling_between_objects value="4" level="0" />
 </module>
 <module>
 <name>IAttendenceEntity</name>
@@ -247,6 +687,14 @@
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
 <coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>IMonthlyReports</name>
+<weighted_methods_per_class_unity value="7" level="0" />
+<weighted_methods_per_class_visibility value="7" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
 </module>
 <module>
 <name>INotificationEntity</name>
@@ -263,6 +711,14 @@
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
 <coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>IPostAction</name>
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="2" level="0" />
+<coupling_between_objects value="3" level="0" />
 </module>
 <module>
 <name>ISummary</name>
@@ -285,13 +741,61 @@
 <weighted_methods_per_class_unity value="3" level="0" />
 <weighted_methods_per_class_visibility value="3" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
-<number_of_children value="1" level="0" />
+<number_of_children value="3" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>IValidator</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="2" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>InactivityManager</name>
+<weighted_methods_per_class_unity value="10" level="0" />
+<weighted_methods_per_class_visibility value="10" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>Leave</name>
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="5" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+</module>
+<module>
+<name>Leaves_Team</name>
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="4" level="0" />
+<coupling_between_objects value="7" level="0" />
+</module>
+<module>
+<name>Login</name>
+<weighted_methods_per_class_unity value="9" level="0" />
+<weighted_methods_per_class_visibility value="9" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
 <coupling_between_objects value="2" level="0" />
 </module>
 <module>
 <name>Main</name>
-<weighted_methods_per_class_unity value="0" level="0" />
-<weighted_methods_per_class_visibility value="0" level="0" />
+<weighted_methods_per_class_unity value="5" level="0" />
+<weighted_methods_per_class_visibility value="4" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>MainPortal</name>
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="4" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="2" level="0" />
@@ -321,7 +825,55 @@
 <coupling_between_objects value="1" level="0" />
 </module>
 <module>
+<name>Official</name>
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="5" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>OfficialLeaveApp</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>Pending</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>Person</name>
+<weighted_methods_per_class_unity value="3" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="4" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
 <name>Record</name>
+<weighted_methods_per_class_unity value="5" level="0" />
+<weighted_methods_per_class_visibility value="5" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="1" level="0" />
+<coupling_between_objects value="10" level="0" />
+</module>
+<module>
+<name>Rejected</name>
+<weighted_methods_per_class_unity value="1" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
+</module>
+<module>
+<name>Signup</name>
 <weighted_methods_per_class_unity value="5" level="0" />
 <weighted_methods_per_class_visibility value="5" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
@@ -330,11 +882,19 @@
 </module>
 <module>
 <name>Status</name>
-<weighted_methods_per_class_unity value="0" level="0" />
-<weighted_methods_per_class_visibility value="0" level="0" />
+<weighted_methods_per_class_unity value="5" level="0" />
+<weighted_methods_per_class_visibility value="5" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="3" level="0" />
+<coupling_between_objects value="6" level="0" />
+</module>
+<module>
+<name>Supervisor</name>
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="6" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="0" level="0" />
+<coupling_between_objects value="3" level="0" />
 </module>
 <module>
 <name>SupervisorPortal</name>
@@ -353,12 +913,44 @@
 <coupling_between_objects value="1" level="0" />
 </module>
 <module>
-<name>anonymous</name>
-<weighted_methods_per_class_unity value="2" level="0" />
+<name>Unpaid</name>
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="5" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="5" level="0" />
+</module>
+<module>
+<name>UnpaidLeaveApp</name>
+<weighted_methods_per_class_unity value="1" level="0" />
 <weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>UnpaidLeavePA</name>
+<weighted_methods_per_class_unity value="2" level="0" />
+<weighted_methods_per_class_visibility value="2" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+</module>
+<module>
+<name>anonymous</name>
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="0" level="0" />
+</module>
+<module>
+<name>bool</name>
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="1" level="0" />
 </module>
 <module>
 <name>string</name>
@@ -366,7 +958,7 @@
 <weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="2" level="0" />
+<coupling_between_objects value="21" level="1" />
 </module>
 <module>
 <name>vector</name>
@@ -374,15 +966,63 @@
 <weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="2" level="0" />
+<coupling_between_objects value="20" level="1" />
 </module>
 </oo_design>
 <structural_summary>
 <module>
 <name>Admin</name>
-<fan_out_visible value="2" level="0" />
+<fan_out_visible value="4" level="0" />
+<fan_out_concrete value="2" level="0" />
+<fan_out value="4" level="0" />
+<fan_in_visible value="8" level="1" />
+<fan_in_concrete value="5" level="0" />
+<fan_in value="8" level="0" />
+<IF4_visible value="1024" level="2" />
+<IF4_concrete value="100" level="1" />
+<IF4 value="1024" level="2" />
+</module>
+<module>
+<name>AdminNotifier</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="4" level="0" />
+<IF4_concrete value="4" level="0" />
+<IF4 value="4" level="0" />
+</module>
+<module>
+<name>AdminObserverManager</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="4" level="0" />
+<IF4_visible value="9" level="0" />
+<IF4_concrete value="1" level="0" />
+<IF4 value="16" level="0" />
+</module>
+<module>
+<name>Approved</name>
+<fan_out_visible value="0" level="0" />
 <fan_out_concrete value="0" level="0" />
-<fan_out value="2" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Attendence</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="1" level="0" />
 <fan_in_visible value="0" level="0" />
 <fan_in_concrete value="0" level="0" />
 <fan_in value="0" level="0" />
@@ -391,13 +1031,73 @@
 <IF4 value="0" level="0" />
 </module>
 <module>
-<name>AttendanceRecord</name>
+<name>AttendenceEntity</name>
 <fan_out_visible value="0" level="0" />
 <fan_out_concrete value="0" level="0" />
 <fan_out value="0" level="0" />
 <fan_in_visible value="1" level="0" />
 <fan_in_concrete value="1" level="0" />
 <fan_in value="1" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>AwardHoursAction</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="4" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="4" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Casual</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>CasualLeaveValidator</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="3" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>DefaultLeaveApplication</name>
+<fan_out_visible value="2" level="0" />
+<fan_out_concrete value="2" level="0" />
+<fan_out value="2" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="3" level="0" />
+<fan_in value="3" level="0" />
+<IF4_visible value="16" level="0" />
+<IF4_concrete value="36" level="1" />
+<IF4 value="36" level="0" />
+</module>
+<module>
+<name>Director</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="3" level="0" />
+<fan_in value="3" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
@@ -415,28 +1115,136 @@
 <IF4 value="0" level="0" />
 </module>
 <module>
-<name>Employee</name>
+<name>DisplayStrategy</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="1" level="0" />
+<IF4_concrete value="1" level="0" />
+<IF4 value="1" level="0" />
+</module>
+<module>
+<name>Earned</name>
 <fan_out_visible value="0" level="0" />
 <fan_out_concrete value="0" level="0" />
 <fan_out value="0" level="0" />
-<fan_in_visible value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>EarnedLeaveValidator</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="3" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Employee</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="3" level="0" />
+<IF4_visible value="9" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="9" level="0" />
+</module>
+<module>
+<name>EmployeePortal</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="1" level="0" />
 <fan_in_concrete value="0" level="0" />
-<fan_in value="0" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Guard</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="4" level="0" />
+<fan_in_concrete value="4" level="0" />
+<fan_in value="4" level="0" />
+<IF4_visible value="16" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="16" level="0" />
+</module>
+<module>
+<name>GuardPortal</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="1" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
 </module>
 <module>
 <name>IApplication</name>
-<fan_out_visible value="0" level="0" />
-<fan_out_concrete value="0" level="0" />
-<fan_out value="0" level="0" />
+<fan_out_visible value="15" level="2" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="15" level="1" />
 <fan_in_visible value="1" level="0" />
 <fan_in_concrete value="1" level="0" />
 <fan_in value="1" level="0" />
+<IF4_visible value="225" level="2" />
+<IF4_concrete value="1" level="0" />
+<IF4 value="225" level="1" />
+</module>
+<module>
+<name>IApplicationObservable</name>
+<fan_out_visible value="1" level="0" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="4" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="4" level="0" />
+<IF4_visible value="16" level="0" />
+<IF4_concrete value="1" level="0" />
+<IF4 value="16" level="0" />
+</module>
+<module>
+<name>IApplicationObserver</name>
+<fan_out_visible value="4" level="0" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="4" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="3" level="0" />
+<IF4_visible value="144" level="2" />
+<IF4_concrete value="1" level="0" />
+<IF4 value="144" level="1" />
+</module>
+<module>
+<name>IApplyLeave</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="3" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
-<IF4 value="0" level="0" />
+<IF4 value="9" level="0" />
 </module>
 <module>
 <name>IAttendenceEntity</name>
@@ -446,6 +1254,18 @@
 <fan_in_visible value="0" level="0" />
 <fan_in_concrete value="0" level="0" />
 <fan_in value="0" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>IMonthlyReports</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="2" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
@@ -473,6 +1293,18 @@
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
+</module>
+<module>
+<name>IPostAction</name>
+<fan_out_visible value="2" level="0" />
+<fan_out_concrete value="2" level="0" />
+<fan_out value="2" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="4" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="4" level="0" />
 </module>
 <module>
 <name>ISummary</name>
@@ -500,12 +1332,72 @@
 </module>
 <module>
 <name>ITimeObserver</name>
+<fan_out_visible value="4" level="0" />
+<fan_out_concrete value="3" level="0" />
+<fan_out value="5" level="0" />
+<fan_in_visible value="0" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="0" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>IValidator</name>
 <fan_out_visible value="2" level="0" />
-<fan_out_concrete value="1" level="0" />
+<fan_out_concrete value="2" level="0" />
 <fan_out value="2" level="0" />
 <fan_in_visible value="0" level="0" />
 <fan_in_concrete value="0" level="0" />
 <fan_in value="0" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>InactivityManager</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Leave</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="4" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Leaves_Team</name>
+<fan_out_visible value="5" level="0" />
+<fan_out_concrete value="4" level="0" />
+<fan_out value="5" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="100" level="1" />
+<IF4_concrete value="64" level="1" />
+<IF4 value="100" level="0" />
+</module>
+<module>
+<name>Login</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="2" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
@@ -516,8 +1408,20 @@
 <fan_out_concrete value="0" level="0" />
 <fan_out value="2" level="0" />
 <fan_in_visible value="0" level="0" />
-<fan_in_concrete value="0" level="0" />
-<fan_in value="0" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="3" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="36" level="0" />
+</module>
+<module>
+<name>MainPortal</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="0" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="2" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
@@ -559,7 +1463,79 @@
 <IF4 value="0" level="0" />
 </module>
 <module>
+<name>Official</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="5" level="0" />
+<fan_in_concrete value="3" level="0" />
+<fan_in value="5" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>OfficialLeaveApp</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Pending</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Person</name>
+<fan_out_visible value="4" level="0" />
+<fan_out_concrete value="4" level="0" />
+<fan_out value="4" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="16" level="0" />
+<IF4_concrete value="16" level="0" />
+<IF4 value="16" level="0" />
+</module>
+<module>
 <name>Record</name>
+<fan_out_visible value="9" level="1" />
+<fan_out_concrete value="1" level="0" />
+<fan_out value="9" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="81" level="1" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="81" level="0" />
+</module>
+<module>
+<name>Rejected</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="1" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="1" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>Signup</name>
 <fan_out_visible value="0" level="0" />
 <fan_out_concrete value="0" level="0" />
 <fan_out value="0" level="0" />
@@ -572,12 +1548,24 @@
 </module>
 <module>
 <name>Status</name>
+<fan_out_visible value="3" level="0" />
+<fan_out_concrete value="4" level="0" />
+<fan_out value="4" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="36" level="1" />
+<IF4_concrete value="16" level="0" />
+<IF4 value="64" level="0" />
+</module>
+<module>
+<name>Supervisor</name>
 <fan_out_visible value="0" level="0" />
 <fan_out_concrete value="0" level="0" />
 <fan_out value="0" level="0" />
-<fan_in_visible value="0" level="0" />
-<fan_in_concrete value="0" level="0" />
-<fan_in value="0" level="0" />
+<fan_in_visible value="3" level="0" />
+<fan_in_concrete value="3" level="0" />
+<fan_in value="3" level="0" />
 <IF4_visible value="0" level="0" />
 <IF4_concrete value="0" level="0" />
 <IF4 value="0" level="0" />
@@ -607,6 +1595,42 @@
 <IF4 value="0" level="0" />
 </module>
 <module>
+<name>Unpaid</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="5" level="0" />
+<fan_in_concrete value="3" level="0" />
+<fan_in value="5" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>UnpaidLeaveApp</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="2" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>UnpaidLeavePA</name>
+<fan_out_visible value="0" level="0" />
+<fan_out_concrete value="0" level="0" />
+<fan_out value="0" level="0" />
+<fan_in_visible value="2" level="0" />
+<fan_in_concrete value="1" level="0" />
+<fan_in value="2" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
 <name>anonymous</name>
 <fan_out_visible value="0" level="0" />
 <fan_out_concrete value="0" level="0" />
@@ -619,10 +1643,22 @@
 <IF4 value="0" level="0" />
 </module>
 <module>
-<name>string</name>
-<fan_out_visible value="2" level="0" />
+<name>bool</name>
+<fan_out_visible value="1" level="0" />
 <fan_out_concrete value="1" level="0" />
-<fan_out value="2" level="0" />
+<fan_out value="1" level="0" />
+<fan_in_visible value="0" level="0" />
+<fan_in_concrete value="0" level="0" />
+<fan_in value="0" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4 value="0" level="0" />
+</module>
+<module>
+<name>string</name>
+<fan_out_visible value="20" level="2" />
+<fan_out_concrete value="16" level="2" />
+<fan_out value="21" level="2" />
 <fan_in_visible value="0" level="0" />
 <fan_in_concrete value="0" level="0" />
 <fan_in value="0" level="0" />
@@ -632,9 +1668,9 @@
 </module>
 <module>
 <name>vector</name>
-<fan_out_visible value="2" level="0" />
-<fan_out_concrete value="1" level="0" />
-<fan_out value="2" level="0" />
+<fan_out_visible value="16" level="2" />
+<fan_out_concrete value="15" level="2" />
+<fan_out value="20" level="1" />
 <fan_in_visible value="0" level="0" />
 <fan_in_concrete value="0" level="0" />
 <fan_in value="0" level="0" />
@@ -646,7 +1682,91 @@
 <other_extents>
 <rejected_extent>
 <name>&lt;file scope items&gt;</name>
+<source_reference file="IApplyLeave.cpp" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="LeavesSingletonInstantiate.cpp" line="1" />
+<lines_of_code value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
 <source_reference file="main.cpp" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="MainInstant.cpp" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="MainPortal.cpp" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="NotificationManager.cpp" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Time.cpp" line="1" />
+<lines_of_code value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Admin.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="ApplicationTypes.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="AttendenceEntity.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="AwardHoursAction.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>action -&gt; postaction </name>
+<source_reference file="CasualTeam.h" line="34" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Director.h" line="1" />
 <lines_of_code value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -655,6 +1775,83 @@
 <name>&lt;file scope items&gt;</name>
 <source_reference file="DirectorPortal.h" line="1" />
 <lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>action -&gt; postaction </name>
+<source_reference file="EarnedTeam.h" line="35" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Employee.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="EmployeePortal.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Guard.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="GuardPortal.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IApplication.h" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IApplicationObserve.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IApplyLeave.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IAttendenceEntity.h" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IMonthlyReports.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="InactivityManager.h" line="1" />
+<lines_of_code value="2" level="0" />
 <lines_of_comment value="0" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 </rejected_extent>
@@ -673,11 +1870,116 @@
 <McCabes_cyclomatic_complexity value="0" level="0" />
 </rejected_extent>
 <rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IPerson.h" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IPostAction.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IRecord.h" line="1" />
+<lines_of_code value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="IValidator.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="LeavesRecord.h" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Login.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Main.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="MainPortal.h" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
 <name>override { return </name>
 <source_reference file="NotificationEntity.h" line="17" />
 <lines_of_code value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="OfficialTeam.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Report.h" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Signup.h" line="1" />
+<lines_of_code value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="Supervisor.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="SupervisorPortal.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="UnpaidPostAction.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+</rejected_extent>
+<rejected_extent>
+<name>&lt;file scope items&gt;</name>
+<source_reference file="UnpaidTeam.h" line="1" />
+<lines_of_code value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
 </rejected_extent>
 </other_extents>
 </CCCC_Project>

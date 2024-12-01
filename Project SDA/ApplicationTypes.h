@@ -10,6 +10,7 @@ class Status {
 	int appID;
 	string state;
 public:
+	Status(){}
 	Status(string stat, int id): appID(id) {
 		state = stat;
 	}
@@ -52,7 +53,7 @@ public:
 			}
 			else {
 				// Write the unchanged record back to the buffer
-				buffer << recordID << line << endl;
+				buffer << line << endl;
 			}
 		}
 	
@@ -78,8 +79,22 @@ public:
 	
 };
 
+
+class Approved : public Status {
+public:
+	Approved() {}
+};
+class Pending : public Status {
+public:
+	Pending() {}
+};
+class Rejected : public Status {
+public:
+	Rejected() {}
+};
+
 class DefaultLeaveApplication : public IApplication {
-private:
+protected:
 	int eid;
 	int id;
 	string leaveType;
@@ -97,7 +112,7 @@ public:
 
 	// Display the record
 	void display() {
-		cout << "Emp. ID: " << eid << ", Leave type: " << leaveType << ", days: " << days << ", from: " << from << ", to: " << to << endl;
+		cout << "Emp. ID: " << eid << ", Leave type: " << leaveType << ",  status: " << status.getState() << ", days: " << days << ", from: " << from << ", to: " << to << endl;
 	}
 	string getFileObjectFormat() {
 		string objformat = to_string(id) + " " + leaveType + " " + to_string(eid) + " " + (days)+" " + status.getState() + " " + (date)+" " + (to)+" " + (from)+" " + reason;
@@ -119,23 +134,16 @@ public:
 		string Type, days, status, date, to, from, reason;
 
 		ss >> id >> Type >> eid >> days >> status >> date >> to >> from >> reason;
-		IApplication* app = new DefaultLeaveApplication(eid, id, Type, days, date, to, from, reason);
+		IApplication* app = new DefaultLeaveApplication(eid, id, Type, days, date, to, from, reason, status);
 
-		if (stoi(days) > 0 && status == "Approved") {
-			IApplyLeave* system = IApplyLeave::getInstance();
-			AwardHoursAction action((*system->empAttendRegisters)[eid - 1], app, 8*stoi(days));
-			action.postaction();
-		}
-		if (status == "Pending") {
-
-			IApplyLeave* system = IApplyLeave::getInstance();
-			if (Type == "Casual")
-				system->applyLeave(eid, app, Casual::getInstance());
-			else
-				system->applyLeave(eid, app, Earned::getInstance());
-
-		}
-		return new DefaultLeaveApplication(eid, id, Type, days, date, to, from, reason, status);
+		return app;
+	}
+	void processPendingApplication(){
+		IApplyLeave* system = IApplyLeave::getInstance();
+		if (leaveType == "Casual")
+			system->applyLeave(eid, this, Casual::getInstance(), false);
+		else
+			system->applyLeave(eid, this, Earned::getInstance(), false);
 	}
 	string getStatus() {
 		return

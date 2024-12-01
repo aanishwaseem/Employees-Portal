@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="main.cpp" line="7" />
+<source_reference file="SupervisorPortal.h" line="4" />
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="2" level="0" />
@@ -36,7 +36,7 @@
 <name>SupervisorPortal(Admin *)</name>
 <extent>
 <description>definition</description>
-<source_reference file="main.cpp" line="13" />
+<source_reference file="SupervisorPortal.h" line="10" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +48,7 @@
 <name>SupervisorPortalDisplay()</name>
 <extent>
 <description>definition</description>
-<source_reference file="main.cpp" line="18" />
+<source_reference file="SupervisorPortal.h" line="15" />
 </extent>
 <lines_of_code value="31" level="1" />
 <McCabes_cyclomatic_complexity value="6" level="0" />
@@ -68,18 +68,18 @@
 <concrete>false</concrete>
 <extent>
 <description>has by reference</description>
-<source_reference file="main.cpp" line="10" />
+<source_reference file="SupervisorPortal.h" line="7" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="main.cpp" line="13" />
+<source_reference file="SupervisorPortal.h" line="10" />
 </extent>
 <name>Main</name>
 <visible>false</visible>
 <concrete>false</concrete>
 <extent>
 <description>has by reference</description>
-<source_reference file="main.cpp" line="9" />
+<source_reference file="SupervisorPortal.h" line="6" />
 </extent>
 </supplier_module>
 </module>

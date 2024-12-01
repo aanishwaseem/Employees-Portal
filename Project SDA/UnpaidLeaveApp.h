@@ -34,14 +34,10 @@ public:
 		ss >> leaveAddress;
 
 		UnpaidLeaveApp* app = new UnpaidLeaveApp(eid, id, Type, days, date, to, from, reason, leaveAddress, status);
-		if (stoi(days) > 0 && status == "Approved") {
-			UnpaidLeavePA action(app);
-			action.postaction();
-		}
-		if (status == "Pending") {
-			IApplyLeave* system = IApplyLeave::getInstance();
-			system->applyLeave(eid, app, Unpaid::getInstance());
-		}
 		return app;
+	}
+	void processPendingApplication() override {
+		IApplyLeave* system = IApplyLeave::getInstance();
+		system->applyLeave(eid, this, Unpaid::getInstance(), false);
 	}
 };

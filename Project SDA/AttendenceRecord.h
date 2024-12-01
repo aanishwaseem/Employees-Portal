@@ -75,13 +75,11 @@ public:
 		file << format << endl; // impostor
 		file.close();
 		int hrsworked = attendenceObject->getHours();
-		addWeekHours(hrsworked, MyTime::Week);
-		cout << "Attendance marked for Employee ID " << id << " with " << hrsworked << " hours worked." << endl;
+		addWeekHours(hrsworked, attendenceObject->getWeek());
 	}
 
 	void addWeekHours(int hrsworked, int week) {
 		// if its simple attendence then 
-		if (week == MyTime::Week) {
 			MonthlyHrsWorked -= WeeklyHrsWorked;
 
 			WeeklyHrsWorked += hrsworked;  // Add the current day's hours to weekly total
@@ -93,11 +91,7 @@ public:
 			MonthlyHrsWorked += hrsworked;
 			// Calculate percentage again based on new hours worked
 			Percentage = MonthlyHrsWorked * 100 / 160;  // 160 is the monthly work hour limit (40 * 4)
-		}
-		else {
-			//awarding credit hours for leaves
-			MonthlyHrsWorked += hrsworked;
-		}
+		
 	}
 	// Read file and populate attendance records
 	void refresh() { // method at check-in

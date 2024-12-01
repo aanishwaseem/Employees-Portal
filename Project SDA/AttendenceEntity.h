@@ -26,5 +26,6 @@ public:
 
 	// Getters (if needed)
 	int getEmpId() { return id; }
+	int getWeek() { return week; }
 	int getHours() { return hours; }
 };

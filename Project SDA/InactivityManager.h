@@ -25,6 +25,30 @@ public:
 	vector<inactive>* getIDs() {
 		return &inactiveIDs;
 	}
+	int isInactive(int id) {
+		for (const auto& entity : inactiveIDs) { // Iterate through inactiveIDs
+			if (entity.id == id && entity.days > 0) {
+				return entity.days; // Found the ID with remaining inactive days
+			}
+		}
+		return 0; // ID not found or no remaining inactive days
+	}
+	void displayInactives() {
+		if (inactiveIDs.empty()) {
+			cout << "No inactive employees at the moment.\n";
+			return;
+		}
+
+		cout << "Inactive Employees:\n";
+		cout << "--------------------------------------------\n";
+		cout << "ID\t\tDays of Inactivity\n";
+		cout << "--------------------------------------------\n";
+		for (const auto& entity : inactiveIDs) {
+			cout << entity.id << "\t\t" << entity.days << "\n";
+		}
+		cout << "--------------------------------------------\n";
+	}
+
 	void onWeekUpdate() {
 		reduceInactiveDays(7);
 	};

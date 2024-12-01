@@ -14,7 +14,7 @@
 <weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="2" level="0" />
+<coupling_between_objects value="20" level="0" />
 <IF4 value="0" level="0" />
 <IF4_per_member_function value="********" level="0" />
 <IF4_visible value="0" level="0" />
@@ -30,23 +30,217 @@
 <module>
 <name>vector</name>
 <client_module>
+<name>AdminNotifier</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Admin.h" line="30" />
+</extent>
+<name>AdminObserverManager</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="Admin.h" line="18" />
+</extent>
+<name>Casual</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="CasualTeam.h" line="9" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="CasualTeam.h" line="14" />
+</extent>
+<name>CasualLeaveValidator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="CasualLeaveValidator.h" line="7" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="CasualLeaveValidator.h" line="10" />
+</extent>
+<name>DisplayStrategy</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Admin.h" line="45" />
+</extent>
+<name>Earned</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="EarnedTeam.h" line="9" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="EarnedTeam.h" line="14" />
+</extent>
+<name>EarnedLeaveValidator</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="EarnedLeaveValidator.h" line="6" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="EarnedLeaveValidator.h" line="9" />
+</extent>
+<name>Guard</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Guard.h" line="22" />
+</extent>
+<name>IApplyLeave</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="IApplyLeave.h" line="10" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="IApplyLeave.h" line="11" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="IApplyLeave.h" line="11" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="IApplyLeave.h" line="16" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="IApplyLeave.h" line="26" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="IApplyLeave.h" line="26" />
+</extent>
+<name>IMonthlyReports</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="IMonthlyReports.h" line="9" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="IMonthlyReports.h" line="10" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="IMonthlyReports.h" line="12" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="IMonthlyReports.h" line="12" />
+</extent>
 <name>ISummary</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>has by reference</description>
-<source_reference file="Report.h" line="86" />
+<source_reference file="AttendenceRecord.h" line="14" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Report.h" line="88" />
+<source_reference file="AttendenceRecord.h" line="16" />
+</extent>
+<name>InactivityManager</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="InactivityManager.h" line="6" />
+</extent>
+<name>Leave</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="LeavesRecord.h" line="13" />
+</extent>
+<name>Leaves_Team</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ILeaves_Team.h" line="7" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ILeaves_Team.h" line="8" />
+</extent>
+<name>Login</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="MainPortal.h" line="14" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="MainPortal.h" line="16" />
+</extent>
+<name>Main</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="Main.h" line="12" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Main.h" line="13" />
+</extent>
+<name>MainPortal</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="MainPortal.h" line="242" />
 </extent>
 <name>MyTime</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="Time.h" line="28" />
+<source_reference file="Time.h" line="37" />
+</extent>
+<name>Official</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialTeam.h" line="9" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialTeam.h" line="14" />
+</extent>
+<name>Unpaid</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidTeam.h" line="8" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidTeam.h" line="13" />
 </extent>
 </client_module>
 <supplier_module>

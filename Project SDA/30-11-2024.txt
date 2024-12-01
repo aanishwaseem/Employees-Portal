@@ -198,3 +198,19 @@
 	Percentage: 5
 	Weekly Hours Worked: 0
 	Monthly Hours Worked: 8
+-- Employee ID: 1
+	Percentage: 60
+	Weekly Hours Worked: 16
+	Monthly Hours Worked: 96
+-- Employee ID: 2
+	Percentage: 10
+	Weekly Hours Worked: 0
+	Monthly Hours Worked: 16
+-- Employee ID: 1
+	Percentage: 60
+	Weekly Hours Worked: 16
+	Monthly Hours Worked: 96
+-- Employee ID: 2
+	Percentage: 25
+	Weekly Hours Worked: 8
+	Monthly Hours Worked: 40

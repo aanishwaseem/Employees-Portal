@@ -33,7 +33,7 @@ public:
 			else {
 				cout << "- Awarded salary to Emp # " << i + 1 << "!" << endl;
 			}
-		} // impostor give only salaries to Emp having > 80 attendence
+		}
 	}
 	bool isEmpInactive(int id) {
 		for (int i = 0; i < inactiveIDs->size(); i++) {

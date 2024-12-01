@@ -2,16 +2,16 @@
 <!--Detailed report on module anonymous-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="53" level="0" />
+<lines_of_code value="68" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
+<McCabes_cyclomatic_complexity value="17" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
-<lines_of_code value="4" level="0" />
+<lines_of_code value="14" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="13.250" level="1" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-<weighted_methods_per_class_unity value="2" level="0" />
-<weighted_methods_per_class_visibility value="1" level="0" />
+<lines_of_code_per_line_of_comment value="4.857" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.214" level="0" />
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="0" level="0" />
@@ -26,6 +26,22 @@
 </module_detail>
 <procedural_detail>
 <member_function>
+<name>getFileObjectFormat()</name>
+<extent>
+<description>definition</description>
+<source_reference file="OfficialLeaveApp.h" line="26" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="UnpaidLeaveApp.h" line="23" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
 <name>getMessage()</name>
 <extent>
 <description>declaration</description>
@@ -38,15 +54,55 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
+<name>getObjectFromLine(const string &amp;,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="OfficialLeaveApp.h" line="31" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="UnpaidLeaveApp.h" line="28" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="17.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.000" level="0" />
+</member_function>
+<member_function>
+<name>getWeekNumberInMonth(const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Time.cpp" line="14" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.556" level="0" />
+</member_function>
+<member_function>
+<name>getYear(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Time.cpp" line="10" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
 <name>main()</name>
 <extent>
 <description>definition</description>
-<source_reference file="main.cpp" line="59" />
+<source_reference file="main.cpp" line="6" />
 </extent>
-<lines_of_code value="53" level="1" />
+<lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="4" level="0" />
-<lines_of_code_per_line_of_comment value="13.250" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 </procedural_detail>

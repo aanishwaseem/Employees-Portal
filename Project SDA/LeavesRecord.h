@@ -41,7 +41,10 @@ public:
 			if (app)
 				records.push_back(app);
 		}
-
+		for (int i = 0; i < records.size(); i++) {
+			if (records[i]->getStatus() == "Pending")
+				records[i]->processPendingApplication();
+		}
 		file.close();
 	}
 	IApplication* AppsGeneratingFactory(const std::string& line) {
@@ -68,7 +71,6 @@ public:
 
 	// Display all individual leave records
 	void viewRecords() {
-		cout << "-- Leave Records for Employee ID: " << id << " --" << endl;
 		for (auto& record : records) {
 			record->display();
 		}
@@ -79,7 +81,7 @@ public:
 
 		// Iterate over all records and sum up the leave days for each leaveType
 		for (auto& record : records) {
-			if (stoi(record->getDate().substr(record->getDate().size() - 4)) == MyTime::Year) //fetch year from date format dd-mm-yyyy
+			if (getYear(record->getDate()) == MyTime::Year && record->getStatus() == "Approved") //fetch year from date format dd-mm-yyyy
 			{
 				string leaveType = record->getApplicationType(); // Get leaveType
 				int days = record->getDuration();               // Get leave duration
@@ -90,15 +92,19 @@ public:
 		}
 
 		// Display the summary
-		cout << "-- Leave Summary for Employee ID: " << id << " -- for the current year of " << MyTime::Year << endl;
+		cout << "-- Leave Summary for Employee ID: " << id << " -- Approved for the current year of " << MyTime::Year << endl;
 
 		for (const auto& pair : leaveSummary) {
 			const string& leaveType = pair.first;  // Access the key (leaveType)
 			int totalDays = pair.second;          // Access the value (totalDays)
 
-			cout << "Leave Type: " << leaveType << ", Total Leaves: " << totalDays << endl;
+			cout << "Leave Type: " << leaveType << ", Status: Approved, Total Days: " << totalDays << endl;
+		}		// Map to store leaveType and corresponding total leave days
+		cout << endl;
+		cout << "-- All Leave Records" << endl;
+		for (auto& record : records) {
+			record->display();
 		}
-
 	}
 
 };

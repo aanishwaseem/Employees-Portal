@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Time.h" line="26" />
+<source_reference file="Time.h" line="35" />
 <lines_of_code value="14" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="5" level="0" />
@@ -36,7 +36,7 @@
 <name>MyTime()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Time.h" line="30" />
+<source_reference file="Time.h" line="39" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +48,7 @@
 <name>getInstance()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Time.h" line="36" />
+<source_reference file="Time.h" line="45" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
@@ -68,14 +68,14 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Time.h" line="26" />
+<source_reference file="Time.h" line="35" />
 </extent>
 <name>vector</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="Time.h" line="28" />
+<source_reference file="Time.h" line="37" />
 </extent>
 </supplier_module>
 </module>

@@ -10,6 +10,9 @@ public:
 		attenRecord = static_cast<Attendence*>(record);
 	}
 	void postaction() {
-		attenRecord->addWeekHours(NoOfHours, getWeekNumberInMonth(latestApp->getToDate()));
+		
+		IAttendenceEntity* proxy = new AttendenceEntity(latestApp->getEmpId(), getWeekNumberInMonth(latestApp->getToDate()), getDayGivenMonth(latestApp->getToDate()), NoOfHours);
+
+		attenRecord->addRecord(proxy);
 	}
 };

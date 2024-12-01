@@ -24,13 +24,13 @@ Detailed report on module Record
 <TR>
 <TD>Depth of Inheritance Tree</TD><TD>DIT</TD><TD ALIGN=RIGHT>     0</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Number of Children</TD><TD>NOC</TD><TD ALIGN=RIGHT>     0</TD><TD>&nbsp;</TD></TR>
+<TD>Number of Children</TD><TD>NOC</TD><TD ALIGN=RIGHT>     1</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     1</TD><TD>&nbsp;</TD></TR>
+<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>    10</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>********</TD></TR>
+<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>    81</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
-<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>********</TD></TR>
+<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    81</EM></TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
 <TD>Information Flow measure ( &nbsp;concrete&nbsp;)</TD><TD>IF4c</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>********</TD></TR>
 </TABLE>
@@ -38,7 +38,7 @@ Detailed report on module Record
 <TABLE BORDER WIDTH=100%><TR>
 <TD WIDTH=50%>Description</TD><TH BGCOLOR="AQUA" WIDTH=10%>LOC</TH><TH BGCOLOR="AQUA" WIDTH=10%>MVG</TH><TH BGCOLOR="AQUA" WIDTH=10%>COM</TH><TH BGCOLOR="AQUA" WIDTH=10%>L_C</TH><TH BGCOLOR="AQUA" WIDTH=10%>M_C</TH><TR>
 <TD>definition &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        71">Report.h:71</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IRecord.h:         5">IRecord.h:5</A></CODE><BR>
 </TD>
 <TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
@@ -48,31 +48,31 @@ Detailed report on module Record
 <TD WIDTH=50%>Function prototype</TD><TH BGCOLOR="AQUA" WIDTH=10%>LOC</TH><TH BGCOLOR="AQUA" WIDTH=10%>MVG</TH><TH BGCOLOR="AQUA" WIDTH=10%>COM</TH><TH BGCOLOR="AQUA" WIDTH=10%>L_C</TH><TH BGCOLOR="AQUA" WIDTH=10%>M_C</TH><TR>
 <TD>addRecord( &nbsp;T *&nbsp;)<BR>
 declaration &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        73">Report.h:73</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IRecord.h:         7">IRecord.h:7</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD>generateSummary( &nbsp;int&nbsp;)<BR>
 declaration &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        75">Report.h:75</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IRecord.h:         9">IRecord.h:9</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD>getAllRecords( &nbsp;&nbsp;)<BR>
 declaration &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        77">Report.h:77</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IRecord.h:        11">IRecord.h:11</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD>refresh( &nbsp;&nbsp;)<BR>
 declaration &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        76">Report.h:76</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IRecord.h:        10">IRecord.h:10</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD>viewRecords( &nbsp;&nbsp;)<BR>
 declaration &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        74">Report.h:74</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IRecord.h:         8">IRecord.h:8</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
@@ -82,12 +82,65 @@ declaration &nbsp;
 <TR><TH WIDTH=50%>Clients</TH><TH WIDTH=50%>Suppliers</TH></TR>
 <TR>
 <TD WIDTH=50%>
+Admin [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#Admin.h:        66">Admin.h:66</A></CODE><BR>
+<BR>
+<BR>
+AdminObserverManager [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#Admin.h:        20">Admin.h:20</A></CODE><BR>
+<BR>
+<BR>
+AwardHoursAction [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#AwardHoursAction.h:         9">AwardHoursAction.h:9</A></CODE><BR>
+<BR>
+<BR>
+Employee [V] <BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#Employee.h:         6">Employee.h:6</A></CODE><BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#Employee.h:         7">Employee.h:7</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#Employee.h:        21">Employee.h:21</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#Employee.h:        21">Employee.h:21</A></CODE><BR>
+<BR>
+<BR>
+IApplicationObservable [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplicationObserve.h:        11">IApplicationObserve.h:11</A></CODE><BR>
+<BR>
+<BR>
+IApplicationObserver [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplicationObserve.h:         7">IApplicationObserve.h:7</A></CODE><BR>
+<BR>
+<BR>
+Leave [CV] <BR>
+inheritance &nbsp;
+<CODE><A HREF="cccc_src.html#LeavesRecord.h:        10">LeavesRecord.h:10</A></CODE><BR>
+<BR>
+<BR>
+Official [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#OfficialTeam.h:        26">OfficialTeam.h:26</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#OfficialTeam.h:        31">OfficialTeam.h:31</A></CODE><BR>
+<BR>
+<BR>
+Unpaid [V] <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#UnpaidTeam.h:        31">UnpaidTeam.h:31</A></CODE><BR>
+<BR>
+<BR>
 &nbsp;
 </TD>
 <TD WIDTH=50%>
 T [V] <BR>
 pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        73">Report.h:73</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IRecord.h:         7">IRecord.h:7</A></CODE><BR>
 <BR>
 <BR>
 &nbsp;

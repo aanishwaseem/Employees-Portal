@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Leave-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="73" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="16" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="17" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.294" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.941" level="0" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="5" level="0" />
+<depth_of_inheritance_tree value="1" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="10" />
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>AppsGeneratingFactory(const string &amp;)</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="47" />
+</extent>
+<lines_of_code value="18" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.500" level="0" />
+</member_function>
+<member_function>
+<name>Leave()</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="17" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Leave(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="18" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addRecord(IApplication *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="23" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>generateSummary(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="76" />
+</extent>
+<lines_of_code value="17" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getAllRecords()</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="20" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>refresh()</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="27" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>viewRecords()</name>
+<extent>
+<description>definition</description>
+<source_reference file="LeavesRecord.h" line="70" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Leave</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>IApplication</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="LeavesRecord.h" line="23" />
+</extent>
+<name>Record</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="LeavesRecord.h" line="10" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="LeavesRecord.h" line="47" />
+</extent>
+<name>vector</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="LeavesRecord.h" line="13" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

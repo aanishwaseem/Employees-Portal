@@ -14,7 +14,7 @@
 <weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="2" level="0" />
+<coupling_between_objects value="21" level="0" />
 <IF4 value="0" level="0" />
 <IF4_per_member_function value="********" level="0" />
 <IF4_visible value="0" level="0" />
@@ -30,12 +30,157 @@
 <module>
 <name>string</name>
 <client_module>
+<name>Admin</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Admin.h" line="72" />
+</extent>
+<name>AdminNotifier</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Admin.h" line="30" />
+</extent>
+<name>DefaultLeaveApplication</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="100" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="101" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="103" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="104" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="105" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="106" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="110" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="128" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ApplicationTypes.h" line="131" />
+</extent>
+<name>Director</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Director.h" line="9" />
+</extent>
+<name>Employee</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Employee.h" line="12" />
+</extent>
+<name>Guard</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Guard.h" line="8" />
+</extent>
 <name>IApplication</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>pass by value</description>
-<source_reference file="Report.h" line="26" />
+<source_reference file="IApplication.h" line="9" />
+</extent>
+<name>IApplicationObservable</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="IApplicationObserve.h" line="12" />
+</extent>
+<name>IApplicationObserver</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="IApplicationObserve.h" line="7" />
+</extent>
+<name>Leave</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="LeavesRecord.h" line="47" />
+</extent>
+<name>Login</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="MainPortal.h" line="209" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="MainPortal.h" line="228" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="MainPortal.h" line="228" />
+</extent>
+<name>MainPortal</name>
+<visible>false</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="MainPortal.h" line="243" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="MainPortal.h" line="243" />
 </extent>
 <name>NotificationEntity</name>
 <visible>true</visible>
@@ -43,6 +188,154 @@
 <extent>
 <description>pass by reference</description>
 <source_reference file="NotificationEntity.h" line="13" />
+</extent>
+<name>Official</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialTeam.h" line="31" />
+</extent>
+<name>OfficialLeaveApp</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="OfficialLeaveApp.h" line="7" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="OfficialLeaveApp.h" line="8" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="OfficialLeaveApp.h" line="9" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="13" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="13" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="13" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="13" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="13" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="13" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="14" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="14" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="14" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="OfficialLeaveApp.h" line="14" />
+</extent>
+<name>Person</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="IPerson.h" line="7" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="IPerson.h" line="8" />
+</extent>
+<name>Signup</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="Signup.h" line="31" />
+</extent>
+<name>Status</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="11" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="14" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="17" />
+</extent>
+<name>Supervisor</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Supervisor.h" line="8" />
+</extent>
+<name>Unpaid</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidTeam.h" line="31" />
+</extent>
+<name>UnpaidLeaveApp</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="7" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="11" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="11" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="11" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="11" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="11" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="11" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="12" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="UnpaidLeaveApp.h" line="12" />
 </extent>
 </client_module>
 <supplier_module>

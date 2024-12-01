@@ -37,16 +37,12 @@ public:
 		ss >> travelAllowance >> purpose >> destination;
 
 		OfficialLeaveApp* app = new OfficialLeaveApp(eid, id, Type, days, date, to, from, reason, travelAllowance, purpose, destination, status);
-		if (stoi(days) > 0 && status == "Approved") {
-			IApplyLeave* system = IApplyLeave::getInstance();
-			
-			AwardHoursAction action((*system->empAttendRegisters)[eid-1], app, 8);
-			action.postaction();
-		}
-		if (status == "Pending") {
-			IApplyLeave* system = IApplyLeave::getInstance();
-			system->applyLeave(eid, app, Official::getInstance());
-		}
+		
 		return app;
+	}
+	void processPendingApplication() override {
+
+		IApplyLeave* system = IApplyLeave::getInstance();
+		system->applyLeave(eid, this, Official::getInstance(), false);
 	}
 };

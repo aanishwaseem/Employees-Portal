@@ -26,7 +26,7 @@ Detailed report on module vector
 <TR>
 <TD>Number of Children</TD><TD>NOC</TD><TD ALIGN=RIGHT>     0</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     2</TD><TD>&nbsp;</TD></TR>
+<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>    20</TD><TD>&nbsp;</TD></TR>
 <TR>
 <TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>********</TD></TR>
 <TR>
@@ -49,16 +49,140 @@ Detailed report on module vector
 <TR><TH WIDTH=50%>Clients</TH><TH WIDTH=50%>Suppliers</TH></TR>
 <TR>
 <TD WIDTH=50%>
+AdminNotifier [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#Admin.h:        30">Admin.h:30</A></CODE><BR>
+<BR>
+<BR>
+AdminObserverManager [C] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#Admin.h:        18">Admin.h:18</A></CODE><BR>
+<BR>
+<BR>
+Casual [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#CasualTeam.h:         9">CasualTeam.h:9</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#CasualTeam.h:        14">CasualTeam.h:14</A></CODE><BR>
+<BR>
+<BR>
+CasualLeaveValidator [V] <BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#CasualLeaveValidator.h:         7">CasualLeaveValidator.h:7</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#CasualLeaveValidator.h:        10">CasualLeaveValidator.h:10</A></CODE><BR>
+<BR>
+<BR>
+DisplayStrategy [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#Admin.h:        45">Admin.h:45</A></CODE><BR>
+<BR>
+<BR>
+Earned [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#EarnedTeam.h:         9">EarnedTeam.h:9</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#EarnedTeam.h:        14">EarnedTeam.h:14</A></CODE><BR>
+<BR>
+<BR>
+EarnedLeaveValidator [V] <BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EarnedLeaveValidator.h:         6">EarnedLeaveValidator.h:6</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EarnedLeaveValidator.h:         9">EarnedLeaveValidator.h:9</A></CODE><BR>
+<BR>
+<BR>
+Guard [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#Guard.h:        22">Guard.h:22</A></CODE><BR>
+<BR>
+<BR>
+IApplyLeave [V] <BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        10">IApplyLeave.h:10</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        11">IApplyLeave.h:11</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        11">IApplyLeave.h:11</A></CODE><BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        16">IApplyLeave.h:16</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        26">IApplyLeave.h:26</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        26">IApplyLeave.h:26</A></CODE><BR>
+<BR>
+<BR>
+IMonthlyReports [V] <BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IMonthlyReports.h:         9">IMonthlyReports.h:9</A></CODE><BR>
+has by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IMonthlyReports.h:        10">IMonthlyReports.h:10</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IMonthlyReports.h:        12">IMonthlyReports.h:12</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#IMonthlyReports.h:        12">IMonthlyReports.h:12</A></CODE><BR>
+<BR>
+<BR>
 ISummary [V] <BR>
 has by reference &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        86">Report.h:86</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#AttendenceRecord.h:        14">AttendenceRecord.h:14</A></CODE><BR>
 pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#Report.h:        88">Report.h:88</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#AttendenceRecord.h:        16">AttendenceRecord.h:16</A></CODE><BR>
+<BR>
+<BR>
+InactivityManager [CV] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#InactivityManager.h:         6">InactivityManager.h:6</A></CODE><BR>
+<BR>
+<BR>
+Leave [C] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#LeavesRecord.h:        13">LeavesRecord.h:13</A></CODE><BR>
+<BR>
+<BR>
+Leaves_Team [CV] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#ILeaves_Team.h:         7">ILeaves_Team.h:7</A></CODE><BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#ILeaves_Team.h:         8">ILeaves_Team.h:8</A></CODE><BR>
+<BR>
+<BR>
+Login [CV] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#MainPortal.h:        14">MainPortal.h:14</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#MainPortal.h:        16">MainPortal.h:16</A></CODE><BR>
+<BR>
+<BR>
+Main [C] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#Main.h:        12">Main.h:12</A></CODE><BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#Main.h:        13">Main.h:13</A></CODE><BR>
+<BR>
+<BR>
+MainPortal [C] <BR>
+has by value &nbsp;
+<CODE><A HREF="cccc_src.html#MainPortal.h:       242">MainPortal.h:242</A></CODE><BR>
 <BR>
 <BR>
 MyTime [CV] <BR>
 has by value &nbsp;
-<CODE><A HREF="cccc_src.html#Time.h:        28">Time.h:28</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#Time.h:        37">Time.h:37</A></CODE><BR>
+<BR>
+<BR>
+Official [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#OfficialTeam.h:         9">OfficialTeam.h:9</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#OfficialTeam.h:        14">OfficialTeam.h:14</A></CODE><BR>
+<BR>
+<BR>
+Unpaid [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#UnpaidTeam.h:         8">UnpaidTeam.h:8</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#UnpaidTeam.h:        13">UnpaidTeam.h:13</A></CODE><BR>
 <BR>
 <BR>
 &nbsp;

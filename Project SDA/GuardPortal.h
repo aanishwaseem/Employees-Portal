@@ -14,6 +14,9 @@ public:
 		int eid;
 		cout << "whose attendence you want to mark? " << endl;
 		cin >> eid;
-		guard->markAttendance(*IApplyLeave::getInstance()->empAttendRegisters, eid);
+		cout << "is it overtime? 1 for yes, 0 for no" << endl;
+		bool overtime;
+		cin >> overtime;
+		guard->markAttendance(*IApplyLeave::getInstance()->empAttendRegisters, eid, overtime);
 	}
 };

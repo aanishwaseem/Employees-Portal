@@ -105,14 +105,15 @@ public:
 };
 
 // we have leave records in file , what to do with those? do in check in we have to do something? on checkin we add inactives
-//at the start of program , give hours 
-//also show pending apps from file to admins
-//we also need to store no of approvals in file(extra)
-//an employee has an unpaid already what if he applies again? ask hamza
-// in earned leave we also have to deduct timer in file
+// in earned leave we also have to deduct timer in file (additional)
 //MENU:
 // manager approvers
 // add a new supervisor / director
-//create a new employee
+//at the start of program , give hours  from apps
+// Inactive at the employees.txt file
+//WE NEED TO TEST ALL GIVEN FUNCTIONALITIES in instructions:
+// system whether generates the 80% attendence or not
 int getYear(string date);
 int getWeekNumberInMonth(const std::string& dateStr);
+int getDayGivenMonth(const std::string& dateStr);
+int getDayInWeek(int dayOfYear);
