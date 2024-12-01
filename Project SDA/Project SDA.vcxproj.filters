@@ -36,6 +36,12 @@
     <ClCompile Include="LeavesSingletonInstantiate.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="MainPortal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInstant.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Report.h">
@@ -147,6 +153,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IApplyLeave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Signup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPortal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardPortal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmployeePortal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPerson.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

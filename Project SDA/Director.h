@@ -1,10 +1,23 @@
 #pragma once
 #include "Admin.h"
-class Director : public Admin {
-	int id;
+#include "IPerson.h"
+class Director : public Admin, public Person {
+
 public:
 
 	Director() {}
+	Director(int ID, string PASs) {
+		id = ID;
+		pass = PASs;
+		type = "Director";
+	}
+
+	string getType() {
+		return type;
+	}
+	string getPass() {
+		return pass;
+	}
 	Director(int ida) { id = ida; }
 	int getID() { return id; }
 

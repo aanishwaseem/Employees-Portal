@@ -171,8 +171,9 @@ public:
 			ofstream outFile(filename, ios::app); // Open in append mode
 			if (outFile.is_open()) {
 				outFile << "-- Employee ID: " << id << endl;
+				cout << "-- Employee ID: " << id << endl;
 				outFile.close();
-				writeToFile(filename);
+				SummaryOutput(filename);
 			}
 			else {
 				cerr << "Error: Unable to open file: " << filename << endl;
@@ -184,12 +185,15 @@ public:
 		cout << "\tweekly Hours worked: " << WeeklyHrsWorked << endl;
 		cout << "\tMonthly Hours worked: " << MonthlyHrsWorked << endl;
 	}
-	void writeToFile(const string& filename) {
+	void SummaryOutput(const string& filename) {
 		ofstream outFile(filename, ios::app); // Open in append mode
 		if (outFile.is_open()) {
 			outFile << "\tPercentage: " << Percentage << endl;
 			outFile << "\tWeekly Hours Worked: " << WeeklyHrsWorked << endl;
 			outFile << "\tMonthly Hours Worked: " << MonthlyHrsWorked << endl;
+			cout << "\tPercentage: " << Percentage << endl;
+			cout << "\tWeekly Hours Worked: " << WeeklyHrsWorked << endl;
+			cout << "\tMonthly Hours Worked: " << MonthlyHrsWorked << endl;
 			outFile.close();
 		}
 	}

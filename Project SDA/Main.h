@@ -4,20 +4,12 @@
 #include "LeavesRecord.h"
 #include "AttendenceRecord.h"
 #include <fstream>
-#include "Employee.h"
-#include "Director.h"
-#include "Supervisor.h"
-#include "Guard.h"
+#include "GuardPortal.h"
 #include "IApplyLeave.h"
 class Main {
 private:
 	static Main* main;
 	vector<Record<IApplication>*> empLeaveRecords;
-	vector<Record<IAttendenceEntity>*> empAttendRegisters;
-
-	Director director;
-	Supervisor supervisor;
-	Guard guard;
 	ITimeObserver* ReportsGenerator;
 	ITimeObserver* inactivityManager;
 	IApplyLeave* IApply;
@@ -30,6 +22,7 @@ private:
 		timeobj->addObserver(inactivityManager);
 	}
 public:
+	vector<Record<IAttendenceEntity>*> empAttendRegisters;
 
 	static Main* getMain() {
 		if (main == nullptr) {
@@ -38,14 +31,6 @@ public:
 		}
 		return main;
 	}
-	void markattendenceportal() {
-		int eid;
-		cout << "whose attendence you want to mark? " << endl;
-		cin >> eid;
-
-		guard.markAttendance(empAttendRegisters, eid);
-	}
-
 	Record<IAttendenceEntity>* generateEmployeeRecord(int id) { // Factory Method called when creating employees agr employe null krta ha register ko istrah to record ka track to gya, agr to record getter sy arha to koi b edit kr skta 
 		string filename = to_string(id) + ".txt";
 		ifstream file(filename);
@@ -77,13 +62,7 @@ public:
 
 	}
 
-	void getCollectiveReportConsole(int percentage) {
-		for (auto& rgister : empAttendRegisters) {
-			rgister->generateSummary(percentage);
-		}
-	}
 };
 
 
 
-Main* Main::main = nullptr;

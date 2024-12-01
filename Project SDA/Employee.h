@@ -1,21 +1,31 @@
 #pragma once
 #include "ILeaves_Team.h"
-class Employee {
+#include "IPerson.h"
+class Employee : public Person {
 private:
-	int id;
-
 	Record<IAttendenceEntity>* myAttendenceRecord;
 	Record<IApplication>* myLeaveRecord;
 public:
 
 	Employee() {}
-	Employee(int id, Record<IAttendenceEntity>* NewRecord, Record<IApplication>* NewLeaveRecord) : id(id) {
+	Employee(int ID, string PASs) {
+		id = ID;
+		pass = PASs;
+		type = "Employee";
+	}
+
+	string getType() {
+		return type;
+	}
+	void initializeEmployee(Record<IAttendenceEntity>* NewRecord, Record<IApplication>* NewLeaveRecord){
 		myAttendenceRecord = NewRecord;
 		myLeaveRecord = NewLeaveRecord;
 		myAttendenceRecord->refresh();
 		myLeaveRecord->refresh();
 	}
-
+	string getPass() {
+		return pass;
+	}
 	void generateAttendenceReport() {
 		myAttendenceRecord->viewRecords();
 	}
@@ -28,6 +38,9 @@ public:
 	}
 	int getID() {
 		return id;
+	}
+	int getNextLeaveID() {
+		return myLeaveRecord->getAllRecords()->size()+1;
 	}
 	bool operator==(const Employee& other) const {
 		return this->id == other.id;

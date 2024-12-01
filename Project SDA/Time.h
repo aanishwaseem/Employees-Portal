@@ -108,6 +108,11 @@ public:
 //at the start of program , give hours 
 //also show pending apps from file to admins
 //we also need to store no of approvals in file(extra)
+//an employee has an unpaid already what if he applies again? ask hamza
 // in earned leave we also have to deduct timer in file
+//MENU:
+// manager approvers
+// add a new supervisor / director
+//create a new employee
 int getYear(string date);
 int getWeekNumberInMonth(const std::string& dateStr);

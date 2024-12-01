@@ -1,9 +1,24 @@
 #pragma once
-#include "Admin.h"
-#include "AttendenceEntity.h"
+#include "IPerson.h"
+#include "AttendenceRecord.h"
 #include "Time.h"
-class Guard {
+class Guard : public Person {
+private:
 public:
+	Guard(int ID, string PASs) {
+		id = ID;
+		pass = PASs;
+		type = "Guard";
+	}
+	string getPass() {
+		return pass;
+	}
+	string getType() {
+		return type;
+	}
+	int getID() {
+		return id;
+	}
 	void markAttendance(vector<Record<IAttendenceEntity>*> empReg, int eid, bool overtime = false) {
 		int hours = 8;
 		if (overtime)

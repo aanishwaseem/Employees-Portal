@@ -72,5 +72,4 @@ public:
 	void notifyApplicationChange(int index, string status) {
 		notifier.notifyApplicationChange(observerManager.getMyPendingWork(), index, status);
 	}
-	virtual int getID() = 0;
 };

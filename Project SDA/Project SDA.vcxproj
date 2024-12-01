@@ -132,6 +132,8 @@
     <ClCompile Include="IApplyLeave.cpp" />
     <ClCompile Include="LeavesSingletonInstantiate.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainInstant.cpp" />
+    <ClCompile Include="MainPortal.cpp" />
     <ClCompile Include="NotificationManager.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>
@@ -147,7 +149,9 @@
     <ClInclude Include="EarnedLeaveValidator.h" />
     <ClInclude Include="EarnedTeam.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="EmployeePortal.h" />
     <ClInclude Include="Guard.h" />
+    <ClInclude Include="GuardPortal.h" />
     <ClInclude Include="IApplication.h" />
     <ClInclude Include="IApplicationObserve.h" />
     <ClInclude Include="IApplyLeave.h" />
@@ -156,17 +160,21 @@
     <ClInclude Include="InactivityManager.h" />
     <ClInclude Include="INotificationEntity.h" />
     <ClInclude Include="INotificationManager.h" />
+    <ClInclude Include="IPerson.h" />
     <ClInclude Include="IPostAction.h" />
     <ClInclude Include="IValidator.h" />
     <ClInclude Include="LeavesRecord.h" />
     <ClInclude Include="ILeaves_Team.h" />
+    <ClInclude Include="Login.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="MainPortal.h" />
     <ClInclude Include="NotificationEntity.h" />
     <ClInclude Include="NotificationManager.h" />
     <ClInclude Include="IRecord.h" />
     <ClInclude Include="OfficialLeaveApp.h" />
     <ClInclude Include="OfficialTeam.h" />
     <ClInclude Include="Report.h" />
+    <ClInclude Include="Signup.h" />
     <ClInclude Include="Supervisor.h" />
     <ClInclude Include="SupervisorPortal.h" />
     <ClInclude Include="Time.h" />

@@ -7,7 +7,7 @@ private:
 	int week;
 	int day;
 	int hours;
-
+	int year;
 public:
 	// Constructor
 	AttendenceEntity(int id, int w, int d, int h)
