@@ -1,8 +1,5 @@
-1 Unpaid 2 2 Approved 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
-1 Unpaid 2 2 Approved 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
-1 Unpaid 2 2 Approved 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
-1 Unpaid 2 2 Approved 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
-1 Unpaid 2 2 Approved 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
-1 Unpaid 2 2 Approved 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
-1 Unpaid 2 2 Approved 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
-1 Unpaid 2 2 Pending 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
+1 Unpaid 2 2 Rejected 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
+1 Unpaid 2 2 Rejected 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
+1 Unpaid 2 2 Rejected 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
+1 Unpaid 2 2 Rejected 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand
+1 Unpaid 2 2 Rejected 2-2-2024 2-2-2024 2-2-2024 noreason New-zealand

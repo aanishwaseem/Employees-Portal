@@ -47,9 +47,10 @@ public:
 	IApplication* AppsGeneratingFactory(const std::string& line) {
 		if (line.size() > 0) {
 			stringstream ss(line);
+			int id;
 			string leaveType;
 			// Parse the line
-			ss >> leaveType;
+			ss >> id >> leaveType;
 
 			// Instantiate based on leaveType
 			if (leaveType == "Official") {

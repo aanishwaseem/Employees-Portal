@@ -25,3 +25,10 @@
 1;[Casual Leave] Your application could not be processed!;1733016373
 1;[Casual Leave] Your application could not be processed!;1733016373
 1;[Casual Leave] Your application (ID: 9) has been Rejected!;1733016382
+2;[Earned Leave] Your application could not be processed!;1733016737
+1;[Casual Leave] Your application could not be processed!;1733016737
+2;[Earned Leave] Your application could not be processed!;1733016773
+2;[Earned Leave] Your application could not be processed!;1733016773
+1;[Casual Leave] Your application could not be processed!;1733016773
+1;[Casual Leave] Your application could not be processed!;1733016969
+2;[Unpaid Leave] Your application (ID: 1) has been Rejected!;1733016988

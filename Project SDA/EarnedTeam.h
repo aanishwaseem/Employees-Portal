@@ -25,7 +25,7 @@ public:
 		return instance;
 	}
 	bool validate(vector<IApplication*>* leaveRecords, IApplication* newapp) override {
-		IValidator* validator = new EarnedLeaveValidator(leaveRecords);
+		IValidator* validator = new EarnedLeaveValidator(leaveRecords, newapp);
 		bool result = validator->validate();
 		delete validator;
 		return result;

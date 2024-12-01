@@ -6,8 +6,9 @@ class EarnedLeaveValidator : public IValidator {
 	vector<IApplication*>* LeavesHistory;
 	IApplication* latestApp;
 public:
-	EarnedLeaveValidator(vector<IApplication*>* history) {
+	EarnedLeaveValidator(vector<IApplication*>* history, IApplication* latest) {
 		LeavesHistory = history;
+		latestApp = latest;
 	}
 	bool validate() override {
 		int leavescount = calculateEarnedLeavesCount(LeavesHistory);
