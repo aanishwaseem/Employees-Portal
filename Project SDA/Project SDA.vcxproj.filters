@@ -92,19 +92,10 @@
     <ClInclude Include="CasualTeam.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IValidator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CasualLeaveValidator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="IPostAction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AwardHoursAction.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EarnedLeaveValidator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OfficialTeam.h">
@@ -135,9 +126,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Guard.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UnpaidPostAction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="UnpaidTeam.h">

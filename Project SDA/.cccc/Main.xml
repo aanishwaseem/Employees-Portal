@@ -2,16 +2,16 @@
 <!--Detailed report on module Main-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="52" level="0" />
+<lines_of_code value="50" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="6" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
 <lines_of_code value="4" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="13.000" level="1" />
+<lines_of_code_per_line_of_comment value="12.500" level="1" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
-<weighted_methods_per_class_unity value="5" level="0" />
-<weighted_methods_per_class_visibility value="4" level="0" />
+<weighted_methods_per_class_unity value="4" level="0" />
+<weighted_methods_per_class_visibility value="3" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="5" level="0" />
@@ -55,7 +55,7 @@
 <name>createLeaveRecord(int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="Main.h" line="52" />
+<source_reference file="Main.h" line="49" />
 </extent>
 <lines_of_code value="12" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
@@ -67,23 +67,11 @@
 <name>generateEmployeeRecord(int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="Main.h" line="37" />
+<source_reference file="Main.h" line="34" />
 </extent>
 <lines_of_code value="13" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
 <lines_of_comment value="2" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>generateInstantSalaries()</name>
-<extent>
-<description>definition</description>
-<source_reference file="Main.h" line="34" />
-</extent>
-<lines_of_code value="2" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>

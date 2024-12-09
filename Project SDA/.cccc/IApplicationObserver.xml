@@ -14,10 +14,10 @@
 <weighted_methods_per_class_visibility value="1" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
-<coupling_between_objects value="7" level="0" />
-<IF4 value="144" level="1" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="36" level="0" />
 <IF4_per_member_function value="********" level="2" />
-<IF4_visible value="144" level="2" />
+<IF4_visible value="36" level="1" />
 <IF4_visible_per_member_function value="********" level="2" />
 <IF4_concrete value="1" level="0" />
 <IF4_concrete_per_member_function value="********" level="2" />
@@ -33,7 +33,7 @@
 </module_detail>
 <procedural_detail>
 <member_function>
-<name>ForwardApplicationFurther(Record *,IApplication *,int,string)</name>
+<name>ForwardApplicationFurther(IApplication *,int,string)</name>
 <extent>
 <description>declaration</description>
 <source_reference file="IApplicationObserve.h" line="7" />
@@ -49,19 +49,12 @@
 <module>
 <name>IApplicationObserver</name>
 <client_module>
-<name>Admin</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Admin.h" line="66" />
-</extent>
 <name>AdminObserverManager</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Admin.h" line="20" />
+<source_reference file="Admin.h" line="18" />
 </extent>
 <name>IApplicationObservable</name>
 <visible>true</visible>
@@ -75,18 +68,11 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="ILeaves_Team.h" line="5" />
+<source_reference file="ILeaves_Team.h" line="6" />
 </extent>
 </client_module>
 <supplier_module>
 <name>IApplication</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="IApplicationObserve.h" line="7" />
-</extent>
-<name>Record</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>

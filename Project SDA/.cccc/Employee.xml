@@ -2,29 +2,29 @@
 <!--Detailed report on module Employee-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="47" level="0" />
+<lines_of_code value="43" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="5" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
-<lines_of_code value="1" level="0" />
+<lines_of_code value="6" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="47.000" level="2" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
-<weighted_methods_per_class_unity value="12" level="0" />
-<weighted_methods_per_class_visibility value="12" level="0" />
+<lines_of_code_per_line_of_comment value="7.167" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="8" level="0" />
 <depth_of_inheritance_tree value="1" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="4" level="0" />
 <IF4 value="9" level="0" />
 <IF4_per_member_function value="********" level="2" />
-<IF4_visible value="9" level="0" />
+<IF4_visible value="4" level="0" />
 <IF4_visible_per_member_function value="********" level="2" />
 <IF4_concrete value="0" level="0" />
 <IF4_concrete_per_member_function value="********" level="0" />
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Employee.h" line="4" />
+<source_reference file="Employee.h" line="5" />
 <lines_of_code value="7" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -43,21 +43,9 @@
 <name>Employee()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="11" />
-</extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>Employee(int,string)</name>
-<extent>
-<description>definition</description>
 <source_reference file="Employee.h" line="12" />
 </extent>
-<lines_of_code value="5" level="0" />
+<lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -67,11 +55,11 @@
 <name>generateAttendenceReport()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="31" />
+<source_reference file="Employee.h" line="35" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
+<lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
@@ -79,11 +67,11 @@
 <name>generateLeaveReport()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="34" />
+<source_reference file="Employee.h" line="38" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
+<lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
@@ -91,23 +79,11 @@
 <name>generateLeaveSummary()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="38" />
+<source_reference file="Employee.h" line="42" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>getID()</name>
-<extent>
-<description>definition</description>
-<source_reference file="Employee.h" line="41" />
-</extent>
-<lines_of_code value="3" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="0" level="0" />
+<lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
@@ -115,7 +91,7 @@
 <name>getNextLeaveID()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="44" />
+<source_reference file="Employee.h" line="45" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -124,50 +100,26 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>getPass()</name>
+<name>initializeEmployee(int,string)</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="28" />
+<source_reference file="Employee.h" line="14" />
 </extent>
-<lines_of_code value="3" level="0" />
+<lines_of_code value="17" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="0" level="0" />
+<lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>getType()</name>
+<name>setInactive(int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="18" />
+<source_reference file="Employee.h" line="32" />
 </extent>
 <lines_of_code value="3" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>initializeEmployee(int,Record *,Record *)</name>
-<extent>
-<description>definition</description>
-<source_reference file="Employee.h" line="21" />
-</extent>
-<lines_of_code value="7" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>operator ==(const Employee &amp;)</name>
-<extent>
-<description>definition</description>
-<source_reference file="Employee.h" line="47" />
-</extent>
-<lines_of_code value="3" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="0" level="0" />
+<lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
@@ -175,7 +127,7 @@
 <name>~Employee()</name>
 <extent>
 <description>definition</description>
-<source_reference file="Employee.h" line="50" />
+<source_reference file="Employee.h" line="48" />
 </extent>
 <lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -206,33 +158,25 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Employee.h" line="4" />
+<source_reference file="Employee.h" line="5" />
 </extent>
 <name>Record</name>
-<visible>true</visible>
+<visible>false</visible>
 <concrete>false</concrete>
-<extent>
-<description>has by reference</description>
-<source_reference file="Employee.h" line="6" />
-</extent>
 <extent>
 <description>has by reference</description>
 <source_reference file="Employee.h" line="7" />
 </extent>
 <extent>
-<description>pass by reference</description>
-<source_reference file="Employee.h" line="21" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Employee.h" line="21" />
+<description>has by reference</description>
+<source_reference file="Employee.h" line="8" />
 </extent>
 <name>string</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>pass by value</description>
-<source_reference file="Employee.h" line="12" />
+<source_reference file="Employee.h" line="14" />
 </extent>
 </supplier_module>
 </module>

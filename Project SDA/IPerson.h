@@ -7,7 +7,11 @@ protected:
 	string pass;
 	string type;
 public:
-	virtual int getID() = 0;
-	virtual string getPass() = 0;
-	virtual string getType() = 0;
+	int getID() { return id; };
+	string getPass() {
+		return pass;
+	};
+	string getType() {
+		return type;
+	};
 };

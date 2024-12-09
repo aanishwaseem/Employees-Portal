@@ -11,12 +11,4 @@ public:
 		type = "Supervisor";
 	}
 
-	string getType() {
-		return type;
-	}
-	string getPass() {
-		return pass;
-	}
-	Supervisor(int ida) { id = ida; }
-	int getID() { return id; }
 };

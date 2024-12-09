@@ -8,15 +8,15 @@ Detailed report on module Status
 <TR>
 <TH BGCOLOR="AQUA" WIDTH=70%>Metric</TH><TH BGCOLOR="AQUA" WIDTH=10%>Tag</TH><TH BGCOLOR="AQUA" WIDTH=10%>Overall</TH><TH BGCOLOR="AQUA" WIDTH=10%>Per Function</TH></TR>
 <TR>
-<TD>Lines of Code</TD><TD>LOC</TD><TD ALIGN=RIGHT>    55</TD><TD ALIGN=RIGHT>******</TD></TR>
+<TD>Lines of Code</TD><TD>LOC</TD><TD ALIGN=RIGHT>    46</TD><TD ALIGN=RIGHT>******</TD></TR>
 <TR>
-<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>******</STRONG></TD></TR>
+<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>******</STRONG></TD></TR>
 <TR>
 <TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
-<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT> 6.875</TD><TD>&nbsp;</TD></TR>
+<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT> 5.750</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 1.125</TD><TD>&nbsp;</TD></TR>
+<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 0.625</TD><TD>&nbsp;</TD></TR>
 <TR>
 <TD>Weighted Methods per Class ( &nbsp;weighting = unity&nbsp;)</TD><TD>WMC1</TD><TD ALIGN=RIGHT>     5</TD><TD>&nbsp;</TD></TR>
 <TR>
@@ -26,11 +26,11 @@ Detailed report on module Status
 <TR>
 <TD>Number of Children</TD><TD>NOC</TD><TD ALIGN=RIGHT>     3</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     6</TD><TD>&nbsp;</TD></TR>
+<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     5</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>    64</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
+<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>    16</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
-<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    36</EM></TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
+<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT>    16</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
 <TD>Information Flow measure ( &nbsp;concrete&nbsp;)</TD><TD>IF4c</TD><TD ALIGN=RIGHT>    16</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 </TABLE>
@@ -69,17 +69,17 @@ definition &nbsp;
 <BR>
 </TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
-<TD>setState( &nbsp;string, &nbsp;IApplication *&nbsp;)<BR>
+<TD>setState( &nbsp;string, &nbsp;int, &nbsp;string&nbsp;)<BR>
 definition &nbsp;
 <CODE><A HREF="cccc_src.html#ApplicationTypes.h:        17">ApplicationTypes.h:17</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
-<TD>updateLeaveStatus( &nbsp;IApplication *&nbsp;)<BR>
+<TD>updateLeaveStatus( &nbsp;int, &nbsp;string&nbsp;)<BR>
 definition &nbsp;
 <CODE><A HREF="cccc_src.html#ApplicationTypes.h:        24">ApplicationTypes.h:24</A></CODE><BR>
 <BR>
-</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    38</EM></TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT> 4.750</TD><TD ALIGN=RIGHT> 1.000</TD></TR>
+</TD><TD ALIGN=RIGHT>    29</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT> 3.625</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
 </TR></TABLE>
 <H2><A NAME="structdet">Relationships</A></H2>
@@ -89,34 +89,27 @@ definition &nbsp;
 <TD WIDTH=50%>
 Approved [CV] <BR>
 inheritance &nbsp;
-<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        83">ApplicationTypes.h:83</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        72">ApplicationTypes.h:72</A></CODE><BR>
 <BR>
 <BR>
-DefaultLeaveApplication [C] <BR>
+DefaultLeaveApplication [CV] <BR>
 has by value &nbsp;
-<CODE><A HREF="cccc_src.html#ApplicationTypes.h:       102">ApplicationTypes.h:102</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        91">ApplicationTypes.h:91</A></CODE><BR>
 <BR>
 <BR>
 Pending [CV] <BR>
 inheritance &nbsp;
-<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        87">ApplicationTypes.h:87</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        76">ApplicationTypes.h:76</A></CODE><BR>
 <BR>
 <BR>
 Rejected [CV] <BR>
 inheritance &nbsp;
-<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        91">ApplicationTypes.h:91</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        80">ApplicationTypes.h:80</A></CODE><BR>
 <BR>
 <BR>
 &nbsp;
 </TD>
 <TD WIDTH=50%>
-IApplication [V] <BR>
-pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        17">ApplicationTypes.h:17</A></CODE><BR>
-pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        24">ApplicationTypes.h:24</A></CODE><BR>
-<BR>
-<BR>
 string [CV] <BR>
 has by value &nbsp;
 <CODE><A HREF="cccc_src.html#ApplicationTypes.h:        11">ApplicationTypes.h:11</A></CODE><BR>
@@ -124,6 +117,10 @@ pass by value &nbsp;
 <CODE><A HREF="cccc_src.html#ApplicationTypes.h:        14">ApplicationTypes.h:14</A></CODE><BR>
 pass by value &nbsp;
 <CODE><A HREF="cccc_src.html#ApplicationTypes.h:        17">ApplicationTypes.h:17</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        17">ApplicationTypes.h:17</A></CODE><BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#ApplicationTypes.h:        24">ApplicationTypes.h:24</A></CODE><BR>
 <BR>
 <BR>
 &nbsp;

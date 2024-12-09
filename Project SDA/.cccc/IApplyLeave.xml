@@ -4,18 +4,18 @@
 <module_summary>
 <lines_of_code value="28" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="6" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
 <lines_of_code value="1" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
 <lines_of_code_per_line_of_comment value="28.000" level="1" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
 <weighted_methods_per_class_unity value="4" level="0" />
 <weighted_methods_per_class_visibility value="3" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="4" level="0" />
-<IF4 value="9" level="0" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="16" level="0" />
 <IF4_per_member_function value="********" level="2" />
 <IF4_visible value="0" level="0" />
 <IF4_visible_per_member_function value="********" level="0" />
@@ -48,7 +48,7 @@
 <name>Instantiate(vector *,vector *)</name>
 <extent>
 <description>definition</description>
-<source_reference file="IApplyLeave.h" line="26" />
+<source_reference file="IApplyLeave.h" line="27" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
@@ -57,13 +57,13 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>applyLeave(int,IApplication *,Leaves_Team *)</name>
+<name>applyLeave(int,IApplication *,Leaves_Team *,bool)</name>
 <extent>
 <description>definition</description>
-<source_reference file="IApplyLeave.h" line="17" />
+<source_reference file="IApplyLeave.h" line="18" />
 </extent>
 <lines_of_code value="6" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
 <lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
@@ -72,7 +72,7 @@
 <name>getInstance()</name>
 <extent>
 <description>definition</description>
-<source_reference file="IApplyLeave.h" line="33" />
+<source_reference file="IApplyLeave.h" line="34" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="3" level="0" />
@@ -99,14 +99,21 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="IApplyLeave.h" line="17" />
+<source_reference file="IApplyLeave.h" line="18" />
 </extent>
 <name>Leaves_Team</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="IApplyLeave.h" line="17" />
+<source_reference file="IApplyLeave.h" line="18" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="IApplyLeave.h" line="18" />
 </extent>
 <name>vector</name>
 <visible>true</visible>
@@ -125,15 +132,15 @@
 </extent>
 <extent>
 <description>has by reference</description>
-<source_reference file="IApplyLeave.h" line="16" />
+<source_reference file="IApplyLeave.h" line="17" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="IApplyLeave.h" line="26" />
+<source_reference file="IApplyLeave.h" line="27" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="IApplyLeave.h" line="26" />
+<source_reference file="IApplyLeave.h" line="27" />
 </extent>
 </supplier_module>
 </module>

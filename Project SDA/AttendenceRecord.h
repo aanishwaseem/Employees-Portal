@@ -19,7 +19,7 @@ public:
 		MonthlyHrsWorked = m;
 		records = r;
 	}
-
+	void onDayUpdate(){}
 	void onWeekUpdate() override {
 
 		*WeeklyHrsWorked = 0;

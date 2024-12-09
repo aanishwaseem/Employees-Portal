@@ -10,15 +10,6 @@ public:
 		pass = PASs;
 		type = "Guard";
 	}
-	string getPass() {
-		return pass;
-	}
-	string getType() {
-		return type;
-	}
-	int getID() {
-		return id;
-	}
 	void markAttendance(vector<Record<IAttendenceEntity>*> empReg, int eid, bool overtime = false) {
 		int hours = 8;
 		if (overtime)

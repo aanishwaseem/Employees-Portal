@@ -38,3 +38,42 @@
 2;[Casual Leave] Your application (ID: 6) has been Rejected!;1733087059
 2;[Casual Leave] Your application (ID: 6) has been Approved!;1733087203
 2;[Casual Leave] Your application (ID: 7) has been Approved!;1733089217
+2;[Casual Leave] Your application (ID: 8) has been Approved!;1733255931
+2;[Casual Leave] Your application (ID: 9) has been Approved!;1733256303
+1;[Casual Leave] Your application (ID: 1111) has been Approved!;1733256362
+2;[Casual Leave] Your application (ID: 10) has been Approved!;1733256484
+2;[Casual Leave] Your application could not be processed!;1733256872
+2;[Casual Leave] Your application could not be processed!;1733256988
+2;[Casual Leave] Your application could not be processed!;1733257033
+2;[Earned Leave] Your application could not be processed!;1733257157
+2;[Casual Leave] Your application could not be processed!;1733257241
+1;[Casual Leave] Your application (ID: 6) has been Approved!;1733257427
+1;[Casual Leave] Your application (ID: 7) has been Approved!;1733257561
+1;[Casual Leave] Your application (ID: 8) has been Approved!;1733258055
+1;[Casual Leave] Your application could not be processed!;1733599462
+1;[Casual Leave] Your application could not be processed!;1733599510
+1;[Casual Leave] Your application could not be processed!;1733599585
+1;[Casual Leave] Your application (ID: 4) has been Approved!;1733599649
+1;[Casual Leave] Your application (ID: 4) has been Approved!;1733599840
+1;[Casual Leave] Your application (ID: 5) has been Approved!;1733600076
+1;[Casual Leave] Your application (ID: 6) has been Approved!;1733600226
+1;[Casual Leave] Your application (ID: 7) has been Approved!;1733600392
+1;[Casual Leave] Your application (ID: 8) has been Approved!;1733600489
+1;[Casual Leave] Your application (ID: 9) has been Approved!;1733640294
+1;[Casual Leave] Your application (ID: 10) has been Approved!;1733640712
+1;[Casual Leave] Your application (ID: 1) has been Approved!;1733687172
+1;[Casual Leave] Your application (ID: 1) has been Approved!;1733688298
+2;[Casual Leave] Your application (ID: 1) has been Approved!;1733689990
+1;[Unpaid Leave] Your application (ID: 1) has been Approved!;1733691882
+1;[Unpaid Leave] Your application (ID: 1) has been Approved!;1733692340
+1;[Unpaid Leave] Your application (ID: 1) has been Approved!;1733693081
+1;[Casual Leave] Your application (ID: 13) has been Approved!;1733700012
+1;[Casual Leave] Your application could not be processed!;1733700165
+2;[Earned Leave] Your application could not be processed!;1733700194
+2;[Earned Leave] Your application (ID: 12) has been Approved!;1733700244
+1;[Casual Leave] Your application could not be processed!;1733701645
+1;[Casual Leave] Your application could not be processed!;1733702053
+1;[Official Leave] Your application (ID: 14) has been Approved!;1733702094
+1;[Casual Leave] Your application could not be processed!;1733702994
+1;[Casual Leave] Your application could not be processed!;1733704263
+1;[Casual Leave] Your application has been Approved!;1733705065

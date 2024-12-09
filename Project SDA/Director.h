@@ -11,14 +11,4 @@ public:
 		pass = PASs;
 		type = "Director";
 	}
-
-	string getType() {
-		return type;
-	}
-	string getPass() {
-		return pass;
-	}
-	Director(int ida) { id = ida; }
-	int getID() { return id; }
-
 };

@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="91" />
+<source_reference file="ApplicationTypes.h" line="80" />
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,7 +36,7 @@
 <name>Rejected()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="93" />
+<source_reference file="ApplicationTypes.h" line="82" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -56,7 +56,7 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="ApplicationTypes.h" line="91" />
+<source_reference file="ApplicationTypes.h" line="80" />
 </extent>
 </supplier_module>
 </module>

@@ -5,6 +5,10 @@
 class UnpaidLeaveApp : public DefaultLeaveApplication {
 private:
 	string leaveAddress;   // Estimated financial loss for unpaid leave
+	// Overriding file format to include new fields
+	string getFileObjectFormat() override {
+		return DefaultLeaveApplication::getFileObjectFormat() + " " + leaveAddress;
+	}
 
 public:
 	// Constructor
@@ -19,11 +23,7 @@ public:
 		cout << "leave Address: " << leaveAddress << endl;
 	}
 
-	// Overriding file format to include new fields
-	string getFileObjectFormat() override {
-		return DefaultLeaveApplication::getFileObjectFormat() + " " + leaveAddress;
-	}
-
+	
 	// Static method to create an UnpaidLeave object from a file line
 	static UnpaidLeaveApp* getObjectFromLine(const string& line, string type = "Unpaid") {
 		stringstream ss(line);

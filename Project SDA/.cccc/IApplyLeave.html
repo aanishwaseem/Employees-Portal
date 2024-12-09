@@ -10,13 +10,13 @@ Detailed report on module IApplyLeave
 <TR>
 <TD>Lines of Code</TD><TD>LOC</TD><TD ALIGN=RIGHT>    28</TD><TD ALIGN=RIGHT>******</TD></TR>
 <TR>
-<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>******</STRONG></TD></TR>
+<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>******</STRONG></TD></TR>
 <TR>
 <TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
 <TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>28.000</EM></TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 6.000</EM></TD><TD>&nbsp;</TD></TR>
+<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 7.000</EM></TD><TD>&nbsp;</TD></TR>
 <TR>
 <TD>Weighted Methods per Class ( &nbsp;weighting = unity&nbsp;)</TD><TD>WMC1</TD><TD ALIGN=RIGHT>     4</TD><TD>&nbsp;</TD></TR>
 <TR>
@@ -26,9 +26,9 @@ Detailed report on module IApplyLeave
 <TR>
 <TD>Number of Children</TD><TD>NOC</TD><TD ALIGN=RIGHT>     0</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     4</TD><TD>&nbsp;</TD></TR>
+<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     5</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
+<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>    16</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
 <TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>********</TD></TR>
 <TR>
@@ -54,19 +54,19 @@ definition &nbsp;
 <TR>
 <TD>Instantiate( &nbsp;vector *, &nbsp;vector *&nbsp;)<BR>
 definition &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        26">IApplyLeave.h:26</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        27">IApplyLeave.h:27</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
-<TD>applyLeave( &nbsp;int, &nbsp;IApplication *, &nbsp;Leaves_Team *&nbsp;)<BR>
+<TD>applyLeave( &nbsp;int, &nbsp;IApplication *, &nbsp;Leaves_Team *, &nbsp;bool&nbsp;)<BR>
 definition &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        17">IApplyLeave.h:17</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        18">IApplyLeave.h:18</A></CODE><BR>
 <BR>
-</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
 <TD>getInstance( &nbsp;&nbsp;)<BR>
 definition &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        33">IApplyLeave.h:33</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        34">IApplyLeave.h:34</A></CODE><BR>
 <BR>
 </TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
@@ -86,12 +86,17 @@ has by reference &nbsp;
 <TD WIDTH=50%>
 IApplication [V] <BR>
 pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        17">IApplyLeave.h:17</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        18">IApplyLeave.h:18</A></CODE><BR>
 <BR>
 <BR>
 Leaves_Team [V] <BR>
 pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        17">IApplyLeave.h:17</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        18">IApplyLeave.h:18</A></CODE><BR>
+<BR>
+<BR>
+bool [CV] <BR>
+pass by value &nbsp;
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        18">IApplyLeave.h:18</A></CODE><BR>
 <BR>
 <BR>
 vector [V] <BR>
@@ -102,11 +107,11 @@ pass by reference &nbsp;
 pass by reference &nbsp;
 <CODE><A HREF="cccc_src.html#IApplyLeave.h:        11">IApplyLeave.h:11</A></CODE><BR>
 has by reference &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        16">IApplyLeave.h:16</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        17">IApplyLeave.h:17</A></CODE><BR>
 pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        26">IApplyLeave.h:26</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        27">IApplyLeave.h:27</A></CODE><BR>
 pass by reference &nbsp;
-<CODE><A HREF="cccc_src.html#IApplyLeave.h:        26">IApplyLeave.h:26</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#IApplyLeave.h:        27">IApplyLeave.h:27</A></CODE><BR>
 <BR>
 <BR>
 &nbsp;

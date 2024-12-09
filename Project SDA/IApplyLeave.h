@@ -12,11 +12,12 @@ class IApplyLeave {
 		empLeaveRecords = EmpLeaveRecords;
 		empAttendRegisters = EmpAttendRegisters;
 	}
+
 public:
 	vector<Record<IAttendenceEntity>*>* empAttendRegisters;
 	void applyLeave(int eid, IApplication* app, Leaves_Team* team, bool WriteToFalse = true) {
 		// file the leave
-		bool success = team->apply(app, (*empAttendRegisters)[eid - 1], ((*empLeaveRecords)[eid - 1])->getAllRecords());
+		bool success = team->apply(app, ((*empLeaveRecords)[eid - 1])->getAllRecords());
 		if (success && WriteToFalse) {
 			(*empLeaveRecords)[eid - 1]->addRecord(app);
 		}

@@ -14,10 +14,10 @@
 <weighted_methods_per_class_visibility value="2" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
-<coupling_between_objects value="5" level="0" />
-<IF4 value="16" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="9" level="0" />
 <IF4_per_member_function value="********" level="2" />
-<IF4_visible value="16" level="0" />
+<IF4_visible value="9" level="0" />
 <IF4_visible_per_member_function value="********" level="2" />
 <IF4_concrete value="1" level="0" />
 <IF4_concrete_per_member_function value="********" level="2" />
@@ -33,7 +33,7 @@
 </module_detail>
 <procedural_detail>
 <member_function>
-<name>AddObserver(Record *,IApplication *,IApplicationObserver *,int)</name>
+<name>AddObserver(IApplication *,IApplicationObserver *,int)</name>
 <extent>
 <description>declaration</description>
 <source_reference file="IApplicationObserve.h" line="11" />
@@ -66,7 +66,7 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Admin.h" line="60" />
+<source_reference file="Admin.h" line="27" />
 </extent>
 </client_module>
 <supplier_module>
@@ -78,13 +78,6 @@
 <source_reference file="IApplicationObserve.h" line="11" />
 </extent>
 <name>IApplicationObserver</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="IApplicationObserve.h" line="11" />
-</extent>
-<name>Record</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>

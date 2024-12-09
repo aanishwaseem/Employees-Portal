@@ -5,3 +5,8 @@
 6 Casual 2 2 Approved 22-12-2024 22-12-2024 22-12-2024 iamgoingoutofcity
 6 Casual 2 2 Approved 22-12-2024 22-12-2024 22-12-2024 iamgoingoutofcity
 7 Casual 2 2 Approved 30-12-2024 30-12-2024 30-12-2024 idontwant
+8 Casual 2 2 Approved 30-11-2024 32-11-2024 30-11-2024 i-want-to-go-home
+9 Casual 2 2 Approved 30-12-2024 32-12-2024 30-12-2024 23
+10 Casual 2 1 Approved 30-12-2024 30-12-2024 30-12-2024 s
+1 Casual 2 2 Approved 30-12-2024 30-12-2024 30-12-2024 3
+12 Earned 2 5 Pending 30-12-2024 30-12-2024 30-12-2024 sda

@@ -142,11 +142,9 @@
     <ClInclude Include="AttendenceEntity.h" />
     <ClInclude Include="AttendenceRecord.h" />
     <ClInclude Include="AwardHoursAction.h" />
-    <ClInclude Include="CasualLeaveValidator.h" />
     <ClInclude Include="CasualTeam.h" />
     <ClInclude Include="Director.h" />
     <ClInclude Include="DirectorPortal.h" />
-    <ClInclude Include="EarnedLeaveValidator.h" />
     <ClInclude Include="EarnedTeam.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="EmployeePortal.h" />
@@ -162,7 +160,6 @@
     <ClInclude Include="INotificationManager.h" />
     <ClInclude Include="IPerson.h" />
     <ClInclude Include="IPostAction.h" />
-    <ClInclude Include="IValidator.h" />
     <ClInclude Include="LeavesRecord.h" />
     <ClInclude Include="ILeaves_Team.h" />
     <ClInclude Include="Login.h" />
@@ -179,7 +176,6 @@
     <ClInclude Include="SupervisorPortal.h" />
     <ClInclude Include="Time.h" />
     <ClInclude Include="UnpaidLeaveApp.h" />
-    <ClInclude Include="UnpaidPostAction.h" />
     <ClInclude Include="UnpaidTeam.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

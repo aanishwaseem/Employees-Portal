@@ -14,23 +14,17 @@ public:
 	Status(string stat, int id): appID(id) {
 		state = stat;
 	}
-	void setState(string stat, IApplication* app) {
+	void setState(string stat, int eid, string format) {
 		state = stat;
-		updateLeaveStatus(app);
+		updateLeaveStatus(eid, format);
 	};
 	string getState() {
 		return state;
 	}
-	void updateLeaveStatus(IApplication* app) {
-		string eid = to_string(app->getEmpId());
+	void updateLeaveStatus(int Eid, string format) {
+		string eid = to_string(Eid);
 		string filename = eid + "LR.txt"; // File name based on employee ID
 		fstream file(filename, ios::in | ios::out);
-	
-		if (!file.is_open()) {
-			cerr << "Unable to open leave record file for employee ID: " << app->getEmpId() << endl;
-			return;
-		}
-	
 		string line;
 		stringstream buffer;
 		bool found = false;
@@ -48,7 +42,6 @@ public:
 				found = true;
 	
 				// Update the status
-				string format = app->getFileObjectFormat();
 				buffer << format << endl;
 			}
 			else {
@@ -66,10 +59,6 @@ public:
 	
 		// Write the updated buffer back to the file
 		ofstream outFile(filename, ios::trunc);
-		if (!outFile.is_open()) {
-			cerr << "Unable to update leave record file for employee ID: " << eid << endl;
-			return;
-		}
 	
 		outFile << buffer.str();
 		outFile.close();
@@ -104,7 +93,11 @@ protected:
 	string to;
 	string from;
 	string reason;
-
+	
+	virtual string getFileObjectFormat() {
+		string objformat = to_string(id) + " " + leaveType + " " + to_string(eid) + " " + (days)+" " + status.getState() + " " + (date)+" " + (to)+" " + (from)+" " + reason;
+		return objformat;
+	}
 public:
 	// Constructor
 	DefaultLeaveApplication(int Eid, int ID, string leaveType, string days, string Date, string To, string From, string Reason, string state = "Pending") : date(Date), to(To), from(From), reason(Reason), eid(Eid), id(ID), leaveType(leaveType), days(days), status(state, ID) { // when new app is created it gets pending
@@ -114,19 +107,13 @@ public:
 	void display() {
 		cout << "Emp. ID: " << eid << ", Leave type: " << leaveType << ",  status: " << status.getState() << ", days: " << days << ", from: " << from << ", to: " << to << endl;
 	}
-	string getFileObjectFormat() {
-		string objformat = to_string(id) + " " + leaveType + " " + to_string(eid) + " " + (days)+" " + status.getState() + " " + (date)+" " + (to)+" " + (from)+" " + reason;
-		return objformat;
-	}
 	// Getters
 	string getApplicationType() { return leaveType; }
-	string getDate() { return date; }
-	string getToDate() { return from; }
+	string getToDate() { return to; }
 	int getEmpId() { return (eid); }
-	int getRecordId() { return (id); }
 	int getDuration() { return stoi(days); }
 	void setStatus(string newstate) {
-		status.setState(newstate, &(*this));
+		status.setState(newstate, eid, getFileObjectFormat());
 	}
 	static IApplication* getObjectFromLine(const string& line) {
 		stringstream ss(line);
@@ -155,16 +142,10 @@ public:
 		string filename = to_string(eid) + "LR.txt"; // File is named after Employee ID
 		ofstream file(filename, ios::app); // Open file in append mode
 
-		if (!file.is_open()) {
-			cerr << "Error: Unable to open file for writing.\n";
-			return;
-		}
-
 		// Write the record to the file
 		string objFormat = getFileObjectFormat();
 		file << objFormat << endl;
 		file.close(); // Close the file
-		cout << "Leave record added successfully.\n";
 	}
 };
 

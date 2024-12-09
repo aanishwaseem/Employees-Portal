@@ -2,14 +2,14 @@
 <!--Detailed report on module Leave-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="73" level="0" />
+<lines_of_code value="81" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="16" level="0" />
+<McCabes_cyclomatic_complexity value="20" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
-<lines_of_code value="17" level="0" />
+<lines_of_code value="18" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="4.294" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="0.941" level="0" />
+<lines_of_code_per_line_of_comment value="4.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.111" level="0" />
 <weighted_methods_per_class_unity value="8" level="0" />
 <weighted_methods_per_class_visibility value="5" level="0" />
 <depth_of_inheritance_tree value="1" level="0" />
@@ -36,7 +36,7 @@
 <name>AppsGeneratingFactory(const string &amp;)</name>
 <extent>
 <description>definition</description>
-<source_reference file="LeavesRecord.h" line="47" />
+<source_reference file="LeavesRecord.h" line="50" />
 </extent>
 <lines_of_code value="18" level="0" />
 <McCabes_cyclomatic_complexity value="7" level="0" />
@@ -84,13 +84,13 @@
 <name>generateSummary(int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="LeavesRecord.h" line="76" />
+<source_reference file="LeavesRecord.h" line="78" />
 </extent>
-<lines_of_code value="17" level="0" />
-<McCabes_cyclomatic_complexity value="3" level="0" />
-<lines_of_comment value="9" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<lines_of_code value="22" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="2.200" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.500" level="0" />
 </member_function>
 <member_function>
 <name>getAllRecords()</name>
@@ -110,19 +110,19 @@
 <description>definition</description>
 <source_reference file="LeavesRecord.h" line="27" />
 </extent>
-<lines_of_code value="16" level="0" />
-<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
 <lines_of_comment value="2" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<lines_of_code_per_line_of_comment value="10.000" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
 </member_function>
 <member_function>
 <name>viewRecords()</name>
 <extent>
 <description>definition</description>
-<source_reference file="LeavesRecord.h" line="70" />
+<source_reference file="LeavesRecord.h" line="73" />
 </extent>
-<lines_of_code value="6" level="0" />
+<lines_of_code value="5" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="1" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -154,7 +154,7 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="LeavesRecord.h" line="47" />
+<source_reference file="LeavesRecord.h" line="50" />
 </extent>
 <name>vector</name>
 <visible>false</visible>

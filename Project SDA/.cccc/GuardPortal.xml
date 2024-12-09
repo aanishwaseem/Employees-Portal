@@ -2,7 +2,7 @@
 <!--Detailed report on module GuardPortal-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="14" level="0" />
+<lines_of_code value="17" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
@@ -50,7 +50,7 @@
 <description>definition</description>
 <source_reference file="GuardPortal.h" line="13" />
 </extent>
-<lines_of_code value="6" level="0" />
+<lines_of_code value="9" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />

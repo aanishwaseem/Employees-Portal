@@ -14,10 +14,10 @@
 <weighted_methods_per_class_visibility value="5" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
-<coupling_between_objects value="10" level="0" />
-<IF4 value="81" level="0" />
+<coupling_between_objects value="3" level="0" />
+<IF4 value="4" level="0" />
 <IF4_per_member_function value="********" level="2" />
-<IF4_visible value="81" level="1" />
+<IF4_visible value="1" level="0" />
 <IF4_visible_per_member_function value="********" level="2" />
 <IF4_concrete value="0" level="0" />
 <IF4_concrete_per_member_function value="********" level="0" />
@@ -97,59 +97,16 @@
 <module>
 <name>Record</name>
 <client_module>
-<name>Admin</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Admin.h" line="66" />
-</extent>
-<name>AdminObserverManager</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Admin.h" line="20" />
-</extent>
-<name>AwardHoursAction</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="AwardHoursAction.h" line="9" />
-</extent>
 <name>Employee</name>
-<visible>true</visible>
+<visible>false</visible>
 <concrete>false</concrete>
-<extent>
-<description>has by reference</description>
-<source_reference file="Employee.h" line="6" />
-</extent>
 <extent>
 <description>has by reference</description>
 <source_reference file="Employee.h" line="7" />
 </extent>
 <extent>
-<description>pass by reference</description>
-<source_reference file="Employee.h" line="21" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Employee.h" line="21" />
-</extent>
-<name>IApplicationObservable</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="IApplicationObserve.h" line="11" />
-</extent>
-<name>IApplicationObserver</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="IApplicationObserve.h" line="7" />
+<description>has by reference</description>
+<source_reference file="Employee.h" line="8" />
 </extent>
 <name>Leave</name>
 <visible>true</visible>
@@ -157,24 +114,6 @@
 <extent>
 <description>inheritance</description>
 <source_reference file="LeavesRecord.h" line="10" />
-</extent>
-<name>Official</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="26" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="31" />
-</extent>
-<name>Unpaid</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="UnpaidTeam.h" line="31" />
 </extent>
 </client_module>
 <supplier_module>

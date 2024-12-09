@@ -17,7 +17,7 @@ private:
 	Main() {
 		inactivityManager = InactivityManager::getInstance();
 		IApply = IApplyLeave::Instantiate(&empLeaveRecords, &empAttendRegisters);
-		ReportsGenerator = new IMonthlyReports(&empAttendRegisters, static_cast<InactivityManager*>(inactivityManager)->getIDs());
+		ReportsGenerator = new IMonthlyReports(&empAttendRegisters);
 		MyTime* timeobj = MyTime::getInstance();
 		timeobj->addObserver(ReportsGenerator);
 		timeobj->addObserver(inactivityManager);
@@ -30,9 +30,6 @@ public:
 
 		}
 		return main;
-	}
-	void generateInstantSalaries() {
-
 	}
 	Record<IAttendenceEntity>* generateEmployeeRecord(int id) { // Factory Method called when creating employees agr employe null krta ha register ko istrah to record ka track to gya, agr to record getter sy arha to koi b edit kr skta 
 		string filename = to_string(id) + ".txt";

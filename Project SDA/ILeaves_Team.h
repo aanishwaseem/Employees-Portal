@@ -1,5 +1,6 @@
 #pragma once
 #include "IApplicationObserve.h"
+#include "Time.h"
 #include "NotificationManager.h"
 #include <vector>
 class Leaves_Team : public IApplicationObserver {
@@ -8,13 +9,15 @@ protected:
 	vector<IApplicationObservable*> approvers;  // List of approvers for a team
 public:
 	virtual ~Leaves_Team() = default;
-
-	bool apply(IApplication* application, Record<IAttendenceEntity>* attenRecords, vector<IApplication*>* leaveRecords) { // template method for applying procedure f0r all teams
+	void addAdmin(IApplicationObservable* admin) {
+		approvers.push_back(admin);
+	}
+	bool apply(IApplication* application, vector<IApplication*>* leaveRecords) { // template method for applying procedure f0r all teams
 		bool check = true;
 		check = validate(leaveRecords, application);
 		if (check) {
 			AddInApplicationVector(application); //Command pattern (submitting leave).
-			ForwardApplicationFurther(attenRecords, application); // send to first admin in hierachy
+			ForwardApplicationFurther(application); // send to first admin in hierachy
 			return true;
 		}
 		else {
@@ -23,7 +26,7 @@ public:
 		}
 	}
 
-	virtual void ForwardApplicationFurther(Record<IAttendenceEntity>*, IApplication* application, int ApproverNumber = 0, string status = "Pending") = 0;
+	virtual void ForwardApplicationFurther(IApplication* application, int ApproverNumber = 0, string status = "Pending") = 0;
 	virtual string getType() = 0;
 	virtual bool validate(vector<IApplication*>* leaveRecords, IApplication* newapp) {
 		return true; // default validation is true;
@@ -33,7 +36,7 @@ public:
 	}
 	void NotifyStatusChange(IApplication* application) {
 		INotificationManager* notificationManager = NotificationManager::getInstance();
-		string msg = "[" + getType() + " Leave] Your application (ID: " + to_string(application->getRecordId()) + ") has been " + application->getStatus() + "!";
+		string msg = "[" + getType() + " Leave] Your application has been " + application->getStatus() + "!";
 		notificationManager->addNotification(application->getEmpId(), msg);
 	}
 	void NotifiyFailure(int eid) {
@@ -46,5 +49,21 @@ public:
 		for (auto& app : applications) {
 			app->display();
 		}
+	}
+
+	int calculateEmpLeavesCount(vector<IApplication*>* records) {
+		// Initialize casualLeavesCount to 0
+		int casualLeavesCount = 0;
+		int currentYear = MyTime::Year;
+		// Traverse through each record (IApplication pointer)
+		for (auto& record : *records) {
+			// Check if the application type is "Casual" and the year matches the current year
+			if (record->getApplicationType() == getType() && getYear(record->getToDate()) == currentYear) {
+				// Add the number of days to casualLeavesCount
+				casualLeavesCount += record->getDuration();
+			}
+		}
+
+		return casualLeavesCount;
 	}
 };

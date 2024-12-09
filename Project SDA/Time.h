@@ -17,6 +17,7 @@ public:
     virtual void onWeekUpdate() = 0;
     virtual void onMonthUpdate() = 0;
     virtual void onYearUpdate() = 0;
+    virtual void onDayUpdate() = 0;
     virtual ~ITimeObserver() = default;
 };
 
@@ -27,6 +28,7 @@ public:
     virtual void notifyWeekUpdate() = 0;
     virtual void notifyMonthUpdate() = 0;
     virtual void notifyYearUpdate() = 0;
+    virtual void notifyDayUpdate() = 0;
     virtual ~ITimeObservable() = default;
 };
 
@@ -73,6 +75,11 @@ public:
             observer->onWeekUpdate();
         }
     }
+    void notifyDayUpdate() override {
+        for (auto* observer : observers) {
+            observer->onDayUpdate();
+        }
+    }
     void updateYear() {
         Year++;
         Month = 0;  // Reset months at the start of a new year
@@ -101,18 +108,18 @@ public:
         if (Day % 30 == 0) { // Simulating a 30-day month
             updateMonth();
         }
+        notifyDayUpdate();
     }
 };
 
-// we have leave records in file , what to do with those? do in check in we have to do something? on checkin we add inactives
 // in earned leave we also have to deduct timer in file (additional)
 //MENU:
 // manager approvers
 // add a new supervisor / director
-//at the start of program , give hours  from apps
 // Inactive at the employees.txt file
 //WE NEED TO TEST ALL GIVEN FUNCTIONALITIES in instructions:
 // system whether generates the 80% attendence or not
+// "You are not on any leave'
 int getYear(string date);
 int getWeekNumberInMonth(const std::string& dateStr);
 int getDayGivenMonth(const std::string& dateStr);

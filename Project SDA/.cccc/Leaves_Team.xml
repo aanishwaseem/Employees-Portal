@@ -2,11 +2,11 @@
 <!--Detailed report on module Leaves_Team-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="16" level="0" />
+<lines_of_code value="11" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="2" level="0" />
-<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
-<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="2" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
@@ -24,10 +24,10 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="ILeaves_Team.h" line="5" />
-<lines_of_code value="16" level="0" />
-<McCabes_cyclomatic_complexity value="2" level="0" />
-<lines_of_comment value="4" level="0" />
+<source_reference file="ILeaves_Team.h" line="6" />
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="2" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module_detail>
@@ -42,21 +42,21 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="CasualTeam.h" line="5" />
+<source_reference file="CasualTeam.h" line="4" />
 </extent>
 <name>Earned</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="EarnedTeam.h" line="5" />
+<source_reference file="EarnedTeam.h" line="4" />
 </extent>
 <name>IApplyLeave</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="IApplyLeave.h" line="17" />
+<source_reference file="IApplyLeave.h" line="18" />
 </extent>
 <name>Official</name>
 <visible>true</visible>
@@ -70,7 +70,7 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="UnpaidTeam.h" line="4" />
+<source_reference file="UnpaidTeam.h" line="3" />
 </extent>
 </client_module>
 <supplier_module>
@@ -79,18 +79,18 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="ILeaves_Team.h" line="5" />
+<source_reference file="ILeaves_Team.h" line="6" />
 </extent>
 <name>vector</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="ILeaves_Team.h" line="7" />
+<source_reference file="ILeaves_Team.h" line="8" />
 </extent>
 <extent>
 <description>has by value</description>
-<source_reference file="ILeaves_Team.h" line="8" />
+<source_reference file="ILeaves_Team.h" line="9" />
 </extent>
 </supplier_module>
 </module>

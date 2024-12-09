@@ -1,54 +1,50 @@
 #pragma once
 #include "ILeaves_Team.h"
-#include "EarnedLeaveValidator.h"
 #include "AwardHoursAction.h"
 class Earned : public Leaves_Team {
 private:
 	static Earned* instance;
 
-	Earned(vector<IApplicationObservable*> admins) {
-		approvers = admins;
+	Earned() {
 	}
 
 public:
-	static Earned* getInstance(vector<IApplicationObservable*> admins) {
-		if (!instance) {
-			instance = new Earned(admins);
-		}
-		return instance;
-	}
-
 	static Earned* getInstance() {
-		if (!instance) {
-			return nullptr;
+		if (instance == nullptr) {
+			instance = new Earned();
 		}
 		return instance;
 	}
 	bool validate(vector<IApplication*>* leaveRecords, IApplication* newapp) override {
-		IValidator* validator = new EarnedLeaveValidator(leaveRecords, newapp);
-		bool result = validator->validate();
-		delete validator;
-		return result;
+		int leavescount = calculateEmpLeavesCount(leaveRecords);
+		if (leavescount < 21 && newapp->getDuration() > 4) {
+
+			return true;
+		}
+		cout << "You cannot apply days should be greater than 4 or you have availed all limits" << endl;
+
+		return false;
+
 	}
-	void postactions(Record<IAttendenceEntity>* attenrecords, IApplication* newapp) {
-		IPostAction* action = new AwardHoursAction(attenrecords, newapp, newapp->getDuration() * 8);
+	void postactions(IApplication* newapp) {
+		IPostAction* action = new AwardHoursAction(newapp->getEmpId(), newapp->getToDate(), newapp->getDuration(), newapp->getDuration() * 8);
 		action->postaction();
 		delete action;
 	}
-	void ForwardApplicationFurther(Record<IAttendenceEntity>* attenRecords, IApplication* application, int ApproverNumber = 0, string status = "Pending") { // actually registering in observables (approval team)
+	void ForwardApplicationFurther(IApplication* application, int ApproverNumber = 0, string status = "Pending") { // actually registering in observables (approval team)
 		if (ApproverNumber >= approvers.size() || status == "Rejected") // // supervisor has denied the application so do not forward to Director
 		{// application has gone through all the process now update the status
 			application->setStatus(status);
 			NotifyStatusChange(application);
 			if (status == "Approved") {
 
-				postactions(attenRecords, application);
+				postactions(application);
 			}
 			applications.erase(std::find(applications.begin(), applications.end(), application));
 
 		}
 		else {
-			approvers[ApproverNumber]->AddObserver(attenRecords, application, Earned::getInstance(approvers), ApproverNumber);  // Start the approval process with the first approver
+			approvers[ApproverNumber]->AddObserver(application, Earned::getInstance(), ApproverNumber);  // Start the approval process with the first approver
 
 		}
 	}

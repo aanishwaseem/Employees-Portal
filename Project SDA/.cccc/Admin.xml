@@ -2,7 +2,7 @@
 <!--Detailed report on module Admin-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="15" level="0" />
+<lines_of_code value="9" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
@@ -10,64 +10,28 @@
 <lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-<weighted_methods_per_class_unity value="3" level="0" />
-<weighted_methods_per_class_visibility value="3" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
 <depth_of_inheritance_tree value="1" level="0" />
 <number_of_children value="2" level="0" />
-<coupling_between_objects value="12" level="0" />
-<IF4 value="1024" level="2" />
+<coupling_between_objects value="5" level="0" />
+<IF4 value="16" level="0" />
 <IF4_per_member_function value="********" level="2" />
-<IF4_visible value="1024" level="2" />
+<IF4_visible value="16" level="0" />
 <IF4_visible_per_member_function value="********" level="2" />
-<IF4_concrete value="100" level="1" />
+<IF4_concrete value="4" level="0" />
 <IF4_concrete_per_member_function value="********" level="2" />
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Admin.h" line="60" />
-<lines_of_code value="6" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
+<source_reference file="Admin.h" line="27" />
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </module_detail>
 <procedural_detail>
-<member_function>
-<name>AddObserver(Record *,IApplication *,IApplicationObserver *,int)</name>
-<extent>
-<description>definition</description>
-<source_reference file="Admin.h" line="66" />
-</extent>
-<lines_of_code value="3" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>displayPendingWork()</name>
-<extent>
-<description>definition</description>
-<source_reference file="Admin.h" line="69" />
-</extent>
-<lines_of_code value="3" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>notifyApplicationChange(int,string)</name>
-<extent>
-<description>definition</description>
-<source_reference file="Admin.h" line="72" />
-</extent>
-<lines_of_code value="3" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
 </procedural_detail>
 <structural_detail>
 <module>
@@ -111,61 +75,12 @@
 </extent>
 </client_module>
 <supplier_module>
-<name>AdminNotifier</name>
-<visible>true</visible>
-<concrete>true</concrete>
-<extent>
-<description>has by value</description>
-<source_reference file="Admin.h" line="63" />
-</extent>
-<name>AdminObserverManager</name>
-<visible>true</visible>
-<concrete>true</concrete>
-<extent>
-<description>has by value</description>
-<source_reference file="Admin.h" line="62" />
-</extent>
-<name>DisplayStrategy</name>
-<visible>true</visible>
-<concrete>true</concrete>
-<extent>
-<description>has by value</description>
-<source_reference file="Admin.h" line="64" />
-</extent>
-<name>IApplication</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Admin.h" line="66" />
-</extent>
 <name>IApplicationObservable</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Admin.h" line="60" />
-</extent>
-<name>IApplicationObserver</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Admin.h" line="66" />
-</extent>
-<name>Record</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Admin.h" line="66" />
-</extent>
-<name>string</name>
-<visible>true</visible>
-<concrete>true</concrete>
-<extent>
-<description>pass by value</description>
-<source_reference file="Admin.h" line="72" />
+<source_reference file="Admin.h" line="27" />
 </extent>
 </supplier_module>
 </module>

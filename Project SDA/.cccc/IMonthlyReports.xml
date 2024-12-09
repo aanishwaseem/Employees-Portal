@@ -2,14 +2,14 @@
 <!--Detailed report on module IMonthlyReports-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="39" level="0" />
+<lines_of_code value="31" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
-<lines_of_code value="1" level="0" />
-<lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="39.000" level="2" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="7.000" level="1" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 <weighted_methods_per_class_unity value="7" level="0" />
 <weighted_methods_per_class_visibility value="7" level="0" />
 <depth_of_inheritance_tree value="1" level="0" />
@@ -25,7 +25,7 @@
 <module_detail>
 <description>definition</description>
 <source_reference file="IMonthlyReports.h" line="8" />
-<lines_of_code value="8" level="0" />
+<lines_of_code value="7" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -36,9 +36,9 @@
 <name>GenerateMonthlyReports()</name>
 <extent>
 <description>definition</description>
-<source_reference file="IMonthlyReports.h" line="22" />
+<source_reference file="IMonthlyReports.h" line="21" />
 </extent>
-<lines_of_code value="5" level="0" />
+<lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -57,26 +57,26 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>IMonthlyReports(vector *,vector *)</name>
+<name>IMonthlyReports(vector *)</name>
 <extent>
 <description>definition</description>
-<source_reference file="IMonthlyReports.h" line="12" />
+<source_reference file="IMonthlyReports.h" line="11" />
 </extent>
-<lines_of_code value="4" level="0" />
+<lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>isEmpInactive(int)</name>
+<name>onDayUpdate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="IMonthlyReports.h" line="38" />
+<source_reference file="IMonthlyReports.h" line="14" />
 </extent>
-<lines_of_code value="8" level="0" />
-<McCabes_cyclomatic_complexity value="4" level="0" />
-<lines_of_comment value="1" level="0" />
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
@@ -84,7 +84,7 @@
 <name>onMonthUpdate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="IMonthlyReports.h" line="17" />
+<source_reference file="IMonthlyReports.h" line="16" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -96,7 +96,7 @@
 <name>onWeekUpdate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="IMonthlyReports.h" line="16" />
+<source_reference file="IMonthlyReports.h" line="15" />
 </extent>
 <lines_of_code value="0" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -108,7 +108,7 @@
 <name>onYearUpdate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="IMonthlyReports.h" line="21" />
+<source_reference file="IMonthlyReports.h" line="20" />
 </extent>
 <lines_of_code value="0" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -138,16 +138,8 @@
 <source_reference file="IMonthlyReports.h" line="9" />
 </extent>
 <extent>
-<description>has by reference</description>
-<source_reference file="IMonthlyReports.h" line="10" />
-</extent>
-<extent>
 <description>pass by reference</description>
-<source_reference file="IMonthlyReports.h" line="12" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="IMonthlyReports.h" line="12" />
+<source_reference file="IMonthlyReports.h" line="11" />
 </extent>
 </supplier_module>
 </module>

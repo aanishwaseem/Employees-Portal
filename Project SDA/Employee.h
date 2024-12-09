@@ -1,6 +1,7 @@
 #pragma once
 #include "ILeaves_Team.h"
 #include "IPerson.h"
+#include "Main.h"
 class Employee : public Person {
 private:
 	Record<IAttendenceEntity>* myAttendenceRecord;
@@ -9,43 +10,40 @@ public:
 	int inactive = 0;
 
 	Employee() {}
-	Employee(int ID, string PASs) {
-		id = ID;
-		pass = PASs;
-		type = "Employee";
-	}
 
-	string getType() {
-		return type;
+	Employee* initializeEmployee(int ID, string PASs){ // factory method
+		InactivityManager* inactives = InactivityManager::getInstance();
+		Main* system = Main::getMain();
+		Employee* newemp = new Employee;
+		newemp->id = ID;
+		newemp->pass = PASs;
+		Record<IAttendenceEntity>* NewRecord = system->generateEmployeeRecord(newemp->id);
+		Record<IApplication>* NewLeaveRecord = system->createLeaveRecord(newemp->id);
+		newemp->myAttendenceRecord = NewRecord;
+		newemp->myLeaveRecord = NewLeaveRecord;
+		newemp->myAttendenceRecord->refresh();
+		newemp->myLeaveRecord->refresh();
+		int Inactive = inactives->isInactive(newemp->id);
+		newemp->inactive = Inactive;
+		
+		newemp->type = "Employee";
+		return newemp;
 	}
-	void initializeEmployee(int Inactive, Record<IAttendenceEntity>* NewRecord, Record<IApplication>* NewLeaveRecord){
-		myAttendenceRecord = NewRecord;
-		myLeaveRecord = NewLeaveRecord;
-		myAttendenceRecord->refresh();
-		myLeaveRecord->refresh();
-		inactive = Inactive;
+	void setInactive(int days) { // setting inactive emp
+		inactive = days;
 	}
-	string getPass() {
-		return pass;
-	}
-	void generateAttendenceReport() {
+	void generateAttendenceReport() { // generating emp report
 		myAttendenceRecord->viewRecords();
 	}
-	void generateLeaveReport() {
+	void generateLeaveReport() { // leave report
 		myLeaveRecord->viewRecords();
 
 	}
-	void generateLeaveSummary() {
+	void generateLeaveSummary() { //leave summary
 		myLeaveRecord->generateSummary();
-	}
-	int getID() {
-		return id;
 	}
 	int getNextLeaveID() {
 		return myLeaveRecord->getAllRecords()->size()+1;
-	}
-	bool operator==(const Employee& other) const {
-		return this->id == other.id;
 	}
 	~Employee() {
 

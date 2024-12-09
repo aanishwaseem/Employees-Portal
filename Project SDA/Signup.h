@@ -2,29 +2,28 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-#include "Employee.h"
 using namespace std;
 class Signup {
 public:
 	Signup() {}
 
-	Employee* open()
+	void open(int& id, string& pass)
 	{
 		system("cls");
-		cout << "Sign Up:\n";
-		Employee* newe = employeeSignup();
+		cout << "Sign Up:\n"; // File opening failed
+		employeeSignup(id, pass);
 		system("pause");
-		return newe;
 	}
 
-	Employee* employeeSignup()
+	void employeeSignup(int& ID, string& pass)
 	{
 		string name;
-		int id;
-		string password;
+		int id; // File opening failed
+		string password; // File opening failed
 		getCredentials(id, password);
 		cout << "Signed Up as Employee: " << id << endl;
-		return new Employee(id, password);
+		ID = id;
+		pass = password; // File opening failed
 	}
 
 
@@ -37,17 +36,7 @@ public:
 
 		string filename = "employees.txt";
 		ofstream file(filename, ios::app);
-		file << id << " " << password << endl;
-	}
-
-	void getType(int& type)
-	{
-		while (type < 0 || type > 3) {
-
-			cin >> type;
-			if (type < 0 || type > 3)
-				cout << "Enter valid input\n";
-		}
+		file << id << " " << password << 0 << endl; // File opening failed
 	}
 
 };

@@ -2,10 +2,10 @@
 <!--Detailed report on module Person-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="9" level="0" />
+<lines_of_code value="13" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
 <lines_of_code value="0" level="0" />
 <lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -25,8 +25,8 @@
 <module_detail>
 <description>definition</description>
 <source_reference file="IPerson.h" line="4" />
-<lines_of_code value="6" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
@@ -35,10 +35,10 @@
 <member_function>
 <name>getID()</name>
 <extent>
-<description>declaration</description>
+<description>definition</description>
 <source_reference file="IPerson.h" line="10" />
 </extent>
-<lines_of_code value="1" level="0" />
+<lines_of_code value="0" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -47,11 +47,11 @@
 <member_function>
 <name>getPass()</name>
 <extent>
-<description>declaration</description>
+<description>definition</description>
 <source_reference file="IPerson.h" line="11" />
 </extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
@@ -59,11 +59,11 @@
 <member_function>
 <name>getType()</name>
 <extent>
-<description>declaration</description>
-<source_reference file="IPerson.h" line="12" />
+<description>definition</description>
+<source_reference file="IPerson.h" line="14" />
 </extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
@@ -85,7 +85,7 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Employee.h" line="4" />
+<source_reference file="Employee.h" line="5" />
 </extent>
 <name>Guard</name>
 <visible>true</visible>

@@ -35,7 +35,7 @@
 <concrete>false</concrete>
 <extent>
 <description>has by reference</description>
-<source_reference file="AwardHoursAction.h" line="6" />
+<source_reference file="AwardHoursAction.h" line="7" />
 </extent>
 </client_module>
 <supplier_module>

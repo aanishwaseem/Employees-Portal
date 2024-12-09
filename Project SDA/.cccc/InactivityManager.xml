@@ -2,16 +2,16 @@
 <!--Detailed report on module InactivityManager-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="63" level="0" />
+<lines_of_code value="69" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="13" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
-<lines_of_code value="8" level="0" />
+<lines_of_code value="26" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="7.875" level="1" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="1.625" level="0" />
-<weighted_methods_per_class_unity value="10" level="0" />
-<weighted_methods_per_class_visibility value="10" level="0" />
+<lines_of_code_per_line_of_comment value="2.654" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.500" level="0" />
+<weighted_methods_per_class_unity value="11" level="0" />
+<weighted_methods_per_class_visibility value="11" level="0" />
 <depth_of_inheritance_tree value="1" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="2" level="0" />
@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="5" />
+<source_reference file="InactivityManager.h" line="78" />
 <lines_of_code value="8" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,9 +36,9 @@
 <name>InactivityManager()</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="8" />
+<source_reference file="InactivityManager.h" line="81" />
 </extent>
-<lines_of_code value="2" level="0" />
+<lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -48,9 +48,9 @@
 <name>addInactive(int,int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="20" />
+<source_reference file="InactivityManager.h" line="94" />
 </extent>
-<lines_of_code value="5" level="0" />
+<lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -60,7 +60,7 @@
 <name>displayInactives()</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="36" />
+<source_reference file="InactivityManager.h" line="132" />
 </extent>
 <lines_of_code value="14" level="0" />
 <McCabes_cyclomatic_complexity value="3" level="0" />
@@ -72,11 +72,11 @@
 <name>getIDs()</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="25" />
+<source_reference file="InactivityManager.h" line="121" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="0" level="0" />
+<lines_of_comment value="18" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
@@ -84,7 +84,7 @@
 <name>getInstance()</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="13" />
+<source_reference file="InactivityManager.h" line="87" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
@@ -96,7 +96,7 @@
 <name>isInactive(int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="28" />
+<source_reference file="InactivityManager.h" line="124" />
 </extent>
 <lines_of_code value="8" level="0" />
 <McCabes_cyclomatic_complexity value="5" level="0" />
@@ -105,10 +105,22 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="1.667" level="0" />
 </member_function>
 <member_function>
+<name>onDayUpdate()</name>
+<extent>
+<description>definition</description>
+<source_reference file="InactivityManager.h" line="157" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
 <name>onMonthUpdate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="55" />
+<source_reference file="InactivityManager.h" line="151" />
 </extent>
 <lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -120,7 +132,7 @@
 <name>onWeekUpdate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="52" />
+<source_reference file="InactivityManager.h" line="148" />
 </extent>
 <lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -132,7 +144,7 @@
 <name>onYearUpdate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="58" />
+<source_reference file="InactivityManager.h" line="154" />
 </extent>
 <lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -144,9 +156,9 @@
 <name>reduceInactiveDays(int)</name>
 <extent>
 <description>definition</description>
-<source_reference file="InactivityManager.h" line="61" />
+<source_reference file="InactivityManager.h" line="160" />
 </extent>
-<lines_of_code value="11" level="0" />
+<lines_of_code value="12" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
 <lines_of_comment value="5" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -164,14 +176,14 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="InactivityManager.h" line="5" />
+<source_reference file="InactivityManager.h" line="78" />
 </extent>
 <name>vector</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="InactivityManager.h" line="6" />
+<source_reference file="InactivityManager.h" line="79" />
 </extent>
 </supplier_module>
 </module>

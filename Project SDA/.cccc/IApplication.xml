@@ -2,7 +2,7 @@
 <!--Detailed report on module IApplication-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="13" level="0" />
+<lines_of_code value="11" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
@@ -10,14 +10,14 @@
 <lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-<weighted_methods_per_class_unity value="11" level="0" />
-<weighted_methods_per_class_visibility value="11" level="0" />
+<weighted_methods_per_class_unity value="9" level="0" />
+<weighted_methods_per_class_visibility value="9" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
-<coupling_between_objects value="16" level="0" />
-<IF4 value="225" level="1" />
+<coupling_between_objects value="9" level="0" />
+<IF4 value="64" level="0" />
 <IF4_per_member_function value="********" level="2" />
-<IF4_visible value="225" level="2" />
+<IF4_visible value="64" level="1" />
 <IF4_visible_per_member_function value="********" level="2" />
 <IF4_concrete value="1" level="0" />
 <IF4_concrete_per_member_function value="********" level="2" />
@@ -36,7 +36,7 @@
 <name>addRecordInFile()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="IApplication.h" line="10" />
+<source_reference file="IApplication.h" line="14" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -60,19 +60,7 @@
 <name>getApplicationType()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="IApplication.h" line="11" />
-</extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>getDate()</name>
-<extent>
-<description>declaration</description>
-<source_reference file="IApplication.h" line="12" />
+<source_reference file="IApplication.h" line="9" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -84,7 +72,7 @@
 <name>getDuration()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="IApplication.h" line="14" />
+<source_reference file="IApplication.h" line="12" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -105,43 +93,7 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>getFileObjectFormat()</name>
-<extent>
-<description>declaration</description>
-<source_reference file="IApplication.h" line="16" />
-</extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>getRecordId()</name>
-<extent>
-<description>declaration</description>
-<source_reference file="IApplication.h" line="8" />
-</extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
 <name>getStatus()</name>
-<extent>
-<description>declaration</description>
-<source_reference file="IApplication.h" line="15" />
-</extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="0" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>getToDate()</name>
 <extent>
 <description>declaration</description>
 <source_reference file="IApplication.h" line="13" />
@@ -153,10 +105,34 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
+<name>getToDate()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="IApplication.h" line="10" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>processPendingApplication()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="IApplication.h" line="11" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
 <name>setStatus(string)</name>
 <extent>
 <description>declaration</description>
-<source_reference file="IApplication.h" line="9" />
+<source_reference file="IApplication.h" line="8" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -169,55 +145,19 @@
 <module>
 <name>IApplication</name>
 <client_module>
-<name>Admin</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="Admin.h" line="66" />
-</extent>
 <name>AdminObserverManager</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Admin.h" line="20" />
-</extent>
-<name>AwardHoursAction</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="AwardHoursAction.h" line="9" />
-</extent>
-<name>CasualLeaveValidator</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>has by reference</description>
-<source_reference file="CasualLeaveValidator.h" line="8" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="CasualLeaveValidator.h" line="10" />
+<source_reference file="Admin.h" line="18" />
 </extent>
 <name>DefaultLeaveApplication</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="ApplicationTypes.h" line="96" />
-</extent>
-<name>EarnedLeaveValidator</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>has by reference</description>
-<source_reference file="EarnedLeaveValidator.h" line="7" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="EarnedLeaveValidator.h" line="9" />
+<source_reference file="ApplicationTypes.h" line="85" />
 </extent>
 <name>IApplicationObservable</name>
 <visible>true</visible>
@@ -238,18 +178,7 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="IApplyLeave.h" line="17" />
-</extent>
-<name>IPostAction</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>has by reference</description>
-<source_reference file="IPostAction.h" line="5" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="IPostAction.h" line="7" />
+<source_reference file="IApplyLeave.h" line="18" />
 </extent>
 <name>Leave</name>
 <visible>true</visible>
@@ -263,40 +192,22 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="26" />
+<source_reference file="OfficialTeam.h" line="20" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="31" />
-</extent>
-<name>Status</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="ApplicationTypes.h" line="17" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="ApplicationTypes.h" line="24" />
+<source_reference file="OfficialTeam.h" line="25" />
 </extent>
 <name>Unpaid</name>
 <visible>true</visible>
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="UnpaidTeam.h" line="25" />
+<source_reference file="UnpaidTeam.h" line="18" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="UnpaidTeam.h" line="31" />
-</extent>
-<name>UnpaidLeavePA</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="UnpaidPostAction.h" line="6" />
+<source_reference file="UnpaidTeam.h" line="23" />
 </extent>
 </client_module>
 <supplier_module>
@@ -305,7 +216,7 @@
 <concrete>true</concrete>
 <extent>
 <description>pass by value</description>
-<source_reference file="IApplication.h" line="9" />
+<source_reference file="IApplication.h" line="8" />
 </extent>
 </supplier_module>
 </module>

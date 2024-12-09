@@ -1,1 +1,4 @@
-1 pass
+1 pass Supervisor 1
+2 pass Director 1
+3 pass Supervisor 0
+4 pass Supervisor 0

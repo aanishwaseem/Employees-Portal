@@ -2,19 +2,19 @@
 <!--Detailed report on module MainPortal-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="107" level="0" />
+<lines_of_code value="62" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="16" level="0" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
 <lines_of_code value="0" level="0" />
 <lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="******" level="2" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
-<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_unity value="5" level="0" />
 <weighted_methods_per_class_visibility value="4" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="2" level="0" />
+<coupling_between_objects value="1" level="0" />
 <IF4 value="0" level="0" />
 <IF4_per_member_function value="********" level="0" />
 <IF4_visible value="0" level="0" />
@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="238" />
+<source_reference file="MainPortal.h" line="384" />
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,9 +36,9 @@
 <name>MainPortal()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="292" />
+<source_reference file="MainPortal.h" line="392" />
 </extent>
-<lines_of_code value="6" level="0" />
+<lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -48,7 +48,7 @@
 <name>getMain()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="299" />
+<source_reference file="MainPortal.h" line="396" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
@@ -57,22 +57,10 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>loadUsers(const string &amp;,const string &amp;)</name>
-<extent>
-<description>definition</description>
-<source_reference file="MainPortal.h" line="243" />
-</extent>
-<lines_of_code value="43" level="1" />
-<McCabes_cyclomatic_complexity value="7" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="******" level="2" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
-</member_function>
-<member_function>
 <name>logIn()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="336" />
+<source_reference file="MainPortal.h" line="433" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -84,9 +72,9 @@
 <name>signUp()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="342" />
+<source_reference file="MainPortal.h" line="439" />
 </extent>
-<lines_of_code value="10" level="0" />
+<lines_of_code value="11" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -96,7 +84,7 @@
 <name>start()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="306" />
+<source_reference file="MainPortal.h" line="403" />
 </extent>
 <lines_of_code value="30" level="0" />
 <McCabes_cyclomatic_complexity value="7" level="0" />
@@ -111,23 +99,12 @@
 <client_module>
 </client_module>
 <supplier_module>
-<name>string</name>
-<visible>false</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="MainPortal.h" line="243" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="MainPortal.h" line="243" />
-</extent>
 <name>vector</name>
 <visible>false</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="MainPortal.h" line="242" />
+<source_reference file="MainPortal.h" line="388" />
 </extent>
 </supplier_module>
 </module>

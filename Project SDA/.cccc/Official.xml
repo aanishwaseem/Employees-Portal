@@ -2,19 +2,19 @@
 <!--Detailed report on module Official-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="41" level="0" />
+<lines_of_code value="35" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="9" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
 <lines_of_code value="4" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="10.250" level="1" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="2.250" level="0" />
-<weighted_methods_per_class_unity value="6" level="0" />
-<weighted_methods_per_class_visibility value="5" level="0" />
+<lines_of_code_per_line_of_comment value="8.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
+<weighted_methods_per_class_unity value="5" level="0" />
+<weighted_methods_per_class_visibility value="4" level="0" />
 <depth_of_inheritance_tree value="2" level="0" />
 <number_of_children value="0" level="0" />
-<coupling_between_objects value="5" level="0" />
+<coupling_between_objects value="3" level="0" />
 <IF4 value="0" level="0" />
 <IF4_per_member_function value="********" level="0" />
 <IF4_visible value="0" level="0" />
@@ -33,24 +33,24 @@
 </module_detail>
 <procedural_detail>
 <member_function>
-<name>ForwardApplicationFurther(Record *,IApplication *,int,string)</name>
+<name>ForwardApplicationFurther(IApplication *,int,string)</name>
 <extent>
 <description>definition</description>
-<source_reference file="OfficialTeam.h" line="31" />
+<source_reference file="OfficialTeam.h" line="25" />
 </extent>
-<lines_of_code value="13" level="0" />
+<lines_of_code value="14" level="0" />
 <McCabes_cyclomatic_complexity value="3" level="0" />
 <lines_of_comment value="4" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>Official(vector)</name>
+<name>Official()</name>
 <extent>
 <description>definition</description>
 <source_reference file="OfficialTeam.h" line="9" />
 </extent>
-<lines_of_code value="3" level="0" />
+<lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -60,19 +60,7 @@
 <name>getInstance()</name>
 <extent>
 <description>definition</description>
-<source_reference file="OfficialTeam.h" line="20" />
-</extent>
-<lines_of_code value="6" level="0" />
-<McCabes_cyclomatic_complexity value="3" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
-<name>getInstance(vector)</name>
-<extent>
-<description>definition</description>
-<source_reference file="OfficialTeam.h" line="14" />
+<source_reference file="OfficialTeam.h" line="13" />
 </extent>
 <lines_of_code value="6" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
@@ -84,7 +72,7 @@
 <name>getType()</name>
 <extent>
 <description>definition</description>
-<source_reference file="OfficialTeam.h" line="45" />
+<source_reference file="OfficialTeam.h" line="41" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -93,10 +81,10 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>postactions(Record *,IApplication *)</name>
+<name>postactions(IApplication *)</name>
 <extent>
 <description>definition</description>
-<source_reference file="OfficialTeam.h" line="26" />
+<source_reference file="OfficialTeam.h" line="20" />
 </extent>
 <lines_of_code value="5" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -116,11 +104,11 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="26" />
+<source_reference file="OfficialTeam.h" line="20" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="31" />
+<source_reference file="OfficialTeam.h" line="25" />
 </extent>
 <name>Leaves_Team</name>
 <visible>true</visible>
@@ -129,34 +117,12 @@
 <description>inheritance</description>
 <source_reference file="OfficialTeam.h" line="5" />
 </extent>
-<name>Record</name>
-<visible>true</visible>
-<concrete>false</concrete>
-<extent>
-<description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="26" />
-</extent>
-<extent>
-<description>pass by reference</description>
-<source_reference file="OfficialTeam.h" line="31" />
-</extent>
 <name>string</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>pass by value</description>
-<source_reference file="OfficialTeam.h" line="31" />
-</extent>
-<name>vector</name>
-<visible>true</visible>
-<concrete>true</concrete>
-<extent>
-<description>pass by value</description>
-<source_reference file="OfficialTeam.h" line="9" />
-</extent>
-<extent>
-<description>pass by value</description>
-<source_reference file="OfficialTeam.h" line="14" />
+<source_reference file="OfficialTeam.h" line="25" />
 </extent>
 </supplier_module>
 </module>

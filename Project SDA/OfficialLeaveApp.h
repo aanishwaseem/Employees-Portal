@@ -7,7 +7,10 @@ private:
 	string travelAllowance; // Amount allocated for travel
 	string purpose;         // Purpose of the leave
 	string destination;     // Destination for official duty
-
+		// Overriding file format to include new fields
+	string getFileObjectFormat() override {
+		return DefaultLeaveApplication::getFileObjectFormat() + " " + travelAllowance + " " + purpose + " " + destination;
+	}
 public:
 	// Constructor
 	OfficialLeaveApp(int eid, int id, string leaveType, string days, string date, string to, string from, string reason,
@@ -22,10 +25,7 @@ public:
 			<< ", Destination: " << destination << endl;
 	}
 
-	// Overriding file format to include new fields
-	string getFileObjectFormat() override {
-		return DefaultLeaveApplication::getFileObjectFormat() + " " + travelAllowance + " " + purpose + " " + destination;
-	}
+
 
 	// Static method to create an OfficialLeave object from a file line
 	static OfficialLeaveApp* getObjectFromLine(const string& line, string type = "Official") {

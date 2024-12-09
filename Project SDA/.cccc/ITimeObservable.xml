@@ -2,7 +2,7 @@
 <!--Detailed report on module ITimeObservable-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="9" level="0" />
+<lines_of_code value="10" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
@@ -10,8 +10,8 @@
 <lines_of_code_per_member_function value="********" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-<weighted_methods_per_class_unity value="5" level="0" />
-<weighted_methods_per_class_visibility value="5" level="0" />
+<weighted_methods_per_class_unity value="6" level="0" />
+<weighted_methods_per_class_visibility value="6" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="1" level="0" />
 <coupling_between_objects value="2" level="0" />
@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="Time.h" line="23" />
+<source_reference file="Time.h" line="24" />
 <lines_of_code value="4" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,7 +36,19 @@
 <name>addObserver(ITimeObserver *)</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="25" />
+<source_reference file="Time.h" line="26" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>notifyDayUpdate()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="Time.h" line="31" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +60,7 @@
 <name>notifyMonthUpdate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="28" />
+<source_reference file="Time.h" line="29" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -60,7 +72,7 @@
 <name>notifyWeekUpdate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="27" />
+<source_reference file="Time.h" line="28" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -72,7 +84,7 @@
 <name>notifyYearUpdate()</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="29" />
+<source_reference file="Time.h" line="30" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -84,7 +96,7 @@
 <name>removeObserver(ITimeObserver *)</name>
 <extent>
 <description>declaration</description>
-<source_reference file="Time.h" line="26" />
+<source_reference file="Time.h" line="27" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -102,7 +114,7 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="Time.h" line="35" />
+<source_reference file="Time.h" line="37" />
 </extent>
 </client_module>
 <supplier_module>
@@ -111,11 +123,11 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Time.h" line="25" />
+<source_reference file="Time.h" line="26" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="Time.h" line="26" />
+<source_reference file="Time.h" line="27" />
 </extent>
 </supplier_module>
 </module>

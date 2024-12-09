@@ -2,16 +2,16 @@
 <!--Detailed report on module Login-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="207" level="0" />
+<lines_of_code value="151" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="37" level="0" />
+<McCabes_cyclomatic_complexity value="27" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
-<lines_of_code value="9" level="0" />
+<lines_of_code value="8" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="23.000" level="1" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="4.111" level="0" />
-<weighted_methods_per_class_unity value="9" level="0" />
-<weighted_methods_per_class_visibility value="9" level="0" />
+<lines_of_code_per_line_of_comment value="18.875" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.375" level="0" />
+<weighted_methods_per_class_unity value="8" level="0" />
+<weighted_methods_per_class_visibility value="8" level="0" />
 <depth_of_inheritance_tree value="0" level="0" />
 <number_of_children value="0" level="0" />
 <coupling_between_objects value="2" level="0" />
@@ -24,7 +24,7 @@
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="12" />
+<source_reference file="MainPortal.h" line="145" />
 <lines_of_code value="5" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="0" level="0" />
@@ -36,7 +36,7 @@
 <name>Login(vector)</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="16" />
+<source_reference file="MainPortal.h" line="149" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,7 +48,7 @@
 <name>adminLogin()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="164" />
+<source_reference file="MainPortal.h" line="237" />
 </extent>
 <lines_of_code value="41" level="1" />
 <McCabes_cyclomatic_complexity value="6" level="0" />
@@ -60,19 +60,19 @@
 <name>employeeLogin()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="144" />
+<source_reference file="MainPortal.h" line="214" />
 </extent>
-<lines_of_code value="18" level="0" />
+<lines_of_code value="21" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
 <lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
 <name>getCredentials(int &amp;,string &amp;)</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="209" />
+<source_reference file="MainPortal.h" line="282" />
 </extent>
 <lines_of_code value="7" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -84,7 +84,7 @@
 <name>getType(int &amp;)</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="218" />
+<source_reference file="MainPortal.h" line="291" />
 </extent>
 <lines_of_code value="8" level="0" />
 <McCabes_cyclomatic_complexity value="4" level="0" />
@@ -96,7 +96,7 @@
 <name>guardLogin()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="62" />
+<source_reference file="MainPortal.h" line="195" />
 </extent>
 <lines_of_code value="17" level="0" />
 <McCabes_cyclomatic_complexity value="2" level="0" />
@@ -108,7 +108,7 @@
 <name>open()</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="18" />
+<source_reference file="MainPortal.h" line="151" />
 </extent>
 <lines_of_code value="43" level="1" />
 <McCabes_cyclomatic_complexity value="7" level="0" />
@@ -117,22 +117,10 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="1.750" level="0" />
 </member_function>
 <member_function>
-<name>systemPortal()</name>
-<extent>
-<description>definition</description>
-<source_reference file="MainPortal.h" line="79" />
-</extent>
-<lines_of_code value="59" level="1" />
-<McCabes_cyclomatic_complexity value="10" level="0" />
-<lines_of_comment value="1" level="0" />
-<lines_of_code_per_line_of_comment value="59.000" level="2" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="10.000" level="1" />
-</member_function>
-<member_function>
 <name>verifyLogin(const string &amp;,int &amp;,string &amp;)</name>
 <extent>
 <description>definition</description>
-<source_reference file="MainPortal.h" line="228" />
+<source_reference file="MainPortal.h" line="301" />
 </extent>
 <lines_of_code value="8" level="0" />
 <McCabes_cyclomatic_complexity value="6" level="0" />
@@ -152,26 +140,26 @@
 <concrete>false</concrete>
 <extent>
 <description>pass by reference</description>
-<source_reference file="MainPortal.h" line="209" />
+<source_reference file="MainPortal.h" line="282" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="MainPortal.h" line="228" />
+<source_reference file="MainPortal.h" line="301" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="MainPortal.h" line="228" />
+<source_reference file="MainPortal.h" line="301" />
 </extent>
 <name>vector</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="MainPortal.h" line="14" />
+<source_reference file="MainPortal.h" line="147" />
 </extent>
 <extent>
 <description>pass by value</description>
-<source_reference file="MainPortal.h" line="16" />
+<source_reference file="MainPortal.h" line="149" />
 </extent>
 </supplier_module>
 </module>

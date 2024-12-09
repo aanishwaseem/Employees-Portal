@@ -2,29 +2,29 @@
 <!--Detailed report on module DefaultLeaveApplication-->
 <CCCC_Project>
 <module_summary>
-<lines_of_code value="67" level="0" />
+<lines_of_code value="55" level="0" />
 <lines_of_code_per_member_function value="******" level="0" />
-<McCabes_cyclomatic_complexity value="15" level="0" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
 <McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
 <lines_of_code value="10" level="0" />
 <lines_of_code_per_member_function value="********" level="2" />
-<lines_of_code_per_line_of_comment value="6.700" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
-<weighted_methods_per_class_unity value="13" level="0" />
-<weighted_methods_per_class_visibility value="13" level="0" />
+<lines_of_code_per_line_of_comment value="5.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.800" level="0" />
+<weighted_methods_per_class_unity value="12" level="0" />
+<weighted_methods_per_class_visibility value="12" level="0" />
 <depth_of_inheritance_tree value="1" level="0" />
 <number_of_children value="2" level="0" />
 <coupling_between_objects value="5" level="0" />
 <IF4 value="36" level="0" />
 <IF4_per_member_function value="********" level="2" />
-<IF4_visible value="16" level="0" />
+<IF4_visible value="36" level="1" />
 <IF4_visible_per_member_function value="********" level="2" />
 <IF4_concrete value="36" level="1" />
 <IF4_concrete_per_member_function value="********" level="2" />
 </module_summary>
 <module_detail>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="96" />
+<source_reference file="ApplicationTypes.h" line="85" />
 <lines_of_code value="13" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="1" level="0" />
@@ -36,7 +36,7 @@
 <name>DefaultLeaveApplication(int,int,string,string,string,string,string,string,string)</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="110" />
+<source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <lines_of_code value="2" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -48,10 +48,10 @@
 <name>addRecordInFile()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="159" />
+<source_reference file="ApplicationTypes.h" line="139" />
 </extent>
-<lines_of_code value="12" level="0" />
-<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
 <lines_of_comment value="5" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
@@ -60,7 +60,7 @@
 <name>display()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="114" />
+<source_reference file="ApplicationTypes.h" line="107" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -72,7 +72,7 @@
 <name>getApplicationType()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="122" />
+<source_reference file="ApplicationTypes.h" line="111" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -81,22 +81,10 @@
 <McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
 </member_function>
 <member_function>
-<name>getDate()</name>
-<extent>
-<description>definition</description>
-<source_reference file="ApplicationTypes.h" line="123" />
-</extent>
-<lines_of_code value="1" level="0" />
-<McCabes_cyclomatic_complexity value="1" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="------" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
-</member_function>
-<member_function>
 <name>getDuration()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="127" />
+<source_reference file="ApplicationTypes.h" line="114" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -108,7 +96,7 @@
 <name>getEmpId()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="125" />
+<source_reference file="ApplicationTypes.h" line="113" />
 </extent>
 <lines_of_code value="1" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -120,7 +108,7 @@
 <name>getFileObjectFormat()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="117" />
+<source_reference file="ApplicationTypes.h" line="97" />
 </extent>
 <lines_of_code value="4" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -132,21 +120,9 @@
 <name>getObjectFromLine(const string &amp;)</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="131" />
+<source_reference file="ApplicationTypes.h" line="118" />
 </extent>
-<lines_of_code value="20" level="0" />
-<McCabes_cyclomatic_complexity value="5" level="0" />
-<lines_of_comment value="0" level="0" />
-<lines_of_code_per_line_of_comment value="******" level="0" />
-<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="0" />
-</member_function>
-<member_function>
-<name>getRecordId()</name>
-<extent>
-<description>definition</description>
-<source_reference file="ApplicationTypes.h" line="126" />
-</extent>
-<lines_of_code value="1" level="0" />
+<lines_of_code value="8" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -156,7 +132,7 @@
 <name>getStatus()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="155" />
+<source_reference file="ApplicationTypes.h" line="135" />
 </extent>
 <lines_of_code value="4" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
@@ -168,9 +144,21 @@
 <name>getToDate()</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="124" />
+<source_reference file="ApplicationTypes.h" line="112" />
 </extent>
 <lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>processPendingApplication()</name>
+<extent>
+<description>definition</description>
+<source_reference file="ApplicationTypes.h" line="128" />
+</extent>
+<lines_of_code value="7" level="0" />
 <McCabes_cyclomatic_complexity value="1" level="0" />
 <lines_of_comment value="0" level="0" />
 <lines_of_code_per_line_of_comment value="------" level="0" />
@@ -180,7 +168,7 @@
 <name>setStatus(string)</name>
 <extent>
 <description>definition</description>
-<source_reference file="ApplicationTypes.h" line="128" />
+<source_reference file="ApplicationTypes.h" line="115" />
 </extent>
 <lines_of_code value="3" level="0" />
 <McCabes_cyclomatic_complexity value="0" level="0" />
@@ -214,77 +202,77 @@
 <concrete>true</concrete>
 <extent>
 <description>inheritance</description>
-<source_reference file="ApplicationTypes.h" line="96" />
+<source_reference file="ApplicationTypes.h" line="85" />
 </extent>
 <name>Status</name>
-<visible>false</visible>
+<visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="ApplicationTypes.h" line="102" />
+<source_reference file="ApplicationTypes.h" line="91" />
 </extent>
 <name>string</name>
 <visible>true</visible>
 <concrete>true</concrete>
 <extent>
 <description>has by value</description>
-<source_reference file="ApplicationTypes.h" line="100" />
+<source_reference file="ApplicationTypes.h" line="89" />
 </extent>
 <extent>
 <description>has by value</description>
-<source_reference file="ApplicationTypes.h" line="101" />
+<source_reference file="ApplicationTypes.h" line="90" />
 </extent>
 <extent>
 <description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="92" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="93" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="94" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ApplicationTypes.h" line="95" />
+</extent>
+<extent>
+<description>pass by value</description>
 <source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <extent>
-<description>has by value</description>
-<source_reference file="ApplicationTypes.h" line="104" />
-</extent>
-<extent>
-<description>has by value</description>
-<source_reference file="ApplicationTypes.h" line="105" />
-</extent>
-<extent>
-<description>has by value</description>
-<source_reference file="ApplicationTypes.h" line="106" />
+<description>pass by value</description>
+<source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <extent>
 <description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="110" />
+<source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <extent>
 <description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="110" />
+<source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <extent>
 <description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="110" />
+<source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <extent>
 <description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="110" />
+<source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <extent>
 <description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="110" />
+<source_reference file="ApplicationTypes.h" line="103" />
 </extent>
 <extent>
 <description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="110" />
-</extent>
-<extent>
-<description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="110" />
-</extent>
-<extent>
-<description>pass by value</description>
-<source_reference file="ApplicationTypes.h" line="128" />
+<source_reference file="ApplicationTypes.h" line="115" />
 </extent>
 <extent>
 <description>pass by reference</description>
-<source_reference file="ApplicationTypes.h" line="131" />
+<source_reference file="ApplicationTypes.h" line="118" />
 </extent>
 </supplier_module>
 </module>

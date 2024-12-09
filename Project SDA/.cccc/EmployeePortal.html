@@ -8,25 +8,25 @@ Detailed report on module EmployeePortal
 <TR>
 <TH BGCOLOR="AQUA" WIDTH=70%>Metric</TH><TH BGCOLOR="AQUA" WIDTH=10%>Tag</TH><TH BGCOLOR="AQUA" WIDTH=10%>Overall</TH><TH BGCOLOR="AQUA" WIDTH=10%>Per Function</TH></TR>
 <TR>
-<TD>Lines of Code</TD><TD>LOC</TD><TD ALIGN=RIGHT>   173</TD><TD ALIGN=RIGHT>******</TD></TR>
+<TD>Lines of Code</TD><TD>LOC</TD><TD ALIGN=RIGHT>   132</TD><TD ALIGN=RIGHT>******</TD></TR>
 <TR>
-<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>    16</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>******</STRONG></TD></TR>
+<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>    17</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>******</STRONG></TD></TR>
 <TR>
-<TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
+<TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>    16</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>********</STRONG></TD></TR>
 <TR>
-<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>19.222</EM></TD><TD>&nbsp;</TD></TR>
+<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 8.250</EM></TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 1.778</TD><TD>&nbsp;</TD></TR>
+<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 1.062</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Weighted Methods per Class ( &nbsp;weighting = unity&nbsp;)</TD><TD>WMC1</TD><TD ALIGN=RIGHT>     3</TD><TD>&nbsp;</TD></TR>
+<TD>Weighted Methods per Class ( &nbsp;weighting = unity&nbsp;)</TD><TD>WMC1</TD><TD ALIGN=RIGHT>     8</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Weighted Methods per Class ( &nbsp;weighting = visible&nbsp;)</TD><TD>WMCv</TD><TD ALIGN=RIGHT>     3</TD><TD>&nbsp;</TD></TR>
+<TD>Weighted Methods per Class ( &nbsp;weighting = visible&nbsp;)</TD><TD>WMCv</TD><TD ALIGN=RIGHT>     2</TD><TD>&nbsp;</TD></TR>
 <TR>
 <TD>Depth of Inheritance Tree</TD><TD>DIT</TD><TD ALIGN=RIGHT>     0</TD><TD>&nbsp;</TD></TR>
 <TR>
 <TD>Number of Children</TD><TD>NOC</TD><TD ALIGN=RIGHT>     0</TD><TD>&nbsp;</TD></TR>
 <TR>
-<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     1</TD><TD>&nbsp;</TD></TR>
+<TD>Coupling between objects</TD><TD>CBO</TD><TD ALIGN=RIGHT>     2</TD><TD>&nbsp;</TD></TR>
 <TR>
 <TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>********</TD></TR>
 <TR>
@@ -40,7 +40,7 @@ Detailed report on module EmployeePortal
 <TD>definition &nbsp;
 <CODE><A HREF="cccc_src.html#EmployeePortal.h:         4">EmployeePortal.h:4</A></CODE><BR>
 </TD>
-<TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
 </TR></TABLE>
 <H2><A NAME="proc">Functions</A></H2>
@@ -48,21 +48,51 @@ Detailed report on module EmployeePortal
 <TD WIDTH=50%>Function prototype</TD><TH BGCOLOR="AQUA" WIDTH=10%>LOC</TH><TH BGCOLOR="AQUA" WIDTH=10%>MVG</TH><TH BGCOLOR="AQUA" WIDTH=10%>COM</TH><TH BGCOLOR="AQUA" WIDTH=10%>L_C</TH><TH BGCOLOR="AQUA" WIDTH=10%>M_C</TH><TR>
 <TD>EmployeeMenu( &nbsp;&nbsp;)<BR>
 definition &nbsp;
-<CODE><A HREF="cccc_src.html#EmployeePortal.h:        12">EmployeePortal.h:12</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:        11">EmployeePortal.h:11</A></CODE><BR>
 <BR>
-</TD><TD ALIGN=RIGHT BGCOLOR="RED"><STRONG>   156</STRONG></TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    12</EM></TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>17.333</EM></TD><TD ALIGN=RIGHT> 1.333</TD></TR>
+</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>    31</EM></TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 7.750</EM></TD><TD ALIGN=RIGHT> 2.000</TD></TR>
 <TR>
 <TD>EmployeePortal( &nbsp;Employee *&nbsp;)<BR>
 definition &nbsp;
 <CODE><A HREF="cccc_src.html#EmployeePortal.h:         9">EmployeePortal.h:9</A></CODE><BR>
 <BR>
-</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
 <TR>
-<TD>getType( &nbsp;int &amp;&nbsp;)<BR>
+<TD>applyLeave( &nbsp;const string &amp;&nbsp;)<BR>
 definition &nbsp;
-<CODE><A HREF="cccc_src.html#EmployeePortal.h:       179">EmployeePortal.h:179</A></CODE><BR>
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:        94">EmployeePortal.h:94</A></CODE><BR>
 <BR>
-</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+</TD><TD ALIGN=RIGHT>    11</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>applyOfficialLeave( &nbsp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       108">EmployeePortal.h:108</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    15</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>applyUnpaidLeave( &nbsp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       127">EmployeePortal.h:127</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    10</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>displayMenu( &nbsp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:        46">EmployeePortal.h:46</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    14</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>gatherLeaveDetails( &nbsp;string &amp;, &nbsp;string &amp;, &nbsp;string &amp;, &nbsp;string &amp;, &nbsp;string &amp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       141">EmployeePortal.h:141</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    16</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD>handleLeaveApplication( &nbsp;&nbsp;)<BR>
+definition &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:        63">EmployeePortal.h:63</A></CODE><BR>
+<BR>
+</TD><TD ALIGN=RIGHT>    29</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM>29.000</EM></TD><TD ALIGN=RIGHT BGCOLOR="YELLOW"><EM> 7.000</EM></TD></TR>
 <TR><TD HEIGHT=12 COLSPAN=6></TD></TR>
 </TR></TABLE>
 <H2><A NAME="structdet">Relationships</A></H2>
@@ -78,6 +108,21 @@ has by reference &nbsp;
 <CODE><A HREF="cccc_src.html#EmployeePortal.h:         5">EmployeePortal.h:5</A></CODE><BR>
 pass by reference &nbsp;
 <CODE><A HREF="cccc_src.html#EmployeePortal.h:         9">EmployeePortal.h:9</A></CODE><BR>
+<BR>
+<BR>
+string <BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:        94">EmployeePortal.h:94</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       141">EmployeePortal.h:141</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       141">EmployeePortal.h:141</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       141">EmployeePortal.h:141</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       141">EmployeePortal.h:141</A></CODE><BR>
+pass by reference &nbsp;
+<CODE><A HREF="cccc_src.html#EmployeePortal.h:       141">EmployeePortal.h:141</A></CODE><BR>
 <BR>
 <BR>
 &nbsp;

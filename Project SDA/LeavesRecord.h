@@ -81,7 +81,7 @@ public:
 
 		// Iterate over all records and sum up the leave days for each leaveType
 		for (auto& record : records) {
-			if (getYear(record->getDate()) == MyTime::Year && record->getStatus() == "Approved") //fetch year from date format dd-mm-yyyy
+			if (getYear(record->getToDate()) == MyTime::Year && record->getStatus() == "Approved") //fetch year from date format dd-mm-yyyy
 			{
 				string leaveType = record->getApplicationType(); // Get leaveType
 				int days = record->getDuration();               // Get leave duration
